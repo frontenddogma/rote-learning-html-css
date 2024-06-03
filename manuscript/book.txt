@@ -1,5 +1,7 @@
 acknowledgments.md
 intro.md
+html.md
+css.md
 feedback.md
 author.md
 book.md
