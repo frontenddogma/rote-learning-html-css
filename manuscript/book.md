@@ -1,5 +1,5 @@
 {sample: true}
-# About _HTML First_
+# About _Rote Learning HTML & CSS_
 
 Written by Jens Oliver Meiert. All rights reserved.
 
@@ -16,4 +16,4 @@ Contact +1-754-400-0999 or info@frontenddogma.com for more information.
 
 Follow [Frontend Dogma on Mastodon](https://mas.to/@frontenddogma).
 
-[0.0.2]
+[0.0.3]
