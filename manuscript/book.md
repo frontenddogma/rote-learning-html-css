@@ -16,4 +16,4 @@ Contact +1-754-400-0999 or info@frontenddogma.com for more information.
 
 Follow [Frontend Dogma on Mastodon](https://mas.to/@frontenddogma).
 
-[0.0.4]
+[0.0.5]
