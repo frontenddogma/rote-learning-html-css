@@ -25,6 +25,18 @@
 | `code` | Code fragment | No | No | No |
 | `col` | Table column | Yes | No | Yes (void) |
 | `colgroup` | Table column group | No | Yes | Yes |
+| `data` | Content with machine-readable equivalent | No | No | No |
+| `datalist` | Predefined options for form controls | No | No | No |
+| `dd` | Description | No | No | Yes |
+| `del` | Deleted text | No | No | No |
+| `details` | Disclosure widget | No | No | No |
+| `dfn` | Instance definition | No | No | No |
+| `dialog` | User interaction | No | No | No |
+| `div` | Generic container | No | No | No |
+| `dl` | Description list | No | No | No |
+| `dt` | Description term | No | No | Yes |
+| `em` | Emphasis | No | No | No |
+| `embed` | Integration point | Yes | No | Yes (void) |
 
 @@ https://html.spec.whatwg.org/multipage/indices.html#elements-3, https://docs.google.com/spreadsheets/d/10Lko1HHsRT6GVfvNY2KbUexybNTAnk0S86OIl0MZjTs/edit
 
