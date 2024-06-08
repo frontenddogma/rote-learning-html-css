@@ -37,6 +37,38 @@
 | `dt` | Description term | No | No | Yes |
 | `em` | Emphasis | No | No | No |
 | `embed` | Integration point | Yes | No | Yes (void) |
+| `fieldset` | Form control group | No | No | No |
+| `figcaption` | `figure` caption | No | No | Yes |
+| `figure` | Self-contained flow content | No | No | No |
+| `footer` | Footer | No | No | No |
+| `form` | Form | No | No | No |
+| `h1` | Heading | No | No | No |
+| `h2` | Heading | No | No | No |
+| `h3` | Heading | No | No | No |
+| `h4` | Heading | No | No | No |
+| `h5` | Heading | No | No | No |
+| `h6` | Heading | No | No | No |
+| `head` | Document head | No | Yes | Yes |
+| `header` | Header | No | No | No |
+| `hgroup` | Heading and related content | No | No | No |
+| `hr` | Thematic break | Yes | No | Yes (void) |
+| `html` | Document root | No | Yes | Yes |
+| `i` | Alternate voice | No | No | No |
+| `iframe` | Inline subwindow | No | No | No |
+| `img` | Image content | Yes | No | Yes (void) |
+| `input` | Input field | Yes | No | Yes (void) |
+| `ins` | Inserted text | No | No | No |
+| `kbd` | User input | No | No | No |
+| `label` | Form control caption | No | No | No |
+| `legend` | `fieldset` caption | No | No | No |
+| `li` | List item | No | No | Yes |
+| `link` | Resource link | Yes | No | Yes (void) |
+| `main` | Dominant content | No | No | No |
+| `map` | Image map | No | No | No |
+| `mark` | Marked reference text | No | No | No |
+| `menu` | Menu list | No | No | No |
+| `meta` | Metadata | Yes | No | Yes (void) |
+| `meter` | Scalar measurement | No | No | No |
 
 @@ https://html.spec.whatwg.org/multipage/indices.html#elements-3, https://docs.google.com/spreadsheets/d/10Lko1HHsRT6GVfvNY2KbUexybNTAnk0S86OIl0MZjTs/edit
 
