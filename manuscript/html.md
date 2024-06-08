@@ -69,6 +69,21 @@
 | `menu` | Menu list | No | No | No |
 | `meta` | Metadata | Yes | No | Yes (void) |
 | `meter` | Scalar measurement | No | No | No |
+| `nav` | Navigation section | No | No | No |
+| `noscript` | Script fallback | No | No | No |
+| `object` | Generic content | No | No | No |
+| `ol` | Ordered list | No | No | No |
+| `optgroup` | `option` group | No | No | Yes |
+| `option` | Selectable choice | No | No | Yes |
+| `output` | Calculation or user action output | No | No | No |
+| `p` | Paragraph | No | No | Yes |
+| `picture` | Extended image content | No | No | No |
+| `pre` | Preformatted text | No | No | No |
+| `progress` | Progress of a task | No | No | No |
+| `q` | Short quotation | No | No | No |
+| `rp` | Ruby parentheses | No | No | Yes |
+| `rt` | Ruby text | No | No | Yes |
+| `ruby` | Ruby annotation(s) | No | No | No |
 
 @@ https://html.spec.whatwg.org/multipage/indices.html#elements-3, https://docs.google.com/spreadsheets/d/10Lko1HHsRT6GVfvNY2KbUexybNTAnk0S86OIl0MZjTs/edit
 
