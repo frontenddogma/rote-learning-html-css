@@ -1,6 +1,6 @@
 # HTML
 
-## Elements
+## Elements <!-- #elements -->
 
 Memorize what elements are part of the HTML standard. (This list only includes element of the living standard—except `math`, `svg`, and custom elements—, and not of previous versions of HTML.)
 
@@ -121,16 +121,16 @@ Memorize what elements are part of the HTML standard. (This list only includes e
 
 {pagebreak}
 
+### Element Meaning <!-- #elements.semantics -->
+
 Now memorize the elements and their meanings (semantics):
 
 @@
 
-## Attributes
-
-### Global Attributes
-
-@@ https://html.spec.whatwg.org/multipage/dom.html#global-attributes
-
-### All Attributes
+## Attributes <!-- #attributes -->
 
 @@ https://html.spec.whatwg.org/multipage/indices.html#attributes-3
+
+### Global Attributes <!-- #attributes.global -->
+
+@@ https://html.spec.whatwg.org/multipage/dom.html#global-attributes
