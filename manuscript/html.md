@@ -2,6 +2,8 @@
 
 ## Elements
 
+Memorize what elements are part of the HTML standard. (This list only includes element of the living standard—except `math`, `svg`, and custom elements—, and not of previous versions of HTML.)
+
 | Element | Meaning | Void Element? | Start Tag Optional? | End Tag Optional? |
 | --- | --- | --- | --- | --- |
 | `a` | Anchor (hyperlink) | No | No | No |
@@ -84,8 +86,44 @@
 | `rp` | Ruby parentheses | No | No | Yes |
 | `rt` | Ruby text | No | No | Yes |
 | `ruby` | Ruby annotation(s) | No | No | No |
+| `s` | Irrelevance | No | No | No |
+| `samp` | Sample output | No | No | No |
+| `script` | Script | No | No | No |
+| `search` | Search controls or content | No | No | No |
+| `section` | Generic section | No | No | No |
+| `select` | `option` selector | No | No | No |
+| `slot` | Shadow tree slot | No | No | No |
+| `small` | Small print | No | No | No |
+| `source` | Media content | Yes | No | Yes (void) |
+| `span` | Generic container | No | No | No |
+| `strong` | Importance | No | No | No |
+| `style` | Formatting | No | No | No |
+| `sub` | Subscript | No | No | No |
+| `summary` | `details` caption | No | No | No |
+| `sup` | Superscript | No | No | No |
+| `table` | Table | No | No | No |
+| `tbody` | Table body | No | Yes | Yes |
+| `td` | Table data cell | No | No | Yes |
+| `template` | Fragment declaration | No | No | No |
+| `textarea` | Multi-line input field | No | No | No |
+| `tfoot` | Table footer | No | No | Yes |
+| `th` | Table header cell | No | No | Yes |
+| `thead` | Table header | No | No | Yes |
+| `time` | Date, time, time zone offset, or duration | No | No | No |
+| `title` | Document title | No | No | No |
+| `tr` | Table row | No | No | Yes |
+| `track` | Text track | Yes | No | Yes (void) |
+| `u` | Annotation | No | No | No |
+| `ul` | Unordered list | No | No | No |
+| `var` | Variable | No | No | No |
+| `video` | Video content | No | No | No |
+| `wbr` | Line break opportunity | Yes | No | Yes (void) |
 
-@@ https://html.spec.whatwg.org/multipage/indices.html#elements-3, https://docs.google.com/spreadsheets/d/10Lko1HHsRT6GVfvNY2KbUexybNTAnk0S86OIl0MZjTs/edit
+{pagebreak}
+
+Now memorize the elements and their meanings (semantics):
+
+@@
 
 ## Attributes
 
