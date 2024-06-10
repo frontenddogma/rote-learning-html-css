@@ -119,13 +119,122 @@ Memorize what elements are part of the HTML standard. (This list only includes e
 | `video` | Video content | No | No | No |
 | `wbr` | Line break opportunity | Yes | No | Yes (void) |
 
-{pagebreak}
-
 ### Element Meanings <!-- #elements.semantics -->
 
 Now memorize the elements and their meanings (semantics):
 
-@@
+* `a`: Anchor (hyperlink)
+* `abbr`: Abbreviation
+* `address`: Contact information
+* `area`: Image map area
+* `article`: Self-contained and distributable content
+* `aside`: Related content
+* `audio`: Audio content
+* `b`: Attention
+* `base`: Base URL
+* `bdi`: Bidi isolation
+* `bdo`: Bidi override
+* `blockquote`: Long quotation
+* `body`: Document body
+* `br`: Line break
+* `button`: Button
+* `canvas`: Scriptable bitmap
+* `caption`: Table caption
+* `cite`: Citation
+* `code`: Code fragment
+* `col`: Table column
+* `colgroup`: Table column group
+* `data`: Content with machine-readable equivalent
+* `datalist`: Predefined options for form controls
+* `dd`: Description
+* `del`: Deleted text
+* `details`: Disclosure widget
+* `dfn`: Instance definition
+* `dialog`: User interaction
+* `div`: Generic container
+* `dl`: Description list
+* `dt`: Description term
+* `em`: Emphasis
+* `embed`: Integration point
+* `fieldset`: Form control group
+* `figcaption`: `figure` caption
+* `figure`: Self-contained flow content
+* `footer`: Footer
+* `form`: Form
+* `h1`: Heading
+* `h2`: Heading
+* `h3`: Heading
+* `h4`: Heading
+* `h5`: Heading
+* `h6`: Heading
+* `head`: Document head
+* `header`: Header
+* `hgroup`: Heading and related content
+* `hr`: Thematic break
+* `html`: Document root
+* `i`: Alternate voice
+* `iframe`: Inline subwindow
+* `img`: Image content
+* `input`: Input field
+* `ins`: Inserted text
+* `kbd`: User input
+* `label`: Form control caption
+* `legend`: `fieldset` caption
+* `li`: List item
+* `link`: Resource link
+* `main`: Dominant content
+* `map`: Image map
+* `mark`: Marked reference text
+* `menu`: Menu list
+* `meta`: Metadata
+* `meter`: Scalar measurement
+* `nav`: Navigation section
+* `noscript`: Script fallback
+* `object`: Generic content
+* `ol`: Ordered list
+* `optgroup`: `option` group
+* `option`: Selectable choice
+* `output`: Calculation or user action output
+* `p`: Paragraph
+* `picture`: Extended image content
+* `pre`: Preformatted text
+* `progress`: Progress of a task
+* `q`: Short quotation
+* `rp`: Ruby parentheses
+* `rt`: Ruby text
+* `ruby`: Ruby annotation(s)
+* `s`: Irrelevance
+* `samp`: Sample output
+* `script`: Script
+* `search`: Search controls or content
+* `section`: Generic section
+* `select`: `option` selector
+* `slot`: Shadow tree slot
+* `small`: Small print
+* `source`: Media content
+* `span`: Generic container
+* `strong`: Importance
+* `style`: Formatting
+* `sub`: Subscript
+* `summary`: `details` caption
+* `sup`: Superscript
+* `table`: Table
+* `tbody`: Table body
+* `td`: Table data cell
+* `template`: Fragment declaration
+* `textarea`: Multi-line input field
+* `tfoot`: Table footer
+* `th`: Table header cell
+* `thead`: Table header
+* `time`: Date, time, time zone offset, or duration
+* `title`: Document title
+* `tr`: Table row
+* `track`: Text track
+* `u`: Annotation
+* `ul`: Unordered list
+* `var`: Variable
+* `video`: Video content
+* `wbr`: Line break opportunity
 
 ### Element Categories
 
