@@ -121,9 +121,13 @@ Memorize what elements are part of the HTML standard. (This list only includes e
 
 {pagebreak}
 
-### Element Meaning <!-- #elements.semantics -->
+### Element Meanings <!-- #elements.semantics -->
 
 Now memorize the elements and their meanings (semantics):
+
+@@
+
+### Element Categories
 
 @@
 
