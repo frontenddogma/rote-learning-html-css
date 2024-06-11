@@ -238,7 +238,87 @@ Now memorize the elements and their meanings (semantics):
 
 ### Element Categories
 
-@@
+@@ https://html.spec.whatwg.org/multipage/indices.html#element-content-categories
+
+Understand the HTML content categories:
+
+* Metadata content: sets up the presentation or behavior of the rest of the content, sets up the relationship of the document with other documents, or conveys other “out of band” information.
+* Flow content: @@
+* Sectioning content: defines the scope of `header` and `footer` elements.
+* Heading content: @@
+* Phrasing content: @@
+* Embedded content: @@
+* Interactive content: @@
+* Form-associated elements: @@
+* Labelable elements: @@
+* Listed elements: @@
+* Submittable elements: @@
+* Resettable elements: @@
+* Autocapitalize-inheriting elements: @@
+* Palpable content: @@
+* Script-supporting elements: @@
+
+Familiarize yourself with what elements are part of which category:
+
+#### Metadata Content
+
+@@ base; link; meta; noscript; script; style; template; title
+
+#### Flow Content
+
+@@ a; abbr; address; article; aside; audio; b; bdi; bdo; blockquote; br; button; canvas; cite; code; data; datalist; del; details; dfn; dialog; div; dl; em; embed; fieldset; figure; footer; form; h1; h2; h3; h4; h5; h6; header; hgroup; hr; i; iframe; img; input; ins; kbd; label; map; mark; MathML math; menu; meter; nav; noscript; object; ol; output; p; picture; pre; progress; q; ruby; s; samp; script; search; section; select; slot; small; span; strong; sub; sup; SVG svg; table; template; textarea; time; u; ul; var; video; wbr; autonomous custom elements; Text	area (if it is a descendant of a map element); link (if it is allowed in the body); main (if it is a hierarchically correct main element); meta (if the itemprop attribute is present)
+
+#### Sectioning Content
+
+@@	article; aside; nav; section
+
+#### Heading Content
+
+@@ h1; h2; h3; h4; h5; h6; hgroup
+
+#### Phrasing Content
+
+@@ a; abbr; audio; b; bdi; bdo; br; button; canvas; cite; code; data; datalist; del; dfn; em; embed; i; iframe; img; input; ins; kbd; label; map; mark; MathML math; meter; noscript; object; output; picture; progress; q; ruby; s; samp; script; select; slot; small; span; strong; sub; sup; SVG svg; template; textarea; time; u; var; video; wbr; autonomous custom elements; Text	area (if it is a descendant of a map element); link (if it is allowed in the body); meta (if the itemprop attribute is present)
+
+#### Embedded Content
+
+@@ audio; canvas; embed; iframe; img; MathML math; object; picture; SVG svg; video
+
+#### Interactive Content
+
+@@ button; details; embed; iframe; label; select; textarea	a (if the href attribute is present); audio (if the controls attribute is present); img (if the usemap attribute is present); input (if the type attribute is not in the Hidden state); video (if the controls attribute is present)
+
+#### Form-Associated Elements
+
+@@ button; fieldset; input; label; object; output; select; textarea; img; form-associated custom elements
+
+#### Labelable Elements
+
+@@ button; input; meter; output; progress; select; textarea; form-associated custom elements
+
+#### Listed Elements
+
+@@ button; fieldset; input; object; output; select; textarea; form-associated custom elements
+
+#### Submittable Elements
+
+@@ button; input; select; textarea; form-associated custom elements
+
+#### Resettable Elements
+
+@@ input; output; select; textarea; form-associated custom elements
+
+#### Autocapitalize-Inheriting Elements
+
+@@ button; fieldset; input; output; select; textarea
+
+#### Palpable Content
+
+@@ a; abbr; address; article; aside; b; bdi; bdo; blockquote; button; canvas; cite; code; data; del; details; dfn; div; em; embed; fieldset; figure; footer; form; h1; h2; h3; h4; h5; h6; header; hgroup; i; iframe; img; ins; kbd; label; main; map; mark; MathML math; meter; nav; object; output; p; picture; pre; progress; q; ruby; s; samp; search; section; select; small; span; strong; sub; sup; SVG svg; table; textarea; time; u; var; video; autonomous custom elements	audio (if the controls attribute is present); dl (if the element's children include at least one name-value group); input (if the type attribute is not in the Hidden state); menu (if the element's children include at least one li element); ol (if the element's children include at least one li element); ul (if the element's children include at least one li element); Text that is not inter-element whitespace
+
+#### Script-Supporting Elements
+
+@@ script; template
 
 ## Attributes <!-- #attributes -->
 
