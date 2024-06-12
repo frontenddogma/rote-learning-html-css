@@ -1,127 +1,10 @@
 # HTML
 
-## Elements <!-- #elements -->
+This section covers HTML as per [the living standard](https://html.spec.whatwg.org/multipage/) in <!-- @@ -->June and July 2024. Elements from earlier HTML specifications and proprietary elements are not included.
 
-Memorize what elements are part of the HTML standard. (This list only includes element of the living standard—except `math`, `svg`, and custom elements—, and not of previous versions of HTML.)
+### Element Meanings
 
-| Element | Meaning | Void Element? | Start Tag Optional? | End Tag Optional? |
-| --- | --- | --- | --- | --- |
-| `a` | Anchor (hyperlink) | No | No | No |
-| `abbr` | Abbreviation | No | No | No |
-| `address` | Contact information | No | No | No |
-| `area` | Image map area | Yes | No | Yes (void) |
-| `article` | Self-contained and distributable content | No | No | No |
-| `aside` | Related content | No | No | No |
-| `audio` | Audio content | No | No | No |
-| `b` | Attention | No | No | No |
-| `base` | Base URL | Yes | No | Yes (void) |
-| `bdi` | Bidi isolation | No | No | No |
-| `bdo` | Bidi override | No | No | No |
-| `blockquote` | Long quotation | No | No | No |
-| `body` | Document body | No | Yes | Yes |
-| `br` | Line break | Yes | No | Yes (void) |
-| `button` | Button | No | No | No |
-| `canvas` | Scriptable bitmap | No | No | No |
-| `caption` | Table caption | No | No | Yes |
-| `cite` | Citation | No | No | No |
-| `code` | Code fragment | No | No | No |
-| `col` | Table column | Yes | No | Yes (void) |
-| `colgroup` | Table column group | No | Yes | Yes |
-| `data` | Content with machine-readable equivalent | No | No | No |
-| `datalist` | Predefined options for form controls | No | No | No |
-| `dd` | Description | No | No | Yes |
-| `del` | Deleted text | No | No | No |
-| `details` | Disclosure widget | No | No | No |
-| `dfn` | Instance definition | No | No | No |
-| `dialog` | User interaction | No | No | No |
-| `div` | Generic container | No | No | No |
-| `dl` | Description list | No | No | No |
-| `dt` | Description term | No | No | Yes |
-| `em` | Emphasis | No | No | No |
-| `embed` | Integration point | Yes | No | Yes (void) |
-| `fieldset` | Form control group | No | No | No |
-| `figcaption` | `figure` caption | No | No | Yes |
-| `figure` | Self-contained flow content | No | No | No |
-| `footer` | Footer | No | No | No |
-| `form` | Form | No | No | No |
-| `h1` | Heading | No | No | No |
-| `h2` | Heading | No | No | No |
-| `h3` | Heading | No | No | No |
-| `h4` | Heading | No | No | No |
-| `h5` | Heading | No | No | No |
-| `h6` | Heading | No | No | No |
-| `head` | Document head | No | Yes | Yes |
-| `header` | Header | No | No | No |
-| `hgroup` | Heading and related content | No | No | No |
-| `hr` | Thematic break | Yes | No | Yes (void) |
-| `html` | Document root | No | Yes | Yes |
-| `i` | Alternate voice | No | No | No |
-| `iframe` | Inline subwindow | No | No | No |
-| `img` | Image content | Yes | No | Yes (void) |
-| `input` | Input field | Yes | No | Yes (void) |
-| `ins` | Inserted text | No | No | No |
-| `kbd` | User input | No | No | No |
-| `label` | Form control caption | No | No | No |
-| `legend` | `fieldset` caption | No | No | No |
-| `li` | List item | No | No | Yes |
-| `link` | Resource link | Yes | No | Yes (void) |
-| `main` | Dominant content | No | No | No |
-| `map` | Image map | No | No | No |
-| `mark` | Marked reference text | No | No | No |
-| `menu` | Menu list | No | No | No |
-| `meta` | Metadata | Yes | No | Yes (void) |
-| `meter` | Scalar measurement | No | No | No |
-| `nav` | Navigation section | No | No | No |
-| `noscript` | Script fallback | No | No | No |
-| `object` | Generic content | No | No | No |
-| `ol` | Ordered list | No | No | No |
-| `optgroup` | `option` group | No | No | Yes |
-| `option` | Selectable choice | No | No | Yes |
-| `output` | Calculation or user action output | No | No | No |
-| `p` | Paragraph | No | No | Yes |
-| `picture` | Extended image content | No | No | No |
-| `pre` | Preformatted text | No | No | No |
-| `progress` | Progress of a task | No | No | No |
-| `q` | Short quotation | No | No | No |
-| `rp` | Ruby parentheses | No | No | Yes |
-| `rt` | Ruby text | No | No | Yes |
-| `ruby` | Ruby annotation(s) | No | No | No |
-| `s` | Irrelevance | No | No | No |
-| `samp` | Sample output | No | No | No |
-| `script` | Script | No | No | No |
-| `search` | Search controls or content | No | No | No |
-| `section` | Generic section | No | No | No |
-| `select` | `option` selector | No | No | No |
-| `slot` | Shadow tree slot | No | No | No |
-| `small` | Small print | No | No | No |
-| `source` | Media content | Yes | No | Yes (void) |
-| `span` | Generic container | No | No | No |
-| `strong` | Importance | No | No | No |
-| `style` | Formatting | No | No | No |
-| `sub` | Subscript | No | No | No |
-| `summary` | `details` caption | No | No | No |
-| `sup` | Superscript | No | No | No |
-| `table` | Table | No | No | No |
-| `tbody` | Table body | No | Yes | Yes |
-| `td` | Table data cell | No | No | Yes |
-| `template` | Fragment declaration | No | No | No |
-| `textarea` | Multi-line input field | No | No | No |
-| `tfoot` | Table footer | No | No | Yes |
-| `th` | Table header cell | No | No | Yes |
-| `thead` | Table header | No | No | Yes |
-| `time` | Date, time, time zone offset, or duration | No | No | No |
-| `title` | Document title | No | No | No |
-| `tr` | Table row | No | No | Yes |
-| `track` | Text track | Yes | No | Yes (void) |
-| `u` | Annotation | No | No | No |
-| `ul` | Unordered list | No | No | No |
-| `var` | Variable | No | No | No |
-| `video` | Video content | No | No | No |
-| `wbr` | Line break opportunity | Yes | No | Yes (void) |
-
-### Element Meanings <!-- #elements.semantics -->
-
-Now memorize the elements and their meanings (semantics):
+Memorize the elements and their meanings (semantics):
 
 * `a`: Anchor (hyperlink)
 * `abbr`: Abbreviation
@@ -185,6 +68,7 @@ Now memorize the elements and their meanings (semantics):
 * `main`: Dominant content
 * `map`: Image map
 * `mark`: Marked reference text
+* `math`: MathML container
 * `menu`: Menu list
 * `meta`: Metadata
 * `meter`: Scalar measurement
@@ -218,6 +102,7 @@ Now memorize the elements and their meanings (semantics):
 * `sub`: Subscript
 * `summary`: `details` caption
 * `sup`: Superscript
+* `svg`: SVG container
 * `table`: Table
 * `tbody`: Table body
 * `td`: Table data cell
@@ -235,6 +120,68 @@ Now memorize the elements and their meanings (semantics):
 * `var`: Variable
 * `video`: Video content
 * `wbr`: Line break opportunity
+
+(Autonomous custom elements are not included in this list.)
+
+## Void Elements
+
+Memorize the elements that are void, i.e., that have no end tag in the HTML syntax:
+
+* `area`
+* `base`
+* `br`
+* `col`
+* `embed`
+* `hr`
+* `img`
+* `input`
+* `link`
+* `meta`
+* `source`
+* `track`
+* `wbr`
+
+In true HTML, you write these elements as `<elementname>`, e.g., `<area>`, `<img>`, or `<meta>`. There is no end tag and no slash.
+
+## Elements With Optional Start or End Tags
+
+Memorize the elements that have optional start and/or end tags. Void elements don’t have an end tag and are therefore included (but also called out) as well.
+
+| Element | Void? | Optional Start Tag? | Optional End Tag? |
+| --- | --- | --- | --- |
+| `area` | Yes | No | Yes (void) |
+| `base` | Yes | No | Yes (void) |
+| `body` | No | Yes | Yes |
+| `br` | Yes | No | Yes (void) |
+| `caption` | No | No | Yes |
+| `col` | Yes | No | Yes (void) |
+| `colgroup` | No | Yes | Yes |
+| `dd` | No | No | Yes |
+| `dt` | No | No | Yes |
+| `embed` | Yes | No | Yes (void) |
+| `figcaption` | No | No | Yes |
+| `head` | No | Yes | Yes |
+| `hr` | Yes | No | Yes (void) |
+| `html` | No | Yes | Yes |
+| `img` | Yes | No | Yes (void) |
+| `input` | Yes | No | Yes (void) |
+| `li` | No | No | Yes |
+| `link` | Yes | No | Yes (void) |
+| `meta` | Yes | No | Yes (void) |
+| `optgroup` | No | No | Yes |
+| `option` | No | No | Yes |
+| `p` | No | No | Yes |
+| `rp` | No | No | Yes |
+| `rt` | No | No | Yes |
+| `source` | Yes | No | Yes (void) |
+| `tbody` | No | Yes | Yes |
+| `td` | No | No | Yes |
+| `tfoot` | No | No | Yes |
+| `th` | No | No | Yes |
+| `thead` | No | No | Yes |
+| `tr` | No | No | Yes |
+| `track` | Yes | No | Yes (void) |
+| `wbr` | Yes | No | Yes (void) |
 
 ### Element Categories
 
@@ -256,27 +203,137 @@ Understand the HTML content categories:
 * Palpable content: makes an element non-empty by providing either non-empty text, or something a user can view, hear, or interact with.
 * Script-supporting elements: do not represent anything by themselves, but provide functionality.
 
-@@ https://html.spec.whatwg.org/multipage/indices.html#element-content-categories
-
 Familiarize yourself with what elements are part of which category:
 
 #### Metadata Content
 
-@@ base; link; meta; noscript; script; style; template; title
+* `base`
+* `link`
+* `meta`
+* `noscript`
+* `script`
+* `style`
+* `template`
+* `title`
 
 #### Flow Content
 
-@@ a; abbr; address; article; aside; audio; b; bdi; bdo; blockquote; br; button; canvas; cite; code; data; datalist; del; details; dfn; dialog; div; dl; em; embed; fieldset; figure; footer; form; h1; h2; h3; h4; h5; h6; header; hgroup; hr; i; iframe; img; input; ins; kbd; label; map; mark; MathML math; menu; meter; nav; noscript; object; ol; output; p; picture; pre; progress; q; ruby; s; samp; script; search; section; select; slot; small; span; strong; sub; sup; SVG svg; table; template; textarea; time; u; ul; var; video; wbr; autonomous custom elements; Text	area (if it is a descendant of a map element); link (if it is allowed in the body); main (if it is a hierarchically correct main element); meta (if the itemprop attribute is present)
+* `a`
+* `abbr`
+* `address`
+* `article`
+* `aside`
+* `audio`
+* `b`
+* `bdi`
+* `bdo`
+* `blockquote`
+* `br`
+* `button`
+* `canvas`
+* `cite`
+* `code`
+* `data`
+* `datalist`
+* `del`
+* `details`
+* `dfn`
+* `dialog`
+* `div`
+* `dl`
+* `em`
+* `embed`
+* `fieldset`
+* `figure`
+* `footer`
+* `form`
+* `h1`
+* `h2`
+* `h3`
+* `h4`
+* `h5`
+* `h6`
+* `header`
+* `hgroup`
+* `hr`
+* `i`
+* `iframe`
+* `img`
+* `input`
+* `ins`
+* `kbd`
+* `label`
+* `map`
+* `mark`
+* `math` (MathML)
+* `menu`
+* `meter`
+* `nav`
+* `noscript`
+* `object`
+* `ol`
+* `output`
+* `p`
+* `picture`
+* `pre`
+* `progress`
+* `q`
+* `ruby`
+* `s`
+* `samp`
+* `script`
+* `search`
+* `section`
+* `select`
+* `slot`
+* `small`
+* `span`
+* `strong`
+* `sub`
+* `sup`
+* `svg` (SVG)
+* `table`
+* `template`
+* `textarea`
+* `time`
+* `u`
+* `ul`
+* `var`
+* `video`
+* `wbr`
+
+Also:
+
+* Autonomous custom elements
+* Text
+
+Elements that can under certain circumstances be flow content:
+
+* `area`
+* `link`
+* `main`
+* `meta`
 
 #### Sectioning Content
 
-@@ article; aside; nav; section
+* `article`
+* `aside`
+* `nav`
+* `section`
 
 #### Heading Content
 
-@@ h1; h2; h3; h4; h5; h6; hgroup
+* `h1`
+* `h2`
+* `h3`
+* `h4`
+* `h5`
+* `h6`
+* `hgroup`
 
 #### Phrasing Content
+
+@@ https://html.spec.whatwg.org/multipage/indices.html#element-content-categories
 
 @@ a; abbr; audio; b; bdi; bdo; br; button; canvas; cite; code; data; datalist; del; dfn; em; embed; i; iframe; img; input; ins; kbd; label; map; mark; MathML math; meter; noscript; object; output; picture; progress; q; ruby; s; samp; script; select; slot; small; span; strong; sub; sup; SVG svg; template; textarea; time; u; var; video; wbr; autonomous custom elements; Text	area (if it is a descendant of a map element); link (if it is allowed in the body); meta (if the itemprop attribute is present)
 
@@ -320,10 +377,12 @@ Familiarize yourself with what elements are part of which category:
 
 @@ script; template
 
-## Attributes <!-- #attributes -->
+## Attributes
 
 @@ https://html.spec.whatwg.org/multipage/indices.html#attributes-3
 
-### Global Attributes <!-- #attributes.global -->
+### Global Attributes
 
 @@ https://html.spec.whatwg.org/multipage/dom.html#global-attributes
+
+I> Remember to whenever you have a question about HTML, to consult [the HTML specification](https://html.spec.whatwg.org/multipage/).

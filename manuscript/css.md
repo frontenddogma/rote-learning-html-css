@@ -1,13 +1,13 @@
 # CSS
 
-## Selectors <!-- #selectors -->
+## Selectors
 
 @@ https://www.w3.org/TR/css-2023/#selectors
 
-## Properties <!-- #properties -->
+## Properties
 
 @@ https://www.w3.org/TR/css-2023/#properties
 
-## at-Rules <!-- #at-rules -->
+## at-Rules
 
 @@ https://www.w3.org/TR/css-2023/#at-rules
