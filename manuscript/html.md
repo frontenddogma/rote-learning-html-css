@@ -2,6 +2,8 @@
 
 This section covers HTML as per [the living standard](https://html.spec.whatwg.org/multipage/) in <!-- @@ -->June and July 2024. Elements from earlier HTML specifications and proprietary elements are not included.
 
+## Elements
+
 ### Element Meanings
 
 Memorize the elements and their meanings (semantics):
@@ -123,7 +125,7 @@ Memorize the elements and their meanings (semantics):
 
 (Autonomous custom elements are not included in this list.)
 
-## Void Elements
+### Void Elements
 
 Memorize the elements that are void, i.e., that have no end tag in the HTML syntax:
 
@@ -143,7 +145,7 @@ Memorize the elements that are void, i.e., that have no end tag in the HTML synt
 
 In true HTML, you write these elements as `<elementname>`, e.g., `<area>`, `<img>`, or `<meta>`. There is no end tag and no slash.
 
-## Elements With Optional Start or End Tags
+### Elements With Optional Start or End Tags
 
 Memorize the elements that have optional start and/or end tags. Void elements don’t have an end tag and are therefore included (but also called out) as well.
 
