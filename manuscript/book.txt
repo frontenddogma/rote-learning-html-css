@@ -2,6 +2,9 @@ acknowledgments.md
 intro.md
 html.md
 css.md
+break.md
+html-copy.md
+css-copy.md
 feedback.md
 author.md
 book.md
