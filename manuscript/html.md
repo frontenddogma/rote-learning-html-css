@@ -238,25 +238,25 @@ Now memorize the elements and their meanings (semantics):
 
 ### Element Categories
 
-@@ https://html.spec.whatwg.org/multipage/indices.html#element-content-categories
-
 Understand the HTML content categories:
 
-* Metadata content: sets up the presentation or behavior of the rest of the content, sets up the relationship of the document with other documents, or conveys other “out of band” information.
-* Flow content: @@
+* Metadata content: sets up the presentation or behavior of the rest of a document’s content, sets up the relationship of a document with other documents, or conveys other information.
+* Flow content: makes for the `body` of a document.
 * Sectioning content: defines the scope of `header` and `footer` elements.
-* Heading content: @@
-* Phrasing content: @@
-* Embedded content: @@
-* Interactive content: @@
-* Form-associated elements: @@
-* Labelable elements: @@
-* Listed elements: @@
-* Submittable elements: @@
-* Resettable elements: @@
-* Autocapitalize-inheriting elements: @@
-* Palpable content: @@
-* Script-supporting elements: @@
+* Heading content: defines the heading of a section.
+* Phrasing content: represents the text of a document.
+* Embedded content: imports other resources or content into a document.
+* Interactive content: serves user interaction.
+* Form-associated elements: have a form owner.
+* Labelable elements: may be associated with a `label` element.
+* Listed elements: are listed in the `form.elements` and `fieldset.elements` APIs.
+* Submittable elements: may be used to construct the entry list when a `form` element is being submitted.
+* Resettable elements: may be affected when a `form` element is being reset.
+* Autocapitalize-inheriting elements: inherit the `autocapitalize` attribute from their form owner.
+* Palpable content: makes an element non-empty by providing either non-empty text, or something a user can view, hear, or interact with.
+* Script-supporting elements: do not represent anything by themselves, but provide functionality.
+
+@@ https://html.spec.whatwg.org/multipage/indices.html#element-content-categories
 
 Familiarize yourself with what elements are part of which category:
 
@@ -270,7 +270,7 @@ Familiarize yourself with what elements are part of which category:
 
 #### Sectioning Content
 
-@@	article; aside; nav; section
+@@ article; aside; nav; section
 
 #### Heading Content
 
