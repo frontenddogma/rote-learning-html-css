@@ -309,7 +309,7 @@ Also:
 * Autonomous custom elements
 * Text
 
-Elements that can under certain circumstances be flow content:
+Elements that can be flow content under certain circumstances:
 
 * `area`
 * `link`
@@ -335,9 +335,70 @@ Elements that can under certain circumstances be flow content:
 
 #### Phrasing Content
 
-@@ https://html.spec.whatwg.org/multipage/indices.html#element-content-categories
+* `a`
+* `abbr`
+* `audio`
+* `b`
+* `bdi`
+* `bdo`
+* `br`
+* `button`
+* `canvas`
+* `cite`
+* `code`
+* `data`
+* `datalist`
+* `del`
+* `dfn`
+* `em`
+* `embed`
+* `i`
+* `iframe`
+* `img`
+* `input`
+* `ins`
+* `kbd`
+* `label`
+* `map`
+* `mark`
+* `math` (MathML)
+* `meter`
+* `noscript`
+* `object`
+* `output`
+* `picture`
+* `progress`
+* `q`
+* `ruby`
+* `s`
+* `samp`
+* `script`
+* `select`
+* `slot`
+* `small`
+* `span`
+* `strong`
+* `sub`
+* `sup`
+* `svg` (SVG)
+* `template`
+* `textarea`
+* `time`
+* `u`
+* `var`
+* `video`
+* `wbr`
 
-@@ a; abbr; audio; b; bdi; bdo; br; button; canvas; cite; code; data; datalist; del; dfn; em; embed; i; iframe; img; input; ins; kbd; label; map; mark; MathML math; meter; noscript; object; output; picture; progress; q; ruby; s; samp; script; select; slot; small; span; strong; sub; sup; SVG svg; template; textarea; time; u; var; video; wbr; autonomous custom elements; Text	area (if it is a descendant of a map element); link (if it is allowed in the body); meta (if the itemprop attribute is present)
+Also:
+
+* Autonomous custom elements
+* Text
+
+Elements that can be phrasing content under certain circumstances:
+
+* `area`
+* `link`
+* `meta`
 
 #### Embedded Content
 
@@ -354,7 +415,21 @@ Elements that can under certain circumstances be flow content:
 
 #### Interactive Content
 
-@@ button; details; embed; iframe; label; select; textarea	a (if the href attribute is present); audio (if the controls attribute is present); img (if the usemap attribute is present); input (if the type attribute is not in the Hidden state); video (if the controls attribute is present)
+* `button`
+* `details`
+* `embed`
+* `iframe`
+* `label`
+* `select`
+* `textarea`
+
+Elements that can be interactive content under certain circumstances:
+
+* `a`
+* `audio`
+* `img`
+* `input`
+* `video`
 
 #### Form-Associated Elements
 
@@ -433,7 +508,89 @@ Also:
 
 #### Palpable Content
 
-@@ a; abbr; address; article; aside; b; bdi; bdo; blockquote; button; canvas; cite; code; data; del; details; dfn; div; em; embed; fieldset; figure; footer; form; h1; h2; h3; h4; h5; h6; header; hgroup; i; iframe; img; ins; kbd; label; main; map; mark; MathML math; meter; nav; object; output; p; picture; pre; progress; q; ruby; s; samp; search; section; select; small; span; strong; sub; sup; SVG svg; table; textarea; time; u; var; video; autonomous custom elements	audio (if the controls attribute is present); dl (if the element's children include at least one name-value group); input (if the type attribute is not in the Hidden state); menu (if the element's children include at least one li element); ol (if the element's children include at least one li element); ul (if the element's children include at least one li element); Text that is not inter-element whitespace
+* `a`
+* `abbr`
+* `address`
+* `article`
+* `aside`
+* `b`
+* `bdi`
+* `bdo`
+* `blockquote`
+* `button`
+* `canvas`
+* `cite`
+* `code`
+* `data`
+* `del`
+* `details`
+* `dfn`
+* `div`
+* `em`
+* `embed`
+* `fieldset`
+* `figure`
+* `footer`
+* `form`
+* `h1`
+* `h2`
+* `h3`
+* `h4`
+* `h5`
+* `h6`
+* `header`
+* `hgroup`
+* `i`
+* `iframe`
+* `img`
+* `ins`
+* `kbd`
+* `label`
+* `main`
+* `map`
+* `mark`
+* `math` (MathML)
+* `meter`
+* `nav`
+* `object`
+* `output`
+* `p`
+* `picture`
+* `pre`
+* `progress`
+* `q`
+* `ruby`
+* `s`
+* `samp`
+* `search`
+* `section`
+* `select`
+* `small`
+* `span`
+* `strong`
+* `sub`
+* `sup`
+* `svg` (SVG)
+* `table`
+* `textarea`
+* `time`
+* `u`
+* `var`
+* `video`
+
+Also:
+
+* Autonomous custom elements
+
+Elements that can be palpable content under certain circumstances:
+
+* `audio`
+* `dl`
+* `input`
+* `menu`
+* `ol`
+* `ul`
+* Text that isn’t whitespace between elements
 
 #### Script-Supporting Elements
 
