@@ -341,7 +341,16 @@ Elements that can under certain circumstances be flow content:
 
 #### Embedded Content
 
-@@ audio; canvas; embed; iframe; img; MathML math; object; picture; SVG svg; video
+* `audio`
+* `canvas`
+* `embed`
+* `iframe`
+* `img`
+* `math` (MathML)
+* `object`
+* `picture`
+* `svg` (SVG)
+* `video`
 
 #### Interactive Content
 
@@ -349,27 +358,78 @@ Elements that can under certain circumstances be flow content:
 
 #### Form-Associated Elements
 
-@@ button; fieldset; input; label; object; output; select; textarea; img; form-associated custom elements
+* `button`
+* `fieldset`
+* `input`
+* `label`
+* `object`
+* `output`
+* `select`
+* `textarea`
+* `img`
+
+Also:
+
+* Form-associated custom elements
 
 #### Labelable Elements
 
-@@ button; input; meter; output; progress; select; textarea; form-associated custom elements
+* `button`
+* `input`
+* `meter`
+* `output`
+* `progress`
+* `select`
+* `textarea`
+
+Also:
+
+* Form-associated custom elements
 
 #### Listed Elements
 
-@@ button; fieldset; input; object; output; select; textarea; form-associated custom elements
+* `button`
+* `fieldset`
+* `input`
+* `object`
+* `output`
+* `select`
+* `textarea`
+
+Also:
+
+* Form-associated custom elements
 
 #### Submittable Elements
 
-@@ button; input; select; textarea; form-associated custom elements
+* `button`
+* `input`
+* `select`
+* `textarea`
+
+Also:
+
+* Form-associated custom elements
 
 #### Resettable Elements
 
-@@ input; output; select; textarea; form-associated custom elements
+* `input`
+* `output`
+* `select`
+* `textarea`
+
+Also:
+
+* Form-associated custom elements
 
 #### Autocapitalize-Inheriting Elements
 
-@@ button; fieldset; input; output; select; textarea
+* `button`
+* `fieldset`
+* `input`
+* `output`
+* `select`
+* `textarea
 
 #### Palpable Content
 
@@ -377,7 +437,8 @@ Elements that can under certain circumstances be flow content:
 
 #### Script-Supporting Elements
 
-@@ script; template
+* `script`
+* `template`
 
 ## Attributes
 
@@ -388,3 +449,7 @@ Elements that can under certain circumstances be flow content:
 @@ https://html.spec.whatwg.org/multipage/dom.html#global-attributes
 
 I> Remember to whenever you have a question about HTML, to consult [the HTML specification](https://html.spec.whatwg.org/multipage/).
+
+## Elements With Their Attributes
+
+@@
