@@ -599,6 +599,8 @@ Elements that can be palpable content under certain circumstances:
 
 ## Attributes
 
+Memorize all attributes, including event handler attributes.
+
 @@ https://html.spec.whatwg.org/multipage/indices.html#attributes-3
 
 ### Global Attributes
