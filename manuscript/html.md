@@ -599,7 +599,7 @@ Elements that can be palpable content under certain circumstances:
 
 ## Attributes
 
-Memorize all attributes, including event handler attributes. Repeat attribute mentions indicate different meanings. “HTML elements” refers to any element in the “http://www.w3.org/1999/xhtml” namespace namespace (including, as per the specification, XML documents).
+Memorize all attributes, including event handler attributes. Repeat attribute mentions indicate different meanings. “HTML elements” refers to any element in the “http://www.w3.org/1999/xhtml” namespace namespace (including, as per the specification, XML documents). <!-- @@ Check on https://github.com/whatwg/html/issues/10414 and whether to include `onbeforeinput`! -->
 
 | Attributes | Elements |
 | --- | --- |
@@ -862,7 +862,36 @@ Memorize all attributes, including event handler attributes. Repeat attribute me
 
 ### Global Attributes
 
-@@ https://html.spec.whatwg.org/multipage/dom.html#global-attributes
+Memorize specifically those attributes that can be used on all HTML elements, now _excluding_ event handler attributes. <!-- 97: the 25 “main” ones as per https://html.spec.whatwg.org/multipage/dom.html#global-attributes, the 3 attributes `class`, `id`, and `slot`, and 69 event handler attributes [70/98 with `onbeforeinput`, https://github.com/whatwg/html/issues/10414] -->
+
+* `accesskey`
+* `autocapitalize`
+* `autofocus`
+* `class`
+* `contenteditable`
+* `dir`
+* `draggable`
+* `enterkeyhint`
+* `hidden`
+* `id`
+* `inert`
+* `inputmode`
+* `is`
+* `itemid`
+* `itemprop`
+* `itemref`
+* `itemscope`
+* `itemtype`
+* `lang`
+* `nonce`
+* `popover`
+* `slot`
+* `spellcheck`
+* `style`
+* `tabindex`
+* `title`
+* `translate`
+* `writingsuggestions`
 
 I> Remember to whenever you have a question about HTML, to consult [the HTML specification](https://html.spec.whatwg.org/multipage/).
 
