@@ -606,28 +606,28 @@ Memorize all attributes. (Repeat attribute mentions indicate different meanings.
 | `abbr` | `th` |
 | `accept` | `input` |
 | `accept-charset` | `form` |
-| `accesskey` | HTML elements |
+| `accesskey` | all HTML elements |
 | `action` | `form` |
 | `allow` | `iframe` |
 | `allowfullscreen` | `iframe` |
 | `alt` | `area`, `img`, `input` |
 | `as` | `link` |
 | `async` | `script` |
-| `autocapitalize` | HTML elements |
+| `autocapitalize` | all HTML elements |
 | `autocomplete` | `form` |
 | `autocomplete` | `input`, `select`, `textarea` |
-| `autofocus` | HTML elements |
+| `autofocus` | all HTML elements |
 | `autoplay` | `audio`, `video` |
 | `blocking` | `link`, `script`, `style` |
 | `charset` | `meta` |
 | `checked` | `input` |
 | `cite` | `blockquote`, `del`, `ins`, `q` |
-| `class` | HTML elements |
+| `class` | all HTML elements |
 | `color` | `link` |
 | `cols` | `textarea` |
 | `colspan` | `td`, `th` |
 | `content` | `meta` |
-| `contenteditable` | HTML elements |
+| `contenteditable` | all HTML elements |
 | `controls` | `audio`, `video` |
 | `coords` | `area` |
 | `crossorigin` | `audio`, `img`, `link`, `script`, `video` |
@@ -637,16 +637,16 @@ Memorize all attributes. (Repeat attribute mentions indicate different meanings.
 | `decoding` | `img` |
 | `default` | `track` |
 | `defer` | `script` |
-| `dir` | HTML elements |
+| `dir` | all HTML elements |
 | `dir` | `bdo` |
 | `dirname` | `input`, `textarea` |
 | `disabled` | `button`, `input`, `optgroup`, `option`, `select`, `textarea`, form-associated custom elements |
 | `disabled` | `fieldset` |
 | `disabled` | `link` |
 | `download` | `a`, `area` |
-| `draggable` | HTML elements |
+| `draggable` | all HTML elements |
 | `enctype` | `form` |
-| `enterkeyhint` | HTML elements |
+| `enterkeyhint` | all HTML elements |
 | `fetchpriority` | `img`, `link`, `script` |
 | `for` | `label` |
 | `for` | `output` |
@@ -658,29 +658,29 @@ Memorize all attributes. (Repeat attribute mentions indicate different meanings.
 | `formtarget` | `button`, `input` |
 | `headers` | `td`, `th` |
 | `height` | `canvas`, `embed`, `iframe`, `img`, `input`, `object`, `source` (`picture`), `video` |
-| `hidden` | HTML elements |
+| `hidden` | all HTML elements |
 | `high` | `meter` |
 | `href` | `a`, `area` |
 | `href` | `link` |
 | `href` | `base` |
 | `hreflang` | `a`, `link` |
 | `http-equiv` | `meta` |
-| `id` | HTML elements |
+| `id` | all HTML elements |
 | `imagesizes` | `link` |
 | `imagesrcset` | `link` |
-| `inert` | HTML elements |
-| `inputmode` | HTML elements |
+| `inert` | all HTML elements |
+| `inputmode` | all HTML elements |
 | `integrity` | `link`, `script` |
-| `is` | HTML elements |
+| `is` | all HTML elements |
 | `ismap` | `img` |
-| `itemid` | HTML elements |
-| `itemprop` | HTML elements |
-| `itemref` | HTML elements |
-| `itemscope` | HTML elements |
-| `itemtype` | HTML elements |
+| `itemid` | all HTML elements |
+| `itemprop` | all HTML elements |
+| `itemref` | all HTML elements |
+| `itemscope` | all HTML elements |
+| `itemtype` | all HTML elements |
 | `kind` | `track` |
 | `label` | `optgroup`, `option`, `track` |
-| `lang` | HTML elements |
+| `lang` | all HTML elements |
 | `list` | `input` |
 | `loading` | `iframe`, `img` |
 | `loop` | `audio`, `video` |
@@ -703,95 +703,95 @@ Memorize all attributes. (Repeat attribute mentions indicate different meanings.
 | `name` | `meta` |
 | `name` | `slot` |
 | `nomodule` | `script` |
-| `nonce` | HTML elements |
+| `nonce` | all HTML elements |
 | `novalidate` | `form` |
 | `onafterprint` | `body` |
-| `onauxclick` | HTML elements |
-| `onbeforematch` | HTML elements |
+| `onauxclick` | all HTML elements |
+| `onbeforematch` | all HTML elements |
 | `onbeforeprint` | `body` |
 | `onbeforeunload` | `body` |
-| `onbeforetoggle` | HTML elements |
-| `onblur` | HTML elements |
-| `oncancel` | HTML elements |
-| `oncanplay` | HTML elements |
-| `oncanplaythrough` | HTML elements |
-| `onchange` | HTML elements |
-| `onclick` | HTML elements |
-| `onclose` | HTML elements |
-| `oncontextlost` | HTML elements |
-| `oncontextmenu` | HTML elements |
-| `oncontextrestored` | HTML elements |
-| `oncopy` | HTML elements |
-| `oncuechange` | HTML elements |
-| `oncut` | HTML elements |
-| `ondblclick` | HTML elements |
-| `ondrag` | HTML elements |
-| `ondragend` | HTML elements |
-| `ondragenter` | HTML elements |
-| `ondragleave` | HTML elements |
-| `ondragover` | HTML elements |
-| `ondragstart` | HTML elements |
-| `ondrop` | HTML elements |
-| `ondurationchange` | HTML elements |
-| `onemptied` | HTML elements |
-| `onended` | HTML elements |
-| `onerror` | HTML elements |
-| `onfocus` | HTML elements |
-| `onformdata` | HTML elements |
+| `onbeforetoggle` | all HTML elements |
+| `onblur` | all HTML elements |
+| `oncancel` | all HTML elements |
+| `oncanplay` | all HTML elements |
+| `oncanplaythrough` | all HTML elements |
+| `onchange` | all HTML elements |
+| `onclick` | all HTML elements |
+| `onclose` | all HTML elements |
+| `oncontextlost` | all HTML elements |
+| `oncontextmenu` | all HTML elements |
+| `oncontextrestored` | all HTML elements |
+| `oncopy` | all HTML elements |
+| `oncuechange` | all HTML elements |
+| `oncut` | all HTML elements |
+| `ondblclick` | all HTML elements |
+| `ondrag` | all HTML elements |
+| `ondragend` | all HTML elements |
+| `ondragenter` | all HTML elements |
+| `ondragleave` | all HTML elements |
+| `ondragover` | all HTML elements |
+| `ondragstart` | all HTML elements |
+| `ondrop` | all HTML elements |
+| `ondurationchange` | all HTML elements |
+| `onemptied` | all HTML elements |
+| `onended` | all HTML elements |
+| `onerror` | all HTML elements |
+| `onfocus` | all HTML elements |
+| `onformdata` | all HTML elements |
 | `onhashchange` | `body` |
-| `oninput` | HTML elements |
-| `oninvalid` | HTML elements |
-| `onkeydown` | HTML elements |
-| `onkeypress` | HTML elements |
-| `onkeyup` | HTML elements |
+| `oninput` | all HTML elements |
+| `oninvalid` | all HTML elements |
+| `onkeydown` | all HTML elements |
+| `onkeypress` | all HTML elements |
+| `onkeyup` | all HTML elements |
 | `onlanguagechange` | `body` |
-| `onload` | HTML elements |
-| `onloadeddata` | HTML elements |
-| `onloadedmetadata` | HTML elements |
-| `onloadstart` | HTML elements |
+| `onload` | all HTML elements |
+| `onloadeddata` | all HTML elements |
+| `onloadedmetadata` | all HTML elements |
+| `onloadstart` | all HTML elements |
 | `onmessage` | `body` |
 | `onmessageerror` | `body` |
-| `onmousedown` | HTML elements |
-| `onmouseenter` | HTML elements |
-| `onmouseleave` | HTML elements |
-| `onmousemove` | HTML elements |
-| `onmouseout` | HTML elements |
-| `onmouseover` | HTML elements |
-| `onmouseup` | HTML elements |
+| `onmousedown` | all HTML elements |
+| `onmouseenter` | all HTML elements |
+| `onmouseleave` | all HTML elements |
+| `onmousemove` | all HTML elements |
+| `onmouseout` | all HTML elements |
+| `onmouseover` | all HTML elements |
+| `onmouseup` | all HTML elements |
 | `onoffline` | `body` |
 | `ononline` | `body` |
 | `onpagehide` | `body` |
 | `onpagereveal` | `body` |
 | `onpageshow` | `body` |
 | `onpageswap` | `body` |
-| `onpaste` | HTML elements |
-| `onpause` | HTML elements |
-| `onplay` | HTML elements |
-| `onplaying` | HTML elements |
+| `onpaste` | all HTML elements |
+| `onpause` | all HTML elements |
+| `onplay` | all HTML elements |
+| `onplaying` | all HTML elements |
 | `onpopstate` | `body` |
-| `onprogress` | HTML elements |
-| `onratechange` | HTML elements |
-| `onreset` | HTML elements |
-| `onresize` | HTML elements |
+| `onprogress` | all HTML elements |
+| `onratechange` | all HTML elements |
+| `onreset` | all HTML elements |
+| `onresize` | all HTML elements |
 | `onrejectionhandled` | `body` |
-| `onscroll` | HTML elements |
-| `onscrollend` | HTML elements |
-| `onsecuritypolicyviolation` | HTML elements |
-| `onseeked` | HTML elements |
-| `onseeking` | HTML elements |
-| `onselect` | HTML elements |
-| `onslotchange` | HTML elements |
-| `onstalled` | HTML elements |
+| `onscroll` | all HTML elements |
+| `onscrollend` | all HTML elements |
+| `onsecuritypolicyviolation` | all HTML elements |
+| `onseeked` | all HTML elements |
+| `onseeking` | all HTML elements |
+| `onselect` | all HTML elements |
+| `onslotchange` | all HTML elements |
+| `onstalled` | all HTML elements |
 | `onstorage` | `body` |
-| `onsubmit` | HTML elements |
-| `onsuspend` | HTML elements |
-| `ontimeupdate` | HTML elements |
-| `ontoggle` | HTML elements |
+| `onsubmit` | all HTML elements |
+| `onsuspend` | all HTML elements |
+| `ontimeupdate` | all HTML elements |
+| `ontoggle` | all HTML elements |
 | `onunhandledrejection` | `body` |
 | `onunload` | `body` |
-| `onvolumechange` | HTML elements |
-| `onwaiting` | HTML elements |
-| `onwheel` | HTML elements |
+| `onvolumechange` | all HTML elements |
+| `onwaiting` | all HTML elements |
+| `onwheel` | all HTML elements |
 | `open` | `details` |
 | `open` | `dialog` |
 | `optimum` | `meter` |
@@ -799,7 +799,7 @@ Memorize all attributes. (Repeat attribute mentions indicate different meanings.
 | `ping` | `a`, `area` |
 | `placeholder` | `input`, `textarea` |
 | `playsinline` | `video` |
-| `popover` | HTML elements |
+| `popover` | all HTML elements |
 | `popovertarget` | `button`, `input` |
 | `popovertargetaction` | `button`, `input` |
 | `poster` | `video` |
@@ -824,26 +824,26 @@ Memorize all attributes. (Repeat attribute mentions indicate different meanings.
 | `size` | `input`, `select` |
 | `sizes` | `link` |
 | `sizes` | `img`, `source` |
-| `slot` | HTML elements |
+| `slot` | all HTML elements |
 | `span` | `col`, `colgroup` |
-| `spellcheck` | HTML elements |
+| `spellcheck` | all HTML elements |
 | `src` | `audio`, `embed`, `iframe`, `img`, `input`, `script`, `source` (`audio` and `video`), `track`, `video` |
 | `srcdoc` | `iframe` |
 | `srclang` | `track` |
 | `srcset` | `img`, `source` |
 | `start` | `ol` |
 | `step` | `input` |
-| `style` | HTML elements |
-| `tabindex` | HTML elements |
+| `style` | all HTML elements |
+| `tabindex` | all HTML elements |
 | `target` | `a`, `area` |
 | `target` | `base` |
 | `target` | `form` |
-| `title` | HTML elements |
+| `title` | all HTML elements |
 | `title` | `abbr`, `dfn` |
 | `title` | `input` |
 | `title` | `link` |
 | `title` | `link`, `style` |
-| `translate` | HTML elements |
+| `translate` | all HTML elements |
 | `type` | `a`, `link` |
 | `type` | `button` |
 | `type` | `embed`, `object`, `source` |
@@ -858,7 +858,7 @@ Memorize all attributes. (Repeat attribute mentions indicate different meanings.
 | `value` | `meter`, `progress` |
 | `width` | `canvas`, `embed`, `iframe`, `img`, `input`, `object`, `source` (`picture`), `video` |
 | `wrap` | `textarea` |
-| `writingsuggestions` | HTML elements |
+| `writingsuggestions` | all HTML elements |
 
 ### Global Attributes
 
@@ -1120,4 +1120,4 @@ Go over all elements and their attributes. The global attributes are mentioned, 
 
 (Autonomous custom elements are not included in this table.)
 
-I> Remember to whenever you have a question about HTML, to consult [the HTML specification](https://html.spec.whatwg.org/multipage/).
+I> Whenever you have a question about HTML, remember to consult [the HTML specification](https://html.spec.whatwg.org/multipage/).
