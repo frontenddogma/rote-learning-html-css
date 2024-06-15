@@ -599,7 +599,7 @@ Elements that can be palpable content under certain circumstances:
 
 ## Attributes
 
-Memorize all attributes, including event handler attributes. Repeat attribute mentions indicate different meanings. “HTML elements” refers to any element in the “http://www.w3.org/1999/xhtml” namespace namespace (including, as per the specification, XML documents). <!-- @@ Check on https://github.com/whatwg/html/issues/10414 and whether to include `onbeforeinput`! -->
+Memorize all attributes. (Repeat attribute mentions indicate different meanings. “HTML elements” refers to any element in the “http://www.w3.org/1999/xhtml” namespace namespace—including, as per the specification, XML documents.) <!-- @@ Check on https://github.com/whatwg/html/issues/10414 and whether to include `onbeforeinput`! -->
 
 | Attributes | Elements |
 | --- | --- |
@@ -760,10 +760,10 @@ Memorize all attributes, including event handler attributes. Repeat attribute me
 | `onmouseup` | HTML elements |
 | `onoffline` | `body` |
 | `ononline` | `body` |
-| `onpageswap` | `body` |
 | `onpagehide` | `body` |
 | `onpagereveal` | `body` |
 | `onpageshow` | `body` |
+| `onpageswap` | `body` |
 | `onpaste` | HTML elements |
 | `onpause` | HTML elements |
 | `onplay` | HTML elements |
@@ -816,9 +816,9 @@ Memorize all attributes, including event handler attributes. Repeat attribute me
 | `sandbox` | `iframe` |
 | `scope` | `th` |
 | `selected` | `option` |
-| `shadowrootmode` | `template` |
-| `shadowrootdelegatesfocus` | `template` |
 | `shadowrootclonable` | `template` |
+| `shadowrootdelegatesfocus` | `template` |
+| `shadowrootmode` | `template` |
 | `shadowrootserializable` | `template` |
 | `shape` | `area` |
 | `size` | `input`, `select` |
@@ -862,7 +862,9 @@ Memorize all attributes, including event handler attributes. Repeat attribute me
 
 ### Global Attributes
 
-Memorize specifically those attributes that can be used on all HTML elements, now _excluding_ event handler attributes. <!-- 97: the 25 “main” ones as per https://html.spec.whatwg.org/multipage/dom.html#global-attributes, the 3 attributes `class`, `id`, and `slot`, and 69 event handler attributes [70/98 with `onbeforeinput`, https://github.com/whatwg/html/issues/10414] -->
+#### …Excluding Event Handler Attributes
+
+Memorize the attributes that can be used on all HTML elements, excluding event handler attributes.
 
 * `accesskey`
 * `autocapitalize`
@@ -893,8 +895,229 @@ Memorize specifically those attributes that can be used on all HTML elements, no
 * `translate`
 * `writingsuggestions`
 
-I> Remember to whenever you have a question about HTML, to consult [the HTML specification](https://html.spec.whatwg.org/multipage/).
+#### …Including Event Handler Attributes
+
+Memorize the attributes that can be used on all HTML elements, including event handler attributes. <!-- 97: the 25 “main” ones as per https://html.spec.whatwg.org/multipage/dom.html#global-attributes, the 3 attributes `class`, `id`, and `slot`, and 69 event handler attributes [70/98 with `onbeforeinput`, https://github.com/whatwg/html/issues/10414] -->
+
+* `accesskey`
+* `autocapitalize`
+* `autofocus`
+* `class`
+* `contenteditable`
+* `dir`
+* `draggable`
+* `enterkeyhint`
+* `hidden`
+* `id`
+* `inert`
+* `inputmode`
+* `is`
+* `itemid`
+* `itemprop`
+* `itemref`
+* `itemscope`
+* `itemtype`
+* `lang`
+* `nonce`
+* `onauxclick`
+* `onbeforematch`
+* `onbeforetoggle`
+* `onblur`
+* `oncancel`
+* `oncanplay`
+* `oncanplaythrough`
+* `onchange`
+* `onclick`
+* `onclose`
+* `oncontextlost`
+* `oncontextmenu`
+* `oncontextrestored`
+* `oncopy`
+* `oncuechange`
+* `oncut`
+* `ondblclick`
+* `ondrag`
+* `ondragend`
+* `ondragenter`
+* `ondragleave`
+* `ondragover`
+* `ondragstart`
+* `ondrop`
+* `ondurationchange`
+* `onemptied`
+* `onended`
+* `onerror`
+* `onfocus`
+* `onformdata`
+* `oninput`
+* `oninvalid`
+* `onkeydown`
+* `onkeypress`
+* `onkeyup`
+* `onload`
+* `onloadeddata`
+* `onloadedmetadata`
+* `onloadstart`
+* `onmousedown`
+* `onmouseenter`
+* `onmouseleave`
+* `onmousemove`
+* `onmouseout`
+* `onmouseover`
+* `onmouseup`
+* `onpaste`
+* `onpause`
+* `onplay`
+* `onplaying`
+* `onprogress`
+* `onratechange`
+* `onreset`
+* `onresize`
+* `onscroll`
+* `onscrollend`
+* `onsecuritypolicyviolation`
+* `onseeked`
+* `onseeking`
+* `onselect`
+* `onslotchange`
+* `onstalled`
+* `onsubmit`
+* `onsuspend`
+* `ontimeupdate`
+* `ontoggle`
+* `onvolumechange`
+* `onwaiting`
+* `onwheel`
+* `popover`
+* `slot`
+* `spellcheck`
+* `style`
+* `tabindex`
+* `title`
+* `translate`
+* `writingsuggestions`
 
 ## Elements With Their Attributes
 
-@@
+Go over all elements and their attributes. The global attributes are mentioned, but not listed.
+
+| Attributes | Elements |
+| --- | --- |
+| `a` | `download`, `href`, `hreflang`, `ping`, `referrerpolicy`, `rel`, `target`, `type`, global attributes |
+| `abbr` | global attributes |
+| `address` | global attributes |
+| `area` | `alt`, `coords`, `download`, `href`, `ping`, `referrerpolicy`, `rel`, `shape`, `target`, global attributes |
+| `article` | global attributes |
+| `aside` | global attributes |
+| `audio` | `autoplay`, `controls`, `crossorigin`, `loop`, `muted`, `preload`, `src`, global attributes |
+| `b` | global attributes |
+| `base` | `href`, `target`, global attributes |
+| `bdi` | global attributes |
+| `bdo` | global attributes |
+| `blockquote` | `cite`, global attributes |
+| `body` | `onafterprint`, `onbeforeprint`, `onbeforeunload`, `onhashchange`, `onlanguagechange`, `onmessage`, `onmessageerror`, `onoffline`, `ononline`, `onpagehide`, `onpagereveal`, `onpageshow`, `onpageswap`, `onpopstate`, `onrejectionhandled`, `onstorage`, `onunhandledrejection`, `onunload`, global attributes |
+| `br` | global attributes |
+| `button` | `disabled`, `form`, `formaction`, `formenctype`, `formmethod`, `formnovalidate`, `formtarget`, `name`, `popovertarget`, `popovertargetaction`, `type`, `value`, global attributes |
+| `canvas` | `height`, `width`, global attributes |
+| `caption` | global attributes |
+| `cite` | global attributes |
+| `code` | global attributes |
+| `col` | `span`, global attributes |
+| `colgroup` | `span`, global attributes |
+| `data` | `value`, global attributes |
+| `datalist` | global attributes |
+| `dd` | global attributes |
+| `del` | `cite`, `datetime`, global attributes |
+| `details` | `name`, `open`, global attributes |
+| `dfn` | global attributes |
+| `dialog` | `open`, global attributes |
+| `div` | global attributes |
+| `dl` | global attributes |
+| `dt` | global attributes |
+| `em` | global attributes |
+| `embed` | `height`, `src`, `type`, `width`, global attributes |
+| `fieldset` | `disabled`, `form`, `name`, global attributes |
+| `figcaption` | global attributes |
+| `figure` | global attributes |
+| `footer` | global attributes |
+| `form` | `accept-charset`, `action`, `autocomplete`, `enctype`, `method`, `name`, `novalidate`, `rel`, `target`, global attributes |
+| `h1` | global attributes |
+| `h2` | global attributes |
+| `h3` | global attributes |
+| `h4` | global attributes |
+| `h5` | global attributes |
+| `h6` | global attributes |
+| `head` | global attributes |
+| `header` | global attributes |
+| `hgroup` | global attributes |
+| `hr` | global attributes |
+| `html` | `manifest`, global attributes |
+| `i` | global attributes |
+| `iframe` | `allow`, `allowfullscreen`, `height`, `loading`, `name`, `referrerpolicy`, `sandbox`, `src`, `srcdoc`, `width`, global attributes |
+| `img` | `alt`, `crossorigin`, `decoding`, `fetchpriority`, `height`, `ismap`, `loading`, `referrerpolicy`, `src`, `srcset`, `sizes`, `usemap`, `width`, global attributes |
+| `input` | `accept`, `alt`, `autocomplete`, `checked`, `dirname`, `disabled`, `form`, `formaction`, `formenctype`, `formmethod`, `formnovalidate`, `formtarget`, `height`, `list`, `max`, `maxlength`, `min`, `minlength`, `multiple`, `name`, `pattern`, `placeholder`, `popovertarget`, `popovertargetaction`, `readonly`, `required`, `size`, `src`, `step`, `type`, `value`, `width`, global attributes |
+| `ins` | `cite`, `datetime`, global attributes |
+| `kbd` | global attributes |
+| `label` | `for`, global attributes |
+| `legend` | global attributes |
+| `li` | `value`, global attributes |
+| `link` | `as`, `blocking`, `color`, `crossorigin`, `disabled`, `fetchpriority`, `href`, `hreflang`, `imagesizes`, `imagesrcset`, `integrity`, `media`, `referrerpolicy`, `rel`, `sizes`, `type`, global attributes |
+| `main` | global attributes |
+| `map` | `name`, global attributes |
+| `mark` | global attributes |
+| `math` | defined by [MathML](https://www.w3.org/TR/mathml-core/) |
+| `menu` | global attributes |
+| `meta` | `charset`, `content`, `http-equiv`, `media`, `name`, global attributes |
+| `meter` | `high`, `low`, `max`, `min`, `optimum`, `value`, global attributes |
+| `nav` | global attributes |
+| `noscript` | global attributes |
+| `object` | `data`, `form`, `height`, `name`, `type`, `width`, global attributes |
+| `ol` | `reversed`, `start`, `type`, global attributes |
+| `optgroup` | `disabled`, `label`, global attributes |
+| `option` | `disabled`, `label`, `selected`, `value`, global attributes |
+| `output` | `for`, `form`, `name`, global attributes |
+| `p` | global attributes |
+| `picture` | global attributes |
+| `pre` | global attributes |
+| `progress` | `max`, `value`, global attributes |
+| `q` | `cite`, global attributes |
+| `rp` | global attributes |
+| `rt` | global attributes |
+| `ruby` | global attributes |
+| `s` | global attributes |
+| `samp` | global attributes |
+| `script` | `async`, `blocking`, `defer`, `crossorigin`, `fetchpriority`, `integrity`, `nomodule`, `referrerpolicy`, `src`, `type`, global attributes |
+| `search` | global attributes |
+| `section` | global attributes |
+| `select` | `autocomplete`, `disabled`, `form`, `multiple`, `name`, `required`, `size`, global attributes |
+| `slot` | `name`, global attributes |
+| `small` | global attributes |
+| `source` | `height`, `media`, `sizes`, `src`, `srcset`, `type`, `width`, global attributes |
+| `span` | global attributes |
+| `strong` | global attributes |
+| `style` | `blocking`, `media`, global attributes |
+| `sub` | global attributes |
+| `summary` | global attributes |
+| `sup` | global attributes |
+| `svg` | defined by [SVG](https://www.w3.org/TR/SVG/) |
+| `table` | global attributes |
+| `tbody` | global attributes |
+| `td` | `colspan`, `headers`, `rowspan`, global attributes |
+| `template` | `shadowrootclonable`, `shadowrootdelegatesfocus`, `shadowrootmode`, `shadowrootserializable`, global attributes |
+| `textarea` | `autocomplete`, `cols`, `dirname`, `disabled`, `form`, `maxlength`, `minlength`, `name`, `placeholder`, `readonly`, `required`, `rows`, `wrap`, global attributes |
+| `tfoot` | global attributes |
+| `th` | `abbr`, `colspan`, `headers`, `rowspan`, `scope`, global attributes |
+| `thead` | global attributes |
+| `time` | `datetime`, global attributes |
+| `title` | global attributes |
+| `tr` | global attributes |
+| `track` | `default`, `kind`, `label`, `src`, `srclang`, global attributes |
+| `u` | global attributes |
+| `ul` | global attributes |
+| `var` | global attributes |
+| `video` | `autoplay`, `controls`, `crossorigin`, `height`, `loop`, `muted`, `playsinline`, `poster`, `preload`, `src`, `width`, global attributes |
+| `wbr` | global attributes |
+
+(Autonomous custom elements are not included in this table.)
+
+I> Remember to whenever you have a question about HTML, to consult [the HTML specification](https://html.spec.whatwg.org/multipage/).
