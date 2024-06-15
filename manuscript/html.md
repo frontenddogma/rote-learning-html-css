@@ -599,9 +599,266 @@ Elements that can be palpable content under certain circumstances:
 
 ## Attributes
 
-Memorize all attributes, including event handler attributes.
+Memorize all attributes, including event handler attributes. Repeat attribute mentions indicate different meanings. “HTML elements” refers to any element in the “http://www.w3.org/1999/xhtml” namespace namespace (including, as per the specification, XML documents).
 
-@@ https://html.spec.whatwg.org/multipage/indices.html#attributes-3
+| Attributes | Elements |
+| --- | --- |
+| `abbr` | `th` |
+| `accept` | `input` |
+| `accept-charset` | `form` |
+| `accesskey` | HTML elements |
+| `action` | `form` |
+| `allow` | `iframe` |
+| `allowfullscreen` | `iframe` |
+| `alt` | `area`, `img`, `input` |
+| `as` | `link` |
+| `async` | `script` |
+| `autocapitalize` | HTML elements |
+| `autocomplete` | `form` |
+| `autocomplete` | `input`, `select`, `textarea` |
+| `autofocus` | HTML elements |
+| `autoplay` | `audio`, `video` |
+| `blocking` | `link`, `script`, `style` |
+| `charset` | `meta` |
+| `checked` | `input` |
+| `cite` | `blockquote`, `del`, `ins`, `q` |
+| `class` | HTML elements |
+| `color` | `link` |
+| `cols` | `textarea` |
+| `colspan` | `td`, `th` |
+| `content` | `meta` |
+| `contenteditable` | HTML elements |
+| `controls` | `audio`, `video` |
+| `coords` | `area` |
+| `crossorigin` | `audio`, `img`, `link`, `script`, `video` |
+| `data` | `object` |
+| `datetime` | `del`, `ins` |
+| `datetime` | `time` |
+| `decoding` | `img` |
+| `default` | `track` |
+| `defer` | `script` |
+| `dir` | HTML elements |
+| `dir` | `bdo` |
+| `dirname` | `input`, `textarea` |
+| `disabled` | `button`, `input`, `optgroup`, `option`, `select`, `textarea`, form-associated custom elements |
+| `disabled` | `fieldset` |
+| `disabled` | `link` |
+| `download` | `a`, `area` |
+| `draggable` | HTML elements |
+| `enctype` | `form` |
+| `enterkeyhint` | HTML elements |
+| `fetchpriority` | `img`, `link`, `script` |
+| `for` | `label` |
+| `for` | `output` |
+| `form` | `button`, `fieldset`, `input`, `object`, `output`, `select`, `textarea`, form-associated custom elements |
+| `formaction` | `button`, `input` |
+| `formenctype` | `button`, `input` |
+| `formmethod` | `button`, `input` |
+| `formnovalidate` | `button`, `input` |
+| `formtarget` | `button`, `input` |
+| `headers` | `td`, `th` |
+| `height` | `canvas`, `embed`, `iframe`, `img`, `input`, `object`, `source` (`picture`), `video` |
+| `hidden` | HTML elements |
+| `high` | `meter` |
+| `href` | `a`, `area` |
+| `href` | `link` |
+| `href` | `base` |
+| `hreflang` | `a`, `link` |
+| `http-equiv` | `meta` |
+| `id` | HTML elements |
+| `imagesizes` | `link` |
+| `imagesrcset` | `link` |
+| `inert` | HTML elements |
+| `inputmode` | HTML elements |
+| `integrity` | `link`, `script` |
+| `is` | HTML elements |
+| `ismap` | `img` |
+| `itemid` | HTML elements |
+| `itemprop` | HTML elements |
+| `itemref` | HTML elements |
+| `itemscope` | HTML elements |
+| `itemtype` | HTML elements |
+| `kind` | `track` |
+| `label` | `optgroup`, `option`, `track` |
+| `lang` | HTML elements |
+| `list` | `input` |
+| `loading` | `iframe`, `img` |
+| `loop` | `audio`, `video` |
+| `low` | `meter` |
+| `max` | `input` |
+| `max` | `meter`, `progress` |
+| `maxlength` | `input`, `textarea` |
+| `media` | `link`, `meta`, `source`, `style` |
+| `method` | `form` |
+| `min` | `input` |
+| `min` | `meter` |
+| `minlength` | `input`, `textarea` |
+| `multiple` | `input`, `select` |
+| `muted` | `audio`, `video` |
+| `name` | `button`, `fieldset`, `input`, `output`, `select`, `textarea`, form-associated custom elements |
+| `name` | `details` |
+| `name` | `form` |
+| `name` | `iframe`, `object` |
+| `name` | `map` |
+| `name` | `meta` |
+| `name` | `slot` |
+| `nomodule` | `script` |
+| `nonce` | HTML elements |
+| `novalidate` | `form` |
+| `onafterprint` | `body` |
+| `onauxclick` | HTML elements |
+| `onbeforematch` | HTML elements |
+| `onbeforeprint` | `body` |
+| `onbeforeunload` | `body` |
+| `onbeforetoggle` | HTML elements |
+| `onblur` | HTML elements |
+| `oncancel` | HTML elements |
+| `oncanplay` | HTML elements |
+| `oncanplaythrough` | HTML elements |
+| `onchange` | HTML elements |
+| `onclick` | HTML elements |
+| `onclose` | HTML elements |
+| `oncontextlost` | HTML elements |
+| `oncontextmenu` | HTML elements |
+| `oncontextrestored` | HTML elements |
+| `oncopy` | HTML elements |
+| `oncuechange` | HTML elements |
+| `oncut` | HTML elements |
+| `ondblclick` | HTML elements |
+| `ondrag` | HTML elements |
+| `ondragend` | HTML elements |
+| `ondragenter` | HTML elements |
+| `ondragleave` | HTML elements |
+| `ondragover` | HTML elements |
+| `ondragstart` | HTML elements |
+| `ondrop` | HTML elements |
+| `ondurationchange` | HTML elements |
+| `onemptied` | HTML elements |
+| `onended` | HTML elements |
+| `onerror` | HTML elements |
+| `onfocus` | HTML elements |
+| `onformdata` | HTML elements |
+| `onhashchange` | `body` |
+| `oninput` | HTML elements |
+| `oninvalid` | HTML elements |
+| `onkeydown` | HTML elements |
+| `onkeypress` | HTML elements |
+| `onkeyup` | HTML elements |
+| `onlanguagechange` | `body` |
+| `onload` | HTML elements |
+| `onloadeddata` | HTML elements |
+| `onloadedmetadata` | HTML elements |
+| `onloadstart` | HTML elements |
+| `onmessage` | `body` |
+| `onmessageerror` | `body` |
+| `onmousedown` | HTML elements |
+| `onmouseenter` | HTML elements |
+| `onmouseleave` | HTML elements |
+| `onmousemove` | HTML elements |
+| `onmouseout` | HTML elements |
+| `onmouseover` | HTML elements |
+| `onmouseup` | HTML elements |
+| `onoffline` | `body` |
+| `ononline` | `body` |
+| `onpageswap` | `body` |
+| `onpagehide` | `body` |
+| `onpagereveal` | `body` |
+| `onpageshow` | `body` |
+| `onpaste` | HTML elements |
+| `onpause` | HTML elements |
+| `onplay` | HTML elements |
+| `onplaying` | HTML elements |
+| `onpopstate` | `body` |
+| `onprogress` | HTML elements |
+| `onratechange` | HTML elements |
+| `onreset` | HTML elements |
+| `onresize` | HTML elements |
+| `onrejectionhandled` | `body` |
+| `onscroll` | HTML elements |
+| `onscrollend` | HTML elements |
+| `onsecuritypolicyviolation` | HTML elements |
+| `onseeked` | HTML elements |
+| `onseeking` | HTML elements |
+| `onselect` | HTML elements |
+| `onslotchange` | HTML elements |
+| `onstalled` | HTML elements |
+| `onstorage` | `body` |
+| `onsubmit` | HTML elements |
+| `onsuspend` | HTML elements |
+| `ontimeupdate` | HTML elements |
+| `ontoggle` | HTML elements |
+| `onunhandledrejection` | `body` |
+| `onunload` | `body` |
+| `onvolumechange` | HTML elements |
+| `onwaiting` | HTML elements |
+| `onwheel` | HTML elements |
+| `open` | `details` |
+| `open` | `dialog` |
+| `optimum` | `meter` |
+| `pattern` | `input` |
+| `ping` | `a`, `area` |
+| `placeholder` | `input`, `textarea` |
+| `playsinline` | `video` |
+| `popover` | HTML elements |
+| `popovertarget` | `button`, `input` |
+| `popovertargetaction` | `button`, `input` |
+| `poster` | `video` |
+| `preload` | `audio`, `video` |
+| `readonly` | `input`, `textarea` |
+| `readonly` | form-associated custom elements |
+| `referrerpolicy` | `a`, `area`, `iframe`, `img`, `link`, `script` |
+| `rel` | `a`, `area` |
+| `rel` | `link` |
+| `required` | `input`, `select`, `textarea` |
+| `reversed` | `ol` |
+| `rows` | `textarea` |
+| `rowspan` | `td`, `th` |
+| `sandbox` | `iframe` |
+| `scope` | `th` |
+| `selected` | `option` |
+| `shadowrootmode` | `template` |
+| `shadowrootdelegatesfocus` | `template` |
+| `shadowrootclonable` | `template` |
+| `shadowrootserializable` | `template` |
+| `shape` | `area` |
+| `size` | `input`, `select` |
+| `sizes` | `link` |
+| `sizes` | `img`, `source` |
+| `slot` | HTML elements |
+| `span` | `col`, `colgroup` |
+| `spellcheck` | HTML elements |
+| `src` | `audio`, `embed`, `iframe`, `img`, `input`, `script`, `source` (`audio` and `video`), `track`, `video` |
+| `srcdoc` | `iframe` |
+| `srclang` | `track` |
+| `srcset` | `img`, `source` |
+| `start` | `ol` |
+| `step` | `input` |
+| `style` | HTML elements |
+| `tabindex` | HTML elements |
+| `target` | `a`, `area` |
+| `target` | `base` |
+| `target` | `form` |
+| `title` | HTML elements |
+| `title` | `abbr`, `dfn` |
+| `title` | `input` |
+| `title` | `link` |
+| `title` | `link`, `style` |
+| `translate` | HTML elements |
+| `type` | `a`, `link` |
+| `type` | `button` |
+| `type` | `embed`, `object`, `source` |
+| `type` | `input` |
+| `type` | `ol` |
+| `type` | `script` |
+| `usemap` | `img` |
+| `value` | `button`, `option` |
+| `value` | `data` |
+| `value` | `input` |
+| `value` | `li` |
+| `value` | `meter`, `progress` |
+| `width` | `canvas`, `embed`, `iframe`, `img`, `input`, `object`, `source` (`picture`), `video` |
+| `wrap` | `textarea` |
+| `writingsuggestions` | HTML elements |
 
 ### Global Attributes
 
