@@ -1120,4 +1120,4 @@ Go over all elements and their attributes. The global attributes are mentioned, 
 
 (Autonomous custom elements are not included in this table.)
 
-I> Whenever you have a question about HTML, remember to consult [the HTML specification](https://html.spec.whatwg.org/multipage/).
+I> Whenever you have a question related to HTML, remember to always consult [the HTML specification](https://html.spec.whatwg.org/multipage/) first.
