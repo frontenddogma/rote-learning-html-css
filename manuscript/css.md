@@ -34,16 +34,16 @@ This section covers CSS as per the [CSS Snapshot 2023](https://www.w3.org/TR/css
 | Specificity-adjustment pseudo-class `:where()` | `E:where(s1, s2, …)` |
 | Relational pseudo-class `:has()` | `E:has(rs1, rs2, …)` |
 | Attribute presence and value selector | `E[foo]` |
-| Attribute presence and value selector | `E[foo="bar"]` |
-| Case-sensitivity | `E[foo="bar" i]` |
-| Case-sensitivity | `E[foo="bar" s]` |
-| Attribute presence and value selector | `E[foo~="bar"]` |
-| Substring matching attribute selector | `E[foo^="bar"]` |
-| Substring matching attribute selector | `E[foo$="bar"]` |
-| Substring matching attribute selector | `E[foo*="bar"]` |
-| Attribute presence and value selector | `E[foo|="en"]` |
+| Attribute presence and value selector | `E[foo='bar']` |
+| Case-sensitivity | `E[foo='bar' i]` |
+| Case-sensitivity | `E[foo='bar' s]` |
+| Attribute presence and value selector | `E[foo~='bar']` |
+| Substring matching attribute selector | `E[foo^='bar']` |
+| Substring matching attribute selector | `E[foo$='bar']` |
+| Substring matching attribute selector | `E[foo*='bar']` |
+| Attribute presence and value selector | `E[foo|='en']` |
 | Directionality pseudo-class `:dir()` | `E:dir(ltr)` |
-| Language pseudo-class `:lang()` | `E:lang(zh, "*-hant")` |
+| Language pseudo-class `:lang()` | `E:lang(zh, '*-hant')` |
 | Hyperlink pseudo-class `:any-link` | `E:any-link` |
 | Link history pseudo-class | `E:link` |
 | Link history pseudo-class | `E:visited` |
