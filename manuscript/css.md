@@ -15,6 +15,20 @@ This section covers CSS as per the [CSS Snapshot 2023](https://www.w3.org/TR/css
 | Column combinator (`||`) | `F || E` |
 | Class selector | `E.warning` |
 | ID selector | `E#myid` |
+| `:root` pseudo-class | `E:root` |
+| `:empty` pseudo-class | `E:empty` |
+| `:nth-child()` pseudo-class | `E:nth-child(n [of S]?)` |
+| `:nth-last-child()` pseudo-class | `E:nth-last-child(n [of S]?)` |
+| `:first-child` pseudo-class | `E:first-child` |
+| `:last-child` pseudo-class | `E:last-child` |
+| `:only-child` pseudo-class | `E:only-child` |
+| `:nth-of-type()` pseudo-class | `E:nth-of-type(n)` |
+| `:nth-last-of-type()` pseudo-class | `E:nth-last-of-type(n)` |
+| `:first-of-type` pseudo-class | `E:first-of-type` |
+| `:last-of-type` pseudo-class | `E:last-of-type` |
+| `:only-of-type` pseudo-class | `E:only-of-type` |
+| `:nth-col()` pseudo-class | `E:nth-col(n)` |
+| `:nth-last-col()` pseudo-class | `E:nth-last-col(n)` |
 | Negation (matches-none) pseudo-class `:not()` | `E:not(s1, s2, …)` |
 | Matches-any pseudo-class `:is()` | `E:is(s1, s2, …)` |
 | Specificity-adjustment pseudo-class `:where()` | `E:where(s1, s2, …)` |
@@ -63,26 +77,21 @@ This section covers CSS as per the [CSS Snapshot 2023](https://www.w3.org/TR/css
 | Empty-value pseudo-class `:blank` | `E:blank` |
 | User-interaction pseudo-class `:user-valid` | `E:user-valid` |
 | User-interaction pseudo-class `:user-invalid` | `E:user-invalid` |
-| `:root` pseudo-class | `E:root` |
-| `:empty` pseudo-class | `E:empty` |
-| `:nth-child()` pseudo-class | `E:nth-child(n [of S]?)` |
-| `:nth-last-child()` pseudo-class | `E:nth-last-child(n [of S]?)` |
-| `:first-child` pseudo-class | `E:first-child` |
-| `:last-child` pseudo-class | `E:last-child` |
-| `:only-child` pseudo-class | `E:only-child` |
-| `:nth-of-type()` pseudo-class | `E:nth-of-type(n)` |
-| `:nth-last-of-type()` pseudo-class | `E:nth-last-of-type(n)` |
-| `:first-of-type` pseudo-class | `E:first-of-type` |
-| `:last-of-type` pseudo-class | `E:last-of-type` |
-| `:only-of-type` pseudo-class | `E:only-of-type` |
-| `:nth-col()` pseudo-class | `E:nth-col(n)` |
-| `:nth-last-col()` pseudo-class | `E:nth-last-col(n)` |
 | `::before` pseudo-element | `E::before` |
 | `::after` pseudo-element | `E::after` |
 | `::first-letter` pseudo-element | `E::first-letter` |
 | `::first-line` pseudo-element | `E::first-line` |
-
-@@ https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
+| `::selection` pseudo-element | `E::selection` |
+| `::backdrop` pseudo-element | `E::backdrop` |
+| `::marker` pseudo-element | `E::marker` |
+| `::placeholder` pseudo-element | `E::placeholder` |
+| `::file-selector-button` pseudo-element | `E::file-selector-button` |
+| `::grammar-error` pseudo-element | `E::grammar-error` |
+| `::spelling-error` pseudo-element | `E::spelling-error` |
+| `::target-text` pseudo-element | `E::target-text` |
+| `::cue` pseudo-element | `E::cue` |
+| `::slotted()` pseudo-element | `E::slotted()` |
+| `::part()` pseudo-element | `E::part()` |
 
 ## Properties
 
