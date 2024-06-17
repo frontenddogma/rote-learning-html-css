@@ -1,12 +1,12 @@
 # HTML {#toc-html}
 
-This section covers HTML as per [the living standard](https://html.spec.whatwg.org/multipage/) in <!-- @@ -->June and July 2024. Elements from earlier HTML specifications and proprietary elements are not included.
+This section covers HTML as per [the living standard](https://html.spec.whatwg.org/multipage/) in <!-- @@ -->June 2024. Elements from earlier HTML specifications and proprietary elements are not included.
 
 ## Elements
 
 ### Element Meanings
 
-Memorize the elements and their meanings (semantics), to know what elements there are, and what purposes they serve:
+Memorize the elements and their meanings (semantics), to know what elements there are, and what purposes they serve.
 
 * `a`: Anchor (hyperlink)
 * `abbr`: Abbreviation
@@ -123,8 +123,6 @@ Memorize the elements and their meanings (semantics), to know what elements ther
 * `video`: Video content
 * `wbr`: Line break opportunity
 
-(Autonomous custom elements are not included in this list.)
-
 ### Void Elements
 
 Memorize the elements that are void, i.e., that have no end tag in the HTML syntax:
@@ -143,7 +141,7 @@ Memorize the elements that are void, i.e., that have no end tag in the HTML synt
 * `track`
 * `wbr`
 
-In true HTML, you write these elements as `<elementname>`, e.g., `<area>`, `<img>`, or `<meta>`. There is no end tag and no slash.
+I> In HTML (i.e., in HTML not following an XML syntax), you write these elements as `<elementname>`, like `<area>`, `<img>`, or `<meta>`. There’s no end tag and no slash.
 
 ### Elements With Optional Start or End Tags
 
@@ -151,63 +149,47 @@ Memorize the elements that have optional start and/or end tags, to be able to om
 
 | Element | Void? | Optional Start Tag? | Optional End Tag? |
 | --- | --- | --- | --- |
-| `area` | Yes | No | Yes (void) |
-| `base` | Yes | No | Yes (void) |
-| `body` | No | Yes | Yes |
-| `br` | Yes | No | Yes (void) |
-| `caption` | No | No | Yes |
-| `col` | Yes | No | Yes (void) |
-| `colgroup` | No | Yes | Yes |
-| `dd` | No | No | Yes |
-| `dt` | No | No | Yes |
-| `embed` | Yes | No | Yes (void) |
-| `figcaption` | No | No | Yes |
-| `head` | No | Yes | Yes |
-| `hr` | Yes | No | Yes (void) |
-| `html` | No | Yes | Yes |
-| `img` | Yes | No | Yes (void) |
-| `input` | Yes | No | Yes (void) |
-| `li` | No | No | Yes |
-| `link` | Yes | No | Yes (void) |
-| `meta` | Yes | No | Yes (void) |
-| `optgroup` | No | No | Yes |
-| `option` | No | No | Yes |
-| `p` | No | No | Yes |
-| `rp` | No | No | Yes |
-| `rt` | No | No | Yes |
-| `source` | Yes | No | Yes (void) |
-| `tbody` | No | Yes | Yes |
-| `td` | No | No | Yes |
-| `tfoot` | No | No | Yes |
-| `th` | No | No | Yes |
-| `thead` | No | No | Yes |
-| `tr` | No | No | Yes |
-| `track` | Yes | No | Yes (void) |
-| `wbr` | Yes | No | Yes (void) |
+| `area` | yes | no | yes (void) |
+| `base` | yes | no | yes (void) |
+| `body` | no | yes | yes |
+| `br` | yes | no | yes (void) |
+| `caption` | no | no | yes |
+| `col` | yes | no | yes (void) |
+| `colgroup` | no | yes | yes |
+| `dd` | no | no | yes |
+| `dt` | no | no | yes |
+| `embed` | yes | no | yes (void) |
+| `figcaption` | no | no | yes |
+| `head` | no | yes | yes |
+| `hr` | yes | no | yes (void) |
+| `html` | no | yes | yes |
+| `img` | yes | no | yes (void) |
+| `input` | yes | no | yes (void) |
+| `li` | no | no | yes |
+| `link` | yes | no | yes (void) |
+| `meta` | yes | no | yes (void) |
+| `optgroup` | no | no | yes |
+| `option` | no | no | yes |
+| `p` | no | no | yes |
+| `rp` | no | no | yes |
+| `rt` | no | no | yes |
+| `source` | yes | no | yes (void) |
+| `tbody` | no | yes | yes |
+| `td` | no | no | yes |
+| `tfoot` | no | no | yes |
+| `th` | no | no | yes |
+| `thead` | no | no | yes |
+| `tr` | no | no | yes |
+| `track` | yes | no | yes (void) |
+| `wbr` | yes | no | yes (void) |
 
 ### Element Categories
 
-Memorize the HTML content categories, to understand HTML’s way of categorizing elements:
-
-* Metadata content: sets up the presentation or behavior of the rest of a document’s content, sets up the relationship of a document with other documents, or conveys other information.
-* Flow content: makes for the `body` of a document.
-* Sectioning content: defines the scope of `header` and `footer` elements.
-* Heading content: defines the heading of a section.
-* Phrasing content: represents the text of a document.
-* Embedded content: imports other resources or content into a document.
-* Interactive content: serves user interaction.
-* Form-associated elements: have a form owner.
-* Labelable elements: may be associated with a `label` element.
-* Listed elements: are listed in the `form.elements` and `fieldset.elements` APIs.
-* Submittable elements: may be used to construct the entry list when a `form` element is being submitted.
-* Resettable elements: may be affected when a `form` element is being reset.
-* Autocapitalize-inheriting elements: inherit the `autocapitalize` attribute from their form owner.
-* Palpable content: makes an element non-empty by providing either non-empty text, or something a user can view, hear, or interact with.
-* Script-supporting elements: do not represent anything by themselves, but provide functionality.
-
-Familiarize yourself with what elements are part of which category:
+Memorize the HTML content categories, to maximize opportunities to correctly use the respective elements.
 
 #### Metadata Content
+
+Metadata content sets up the presentation or behavior of the rest of a document’s content, sets up the relationship of a document with other documents, or conveys other information.
 
 * `base`
 * `link`
@@ -219,6 +201,8 @@ Familiarize yourself with what elements are part of which category:
 * `title`
 
 #### Flow Content
+
+Flow content makes for the `body` of a document.
 
 * `a`
 * `abbr`
@@ -303,9 +287,6 @@ Familiarize yourself with what elements are part of which category:
 * `var`
 * `video`
 * `wbr`
-
-Also:
-
 * Autonomous custom elements
 * Text
 
@@ -318,12 +299,16 @@ Elements that can be flow content under certain circumstances:
 
 #### Sectioning Content
 
+Sectioning content defines document sections, and thus the scope of `header` and `footer` elements.
+
 * `article`
 * `aside`
 * `nav`
 * `section`
 
 #### Heading Content
+
+Heading content defines the respective heading of a section.
 
 * `h1`
 * `h2`
@@ -334,6 +319,8 @@ Elements that can be flow content under certain circumstances:
 * `hgroup`
 
 #### Phrasing Content
+
+Phrasing content represents the text of a document.
 
 * `a`
 * `abbr`
@@ -388,9 +375,6 @@ Elements that can be flow content under certain circumstances:
 * `var`
 * `video`
 * `wbr`
-
-Also:
-
 * Autonomous custom elements
 * Text
 
@@ -400,113 +384,9 @@ Elements that can be phrasing content under certain circumstances:
 * `link`
 * `meta`
 
-#### Embedded Content
-
-* `audio`
-* `canvas`
-* `embed`
-* `iframe`
-* `img`
-* `math` (MathML)
-* `object`
-* `picture`
-* `svg` (SVG)
-* `video`
-
-#### Interactive Content
-
-* `button`
-* `details`
-* `embed`
-* `iframe`
-* `label`
-* `select`
-* `textarea`
-
-Elements that can be interactive content under certain circumstances:
-
-* `a`
-* `audio`
-* `img`
-* `input`
-* `video`
-
-#### Form-Associated Elements
-
-* `button`
-* `fieldset`
-* `input`
-* `label`
-* `object`
-* `output`
-* `select`
-* `textarea`
-* `img`
-
-Also:
-
-* Form-associated custom elements
-
-#### Labelable Elements
-
-* `button`
-* `input`
-* `meter`
-* `output`
-* `progress`
-* `select`
-* `textarea`
-
-Also:
-
-* Form-associated custom elements
-
-#### Listed Elements
-
-* `button`
-* `fieldset`
-* `input`
-* `object`
-* `output`
-* `select`
-* `textarea`
-
-Also:
-
-* Form-associated custom elements
-
-#### Submittable Elements
-
-* `button`
-* `input`
-* `select`
-* `textarea`
-
-Also:
-
-* Form-associated custom elements
-
-#### Resettable Elements
-
-* `input`
-* `output`
-* `select`
-* `textarea`
-
-Also:
-
-* Form-associated custom elements
-
-#### Autocapitalize-Inheriting Elements
-
-* `button`
-* `fieldset`
-* `input`
-* `output`
-* `select`
-* `textarea
-
 #### Palpable Content
+
+Palpable content makes an element non-empty by providing either non-empty text, or something a user can view, hear, or interact with.
 
 * `a`
 * `abbr`
@@ -577,9 +457,6 @@ Also:
 * `u`
 * `var`
 * `video`
-
-Also:
-
 * Autonomous custom elements
 
 Elements that can be palpable content under certain circumstances:
@@ -592,14 +469,123 @@ Elements that can be palpable content under certain circumstances:
 * `ul`
 * Text that isn’t whitespace between elements
 
+#### Embedded Content
+
+Embedded content imports other resources and content into a document.
+
+* `audio`
+* `canvas`
+* `embed`
+* `iframe`
+* `img`
+* `math` (MathML)
+* `object`
+* `picture`
+* `svg` (SVG)
+* `video`
+
+#### Interactive Content
+
+Interactive content serves user interaction.
+
+* `button`
+* `details`
+* `embed`
+* `iframe`
+* `label`
+* `select`
+* `textarea`
+
+Elements that can be interactive content under certain circumstances:
+
+* `a`
+* `audio`
+* `img`
+* `input`
+* `video`
+
+#### Form-Associated Elements
+
+Form-associated elements are elements that have a form owner.
+
+* `button`
+* `fieldset`
+* `input`
+* `label`
+* `object`
+* `output`
+* `select`
+* `textarea`
+* `img`
+* Form-associated custom elements
+
+#### Labelable Elements
+
+Labelable elements are elements that can be associated with a `label` element.
+
+* `button`
+* `input`
+* `meter`
+* `output`
+* `progress`
+* `select`
+* `textarea`
+* Form-associated custom elements
+
+#### Listed Elements
+
+Listed elements are listed in the `form.elements` and `fieldset.elements` APIs.
+
+* `button`
+* `fieldset`
+* `input`
+* `object`
+* `output`
+* `select`
+* `textarea`
+* Form-associated custom elements
+
+#### Submittable Elements
+
+Submittable elements may be used to construct the respective entry list when a `form` element is being submitted.
+
+* `button`
+* `input`
+* `select`
+* `textarea`
+* Form-associated custom elements
+
+#### Resettable Elements
+
+Resettable elements may be affected when a `form` element is being reset.
+
+* `input`
+* `output`
+* `select`
+* `textarea`
+* Form-associated custom elements
+
+#### Autocapitalize-Inheriting Elements
+
+Autocapitalize-inheriting elements inherit the `autocapitalize` attribute from their form owner.
+
+* `button`
+* `fieldset`
+* `input`
+* `output`
+* `select`
+* `textarea
+
 #### Script-Supporting Elements
+
+Script-supporting elements do not represent anything by themselves, but provide functionality.
 
 * `script`
 * `template`
 
 ## Attributes
 
-Memorize all attributes, to be aware of their existence and to develop a sense for what options HTML may provide out of the box. (Repeat attribute mentions indicate different meanings. “HTML elements” refers to any element in the “http://www.w3.org/1999/xhtml” namespace namespace—including, as per the specification, XML documents.) <!-- @@ Check on https://github.com/whatwg/html/issues/10414 and whether to include `onbeforeinput`! -->
+Memorize all attributes, to be aware of their existence and to develop a sense for what options HTML provides out of the box. (“HTML elements” refers to any element in the “http://www.w3.org/1999/xhtml” namespace—including, as per the specification, XML documents.)
 
 | Attributes | Elements |
 | --- | --- |
@@ -614,8 +600,7 @@ Memorize all attributes, to be aware of their existence and to develop a sense f
 | `as` | `link` |
 | `async` | `script` |
 | `autocapitalize` | all HTML elements |
-| `autocomplete` | `form` |
-| `autocomplete` | `input`, `select`, `textarea` |
+| `autocomplete` | `form`, `input`, `select`, `textarea` |
 | `autofocus` | all HTML elements |
 | `autoplay` | `audio`, `video` |
 | `blocking` | `link`, `script`, `style` |
@@ -632,24 +617,19 @@ Memorize all attributes, to be aware of their existence and to develop a sense f
 | `coords` | `area` |
 | `crossorigin` | `audio`, `img`, `link`, `script`, `video` |
 | `data` | `object` |
-| `datetime` | `del`, `ins` |
-| `datetime` | `time` |
+| `datetime` | `del`, `ins`, `time` |
 | `decoding` | `img` |
 | `default` | `track` |
 | `defer` | `script` |
 | `dir` | all HTML elements |
-| `dir` | `bdo` |
 | `dirname` | `input`, `textarea` |
-| `disabled` | `button`, `input`, `optgroup`, `option`, `select`, `textarea`, form-associated custom elements |
-| `disabled` | `fieldset` |
-| `disabled` | `link` |
+| `disabled` | `button`, `fieldset`, `input`, `link`, `optgroup`, `option`, `select`, `textarea`, form-associated custom elements |
 | `download` | `a`, `area` |
 | `draggable` | all HTML elements |
 | `enctype` | `form` |
 | `enterkeyhint` | all HTML elements |
 | `fetchpriority` | `img`, `link`, `script` |
-| `for` | `label` |
-| `for` | `output` |
+| `for` | `label`, `output` |
 | `form` | `button`, `fieldset`, `input`, `object`, `output`, `select`, `textarea`, form-associated custom elements |
 | `formaction` | `button`, `input` |
 | `formenctype` | `button`, `input` |
@@ -660,9 +640,7 @@ Memorize all attributes, to be aware of their existence and to develop a sense f
 | `height` | `canvas`, `embed`, `iframe`, `img`, `input`, `object`, `source` (`picture`), `video` |
 | `hidden` | all HTML elements |
 | `high` | `meter` |
-| `href` | `a`, `area` |
-| `href` | `link` |
-| `href` | `base` |
+| `href` | `a`, `area`, `base`, `link` |
 | `hreflang` | `a`, `link` |
 | `http-equiv` | `meta` |
 | `id` | all HTML elements |
@@ -685,28 +663,21 @@ Memorize all attributes, to be aware of their existence and to develop a sense f
 | `loading` | `iframe`, `img` |
 | `loop` | `audio`, `video` |
 | `low` | `meter` |
-| `max` | `input` |
-| `max` | `meter`, `progress` |
+| `max` | `input`, `meter`, `progress` |
 | `maxlength` | `input`, `textarea` |
 | `media` | `link`, `meta`, `source`, `style` |
 | `method` | `form` |
-| `min` | `input` |
-| `min` | `meter` |
+| `min` | `input`, `meter` |
 | `minlength` | `input`, `textarea` |
 | `multiple` | `input`, `select` |
 | `muted` | `audio`, `video` |
-| `name` | `button`, `fieldset`, `input`, `output`, `select`, `textarea`, form-associated custom elements |
-| `name` | `details` |
-| `name` | `form` |
-| `name` | `iframe`, `object` |
-| `name` | `map` |
-| `name` | `meta` |
-| `name` | `slot` |
+| `name` | `button`, `details`, `fieldset`, `form`, `iframe`, `input`, `map`, `meta`, `object`, `output`, `select`, `slot`, `textarea`, form-associated custom elements |
 | `nomodule` | `script` |
 | `nonce` | all HTML elements |
 | `novalidate` | `form` |
 | `onafterprint` | `body` |
 | `onauxclick` | all HTML elements |
+| `onbeforeinput` | all HTML elements |
 | `onbeforematch` | all HTML elements |
 | `onbeforeprint` | `body` |
 | `onbeforeunload` | `body` |
@@ -792,8 +763,7 @@ Memorize all attributes, to be aware of their existence and to develop a sense f
 | `onvolumechange` | all HTML elements |
 | `onwaiting` | all HTML elements |
 | `onwheel` | all HTML elements |
-| `open` | `details` |
-| `open` | `dialog` |
+| `open` | `details`, `dialog` |
 | `optimum` | `meter` |
 | `pattern` | `input` |
 | `ping` | `a`, `area` |
@@ -804,11 +774,9 @@ Memorize all attributes, to be aware of their existence and to develop a sense f
 | `popovertargetaction` | `button`, `input` |
 | `poster` | `video` |
 | `preload` | `audio`, `video` |
-| `readonly` | `input`, `textarea` |
-| `readonly` | form-associated custom elements |
+| `readonly` | `input`, `textarea`, form-associated custom elements |
 | `referrerpolicy` | `a`, `area`, `iframe`, `img`, `link`, `script` |
-| `rel` | `a`, `area` |
-| `rel` | `link` |
+| `rel` | `a`, `area`, `link` |
 | `required` | `input`, `select`, `textarea` |
 | `reversed` | `ol` |
 | `rows` | `textarea` |
@@ -822,8 +790,7 @@ Memorize all attributes, to be aware of their existence and to develop a sense f
 | `shadowrootserializable` | `template` |
 | `shape` | `area` |
 | `size` | `input`, `select` |
-| `sizes` | `link` |
-| `sizes` | `img`, `source` |
+| `sizes` | `img`, `link`, `source` |
 | `slot` | all HTML elements |
 | `span` | `col`, `colgroup` |
 | `spellcheck` | all HTML elements |
@@ -835,27 +802,12 @@ Memorize all attributes, to be aware of their existence and to develop a sense f
 | `step` | `input` |
 | `style` | all HTML elements |
 | `tabindex` | all HTML elements |
-| `target` | `a`, `area` |
-| `target` | `base` |
-| `target` | `form` |
+| `target` | `a`, `area`, `base`, `form` |
 | `title` | all HTML elements |
-| `title` | `abbr`, `dfn` |
-| `title` | `input` |
-| `title` | `link` |
-| `title` | `link`, `style` |
 | `translate` | all HTML elements |
-| `type` | `a`, `link` |
-| `type` | `button` |
-| `type` | `embed`, `object`, `source` |
-| `type` | `input` |
-| `type` | `ol` |
-| `type` | `script` |
+| `type` | `a`, `button`, `embed`, `input`, `link`, `object`, `ol`, `script`, `source` |
 | `usemap` | `img` |
-| `value` | `button`, `option` |
-| `value` | `data` |
-| `value` | `input` |
-| `value` | `li` |
-| `value` | `meter`, `progress` |
+| `value` | `button`, `data`, `input`, `li`, `meter`, `option`, `progress` |
 | `width` | `canvas`, `embed`, `iframe`, `img`, `input`, `object`, `source` (`picture`), `video` |
 | `wrap` | `textarea` |
 | `writingsuggestions` | all HTML elements |
@@ -897,7 +849,7 @@ Memorize the attributes that can be used on all HTML elements (excluding event h
 
 #### …Including Event Handler Attributes
 
-Memorize the attributes that can be used on all HTML elements, including event handler attributes. <!-- 97: the 25 “main” ones as per https://html.spec.whatwg.org/multipage/dom.html#global-attributes, the 3 attributes `class`, `id`, and `slot`, and 69 event handler attributes [70/98 with `onbeforeinput`, https://github.com/whatwg/html/issues/10414] -->
+Memorize the attributes that can be used on all HTML elements, including event handler attributes. <!-- 98: the 25 “main” ones as per https://html.spec.whatwg.org/multipage/dom.html#global-attributes, the 3 attributes `class`, `id`, and `slot`, and 70 event handler attributes -->
 
 * `accesskey`
 * `autocapitalize`
@@ -920,6 +872,7 @@ Memorize the attributes that can be used on all HTML elements, including event h
 * `lang`
 * `nonce`
 * `onauxclick`
+* `onbeforeinput`
 * `onbeforematch`
 * `onbeforetoggle`
 * `onblur`
@@ -999,9 +952,9 @@ Memorize the attributes that can be used on all HTML elements, including event h
 
 ## Elements With Their Attributes
 
-Go over all elements and their attributes, to add to your understanding of HTML semantics and features. Global attributes are mentioned, but not listed individually.
+Go over all elements and their attributes, to extend your understanding of HTML semantics and features. Global attributes are mentioned, but not listed individually.
 
-| Attributes | Elements |
+| Elements | Attributes |
 | --- | --- |
 | `a` | `download`, `href`, `hreflang`, `ping`, `referrerpolicy`, `rel`, `target`, `type`, global attributes |
 | `abbr` | global attributes |
@@ -1117,7 +1070,6 @@ Go over all elements and their attributes, to add to your understanding of HTML 
 | `var` | global attributes |
 | `video` | `autoplay`, `controls`, `crossorigin`, `height`, `loop`, `muted`, `playsinline`, `poster`, `preload`, `src`, `width`, global attributes |
 | `wbr` | global attributes |
-
-(Autonomous custom elements are not included in this table.)
+| autonomous custom elements | global attributes |
 
 I> Whenever you have a question related to HTML, remember to always consult [the HTML specification](https://html.spec.whatwg.org/multipage/) first.

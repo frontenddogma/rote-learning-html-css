@@ -1,1 +1,1 @@
-To get the most of this book, [return](#toc-html), and read all of the book again, twice.
+To get the most out of this book, [go back to the beginning](#toc-html), and read it again.
