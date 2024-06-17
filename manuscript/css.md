@@ -704,6 +704,8 @@ Memorize the CSS at-rules, to explore additional ways of styling documents and a
 * `@styleset`
 * `@stylistic`
 * `@supports`
-* `@swash
+* `@swash`
 
 I> Whenever you have a question related to CSS, remember to always consult [the CSS specifications](https://www.w3.org/Style/CSS/Overview.en.html) first.
+
+{pagebreak}
