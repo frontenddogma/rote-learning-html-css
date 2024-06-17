@@ -99,587 +99,587 @@ Memorize all selectors, to improve your ability to target elements for styling.
 
 ## Properties
 
-Memorize the CSS properties, to add to your sense for what CSS may allow you to do.
+Memorize the CSS properties and their specification context, to add to your sense for what CSS may allow you to do.
 
-1. `accent-color`
-1. `align-content`
-1. `align-items`
-1. `align-self`
-1. `alignment-baseline`
-1. `all`
-1. `anchor-name`
-1. `anchor-scope`
-1. `animation`
-1. `animation-composition`
-1. `animation-delay`
-1. `animation-direction`
-1. `animation-duration`
-1. `animation-fill-mode`
-1. `animation-iteration-count`
-1. `animation-name`
-1. `animation-play-state`
-1. `animation-range`
-1. `animation-range-end`
-1. `animation-range-start`
-1. `animation-timeline`
-1. `animation-timing-function`
-1. `appearance`
-1. `aspect-ratio`
-1. `azimuth`
-1. `backface-visibility`
-1. `background`
-1. `background-attachment`
-1. `background-blend-mode`
-1. `background-clip`
-1. `background-color`
-1. `background-image`
-1. `background-origin`
-1. `background-position`
-1. `background-repeat`
-1. `background-size`
-1. `baseline-shift`
-1. `baseline-source`
-1. `block-ellipsis`
-1. `block-size`
-1. `block-step`
-1. `block-step-align`
-1. `block-step-insert`
-1. `block-step-round`
-1. `block-step-size`
-1. `bookmark-label`
-1. `bookmark-level`
-1. `bookmark-state`
-1. `border`
-1. `border-block`
-1. `border-block-color`
-1. `border-block-end`
-1. `border-block-end-color`
-1. `border-block-end-style`
-1. `border-block-end-width`
-1. `border-block-start`
-1. `border-block-start-color`
-1. `border-block-start-style`
-1. `border-block-start-width`
-1. `border-block-style`
-1. `border-block-width`
-1. `border-bottom`
-1. `border-bottom-color`
-1. `border-bottom-left-radius`
-1. `border-bottom-right-radius`
-1. `border-bottom-style`
-1. `border-bottom-width`
-1. `border-boundary`
-1. `border-collapse`
-1. `border-color`
-1. `border-end-end-radius`
-1. `border-end-start-radius`
-1. `border-image`
-1. `border-image-outset`
-1. `border-image-repeat`
-1. `border-image-slice`
-1. `border-image-source`
-1. `border-image-width`
-1. `border-inline`
-1. `border-inline-color`
-1. `border-inline-end`
-1. `border-inline-end-color`
-1. `border-inline-end-style`
-1. `border-inline-end-width`
-1. `border-inline-start`
-1. `border-inline-start-color`
-1. `border-inline-start-style`
-1. `border-inline-start-width`
-1. `border-inline-style`
-1. `border-inline-width`
-1. `border-left`
-1. `border-left-color`
-1. `border-left-style`
-1. `border-left-width`
-1. `border-radius`
-1. `border-right`
-1. `border-right-color`
-1. `border-right-style`
-1. `border-right-width`
-1. `border-spacing`
-1. `border-start-end-radius`
-1. `border-start-start-radius`
-1. `border-style`
-1. `border-top`
-1. `border-top-color`
-1. `border-top-left-radius`
-1. `border-top-right-radius`
-1. `border-top-style`
-1. `border-top-width`
-1. `border-width`
-1. `bottom`
-1. `box-decoration-break`
-1. `box-shadow`
-1. `box-sizing`
-1. `box-snap`
-1. `break-after`
-1. `break-before`
-1. `break-inside`
-1. `caption-side`
-1. `caret`
-1. `caret-color`
-1. `caret-shape`
-1. `chains`
-1. `clear`
-1. `clip`
-1. `clip-path`
-1. `clip-rule`
-1. `color`
-1. `color-adjust`
-1. `color-interpolation-filters`
-1. `color-scheme`
-1. `column-count`
-1. `column-fill`
-1. `column-gap`
-1. `column-rule`
-1. `column-rule-color`
-1. `column-rule-style`
-1. `column-rule-width`
-1. `column-span`
-1. `column-width`
-1. `columns`
-1. `contain`
-1. `contain-intrinsic-block-size`
-1. `contain-intrinsic-height`
-1. `contain-intrinsic-inline-size`
-1. `contain-intrinsic-size`
-1. `contain-intrinsic-width`
-1. `container`
-1. `container-name`
-1. `container-type`
-1. `content`
-1. `content-visibility`
-1. `continue`
-1. `counter-increment`
-1. `counter-reset`
-1. `counter-set`
-1. `cue`
-1. `cue-after`
-1. `cue-before`
-1. `cursor`
-1. `direction`
-1. `display`
-1. `dominant-baseline`
-1. `elevation`
-1. `empty-cells`
-1. `fill`
-1. `fill-break`
-1. `fill-color`
-1. `fill-image`
-1. `fill-opacity`
-1. `fill-origin`
-1. `fill-position`
-1. `fill-repeat`
-1. `fill-rule`
-1. `fill-size`
-1. `filter`
-1. `flex`
-1. `flex-basis`
-1. `flex-direction`
-1. `flex-flow`
-1. `flex-grow`
-1. `flex-shrink`
-1. `flex-wrap`
-1. `float`
-1. `float-defer`
-1. `float-offset`
-1. `float-reference`
-1. `flood-color`
-1. `flood-opacity`
-1. `flow`
-1. `flow-from`
-1. `flow-into`
-1. `font`
-1. `font-family`
-1. `font-feature-settings`
-1. `font-kerning`
-1. `font-language-override`
-1. `font-optical-sizing`
-1. `font-palette`
-1. `font-size`
-1. `font-size-adjust`
-1. `font-stretch`
-1. `font-style`
-1. `font-synthesis`
-1. `font-synthesis-position`
-1. `font-synthesis-small-caps`
-1. `font-synthesis-style`
-1. `font-synthesis-weight`
-1. `font-variant`
-1. `font-variant-alternates`
-1. `font-variant-caps`
-1. `font-variant-east-asian`
-1. `font-variant-emoji`
-1. `font-variant-ligatures`
-1. `font-variant-numeric`
-1. `font-variant-position`
-1. `font-variation-settings`
-1. `font-weight`
-1. `font-width`
-1. `footnote-display`
-1. `footnote-policy`
-1. `forced-color-adjust`
-1. `gap`
-1. `glyph-orientation-vertical`
-1. `grid`
-1. `grid-area`
-1. `grid-auto-columns`
-1. `grid-auto-flow`
-1. `grid-auto-rows`
-1. `grid-column`
-1. `grid-column-end`
-1. `grid-column-start`
-1. `grid-row`
-1. `grid-row-end`
-1. `grid-row-start`
-1. `grid-template`
-1. `grid-template-areas`
-1. `grid-template-columns`
-1. `grid-template-rows`
-1. `hanging-punctuation`
-1. `height`
-1. `hyphenate-character`
-1. `hyphenate-limit-chars`
-1. `hyphenate-limit-last`
-1. `hyphenate-limit-lines`
-1. `hyphenate-limit-zone`
-1. `hyphens`
-1. `image-orientation`
-1. `image-rendering`
-1. `image-resolution`
-1. `initial-letter`
-1. `initial-letter-align`
-1. `initial-letter-wrap`
-1. `inline-size`
-1. `inline-sizing`
-1. `inset`
-1. `inset-area`
-1. `inset-block`
-1. `inset-block-end`
-1. `inset-block-start`
-1. `inset-inline`
-1. `inset-inline-end`
-1. `inset-inline-start`
-1. `isolation`
-1. `justify-content`
-1. `justify-items`
-1. `justify-self`
-1. `left`
-1. `letter-spacing`
-1. `lighting-color`
-1. `line-break`
-1. `line-clamp`
-1. `line-grid`
-1. `line-height`
-1. `line-height-step`
-1. `line-padding`
-1. `line-snap`
-1. `list-style`
-1. `list-style-image`
-1. `list-style-position`
-1. `list-style-type`
-1. `margin`
-1. `margin-block`
-1. `margin-block-end`
-1. `margin-block-start`
-1. `margin-bottom`
-1. `margin-break`
-1. `margin-inline`
-1. `margin-inline-end`
-1. `margin-inline-start`
-1. `margin-left`
-1. `margin-right`
-1. `margin-top`
-1. `margin-trim`
-1. `marker`
-1. `marker-end`
-1. `marker-knockout-left`
-1. `marker-knockout-right`
-1. `marker-mid`
-1. `marker-pattern`
-1. `marker-segment`
-1. `marker-side`
-1. `marker-start`
-1. `mask`
-1. `mask-border`
-1. `mask-border-mode`
-1. `mask-border-outset`
-1. `mask-border-repeat`
-1. `mask-border-slice`
-1. `mask-border-source`
-1. `mask-border-width`
-1. `mask-clip`
-1. `mask-composite`
-1. `mask-image`
-1. `mask-mode`
-1. `mask-origin`
-1. `mask-position`
-1. `mask-repeat`
-1. `mask-size`
-1. `mask-type`
-1. `max-block-size`
-1. `max-height`
-1. `max-inline-size`
-1. `max-lines`
-1. `max-width`
-1. `min-block-size`
-1. `min-height`
-1. `min-inline-size`
-1. `min-intrinsic-sizing`
-1. `min-width`
-1. `mix-blend-mode`
-1. `nav-down`
-1. `nav-left`
-1. `nav-right`
-1. `nav-up`
-1. `object-fit`
-1. `object-position`
-1. `offset`
-1. `offset-anchor`
-1. `offset-distance`
-1. `offset-path`
-1. `offset-position`
-1. `offset-rotate`
-1. `opacity`
-1. `order`
-1. `orphans`
-1. `outline`
-1. `outline-color`
-1. `outline-offset`
-1. `outline-style`
-1. `outline-width`
-1. `overflow`
-1. `overflow-anchor`
-1. `overflow-block`
-1. `overflow-clip-margin`
-1. `overflow-clip-margin-block`
-1. `overflow-clip-margin-block-end`
-1. `overflow-clip-margin-block-start`
-1. `overflow-clip-margin-bottom`
-1. `overflow-clip-margin-inline`
-1. `overflow-clip-margin-inline-end`
-1. `overflow-clip-margin-inline-start`
-1. `overflow-clip-margin-left`
-1. `overflow-clip-margin-right`
-1. `overflow-clip-margin-top`
-1. `overflow-inline`
-1. `overflow-wrap`
-1. `overflow-x`
-1. `overflow-y`
-1. `overscroll-behavior`
-1. `overscroll-behavior-block`
-1. `overscroll-behavior-inline`
-1. `overscroll-behavior-x`
-1. `overscroll-behavior-y`
-1. `padding`
-1. `padding-block`
-1. `padding-block-end`
-1. `padding-block-start`
-1. `padding-bottom`
-1. `padding-inline`
-1. `padding-inline-end`
-1. `padding-inline-start`
-1. `padding-left`
-1. `padding-right`
-1. `padding-top`
-1. `page`
-1. `page-break-after`
-1. `page-break-before`
-1. `page-break-inside`
-1. `pause`
-1. `pause-after`
-1. `pause-before`
-1. `perspective`
-1. `perspective-origin`
-1. `pitch`
-1. `pitch-range`
-1. `place-content`
-1. `place-items`
-1. `place-self`
-1. `play-during`
-1. `position`
-1. `position-anchor`
-1. `position-try`
-1. `position-try-options`
-1. `position-try-order`
-1. `print-color-adjust`
-1. `quotes`
-1. `region-fragment`
-1. `resize`
-1. `rest`
-1. `rest-after`
-1. `rest-before`
-1. `richness`
-1. `right`
-1. `rotate`
-1. `row-gap`
-1. `ruby-align`
-1. `ruby-merge`
-1. `ruby-overhang`
-1. `ruby-position`
-1. `running`
-1. `scale`
-1. `scroll-behavior`
-1. `scroll-margin`
-1. `scroll-margin-block`
-1. `scroll-margin-block-end`
-1. `scroll-margin-block-start`
-1. `scroll-margin-bottom`
-1. `scroll-margin-inline`
-1. `scroll-margin-inline-end`
-1. `scroll-margin-inline-start`
-1. `scroll-margin-left`
-1. `scroll-margin-right`
-1. `scroll-margin-top`
-1. `scroll-padding`
-1. `scroll-padding-block`
-1. `scroll-padding-block-end`
-1. `scroll-padding-block-start`
-1. `scroll-padding-bottom`
-1. `scroll-padding-inline`
-1. `scroll-padding-inline-end`
-1. `scroll-padding-inline-start`
-1. `scroll-padding-left`
-1. `scroll-padding-right`
-1. `scroll-padding-top`
-1. `scroll-snap-align`
-1. `scroll-snap-stop`
-1. `scroll-snap-type`
-1. `scroll-timeline`
-1. `scroll-timeline-axis`
-1. `scroll-timeline-name`
-1. `scrollbar-color`
-1. `scrollbar-gutter`
-1. `scrollbar-width`
-1. `shape-image-threshold`
-1. `shape-inside`
-1. `shape-margin`
-1. `shape-outside`
-1. `spatial-navigation-action`
-1. `spatial-navigation-contain`
-1. `spatial-navigation-function`
-1. `speak`
-1. `speak-as`
-1. `speak-header`
-1. `speak-numeral`
-1. `speak-punctuation`
-1. `speech-rate`
-1. `stress`
-1. `string-set`
-1. `stroke`
-1. `stroke-align`
-1. `stroke-alignment`
-1. `stroke-break`
-1. `stroke-color`
-1. `stroke-dash-corner`
-1. `stroke-dash-justify`
-1. `stroke-dashadjust`
-1. `stroke-dasharray`
-1. `stroke-dashcorner`
-1. `stroke-dashoffset`
-1. `stroke-image`
-1. `stroke-linecap`
-1. `stroke-linejoin`
-1. `stroke-miterlimit`
-1. `stroke-opacity`
-1. `stroke-origin`
-1. `stroke-position`
-1. `stroke-repeat`
-1. `stroke-size`
-1. `stroke-width`
-1. `tab-size`
-1. `table-layout`
-1. `text-align`
-1. `text-align-all`
-1. `text-align-last`
-1. `text-autospace`
-1. `text-box-edge`
-1. `text-box-trim`
-1. `text-combine-upright`
-1. `text-decoration`
-1. `text-decoration-color`
-1. `text-decoration-line`
-1. `text-decoration-skip`
-1. `text-decoration-skip-box`
-1. `text-decoration-skip-ink`
-1. `text-decoration-skip-inset`
-1. `text-decoration-skip-self`
-1. `text-decoration-skip-spaces`
-1. `text-decoration-style`
-1. `text-decoration-thickness`
-1. `text-emphasis`
-1. `text-emphasis-color`
-1. `text-emphasis-position`
-1. `text-emphasis-skip`
-1. `text-emphasis-style`
-1. `text-group-align`
-1. `text-indent`
-1. `text-justify`
-1. `text-orientation`
-1. `text-overflow`
-1. `text-shadow`
-1. `text-spacing`
-1. `text-spacing-trim`
-1. `text-transform`
-1. `text-underline-offset`
-1. `text-underline-position`
-1. `text-wrap`
-1. `text-wrap-mode`
-1. `text-wrap-style`
-1. `timeline-scope`
-1. `top`
-1. `transform`
-1. `transform-box`
-1. `transform-origin`
-1. `transform-style`
-1. `transition`
-1. `transition-behavior`
-1. `transition-delay`
-1. `transition-duration`
-1. `transition-property`
-1. `transition-timing-function`
-1. `translate`
-1. `unicode-bidi`
-1. `user-select`
-1. `vertical-align`
-1. `view-timeline`
-1. `view-timeline-axis`
-1. `view-timeline-inset`
-1. `view-timeline-name`
-1. `view-transition-class`
-1. `view-transition-name`
-1. `visibility`
-1. `voice-balance`
-1. `voice-duration`
-1. `voice-family`
-1. `voice-pitch`
-1. `voice-range`
-1. `voice-rate`
-1. `voice-stress`
-1. `voice-volume`
-1. `volume`
-1. `white-space`
-1. `white-space-collapse`
-1. `white-space-trim`
-1. `widows`
-1. `width`
-1. `will-change`
-1. `word-break`
-1. `word-space-transform`
-1. `word-spacing`
-1. `word-wrap`
-1. `wrap-after`
-1. `wrap-before`
-1. `wrap-flow`
-1. `wrap-inside`
-1. `wrap-through`
-1. `writing-mode`
-1. `z-index`
-1. `--*` (custom properties)
+| Property | Most Mature Specification |
+| --- | --- |
+| `accent-color` | CSS Basic User Interface Module Level 4 |
+| `align-content` | CSS Flexible Box Layout Module Level 1 |
+| `align-items` | CSS Flexible Box Layout Module Level 1 |
+| `align-self` | CSS Flexible Box Layout Module Level 1 |
+| `alignment-baseline` | CSS Inline Layout Module Level 3 |
+| `all` | CSS Cascading and Inheritance Level 3 |
+| `anchor-name` | CSS Anchor Positioning |
+| `anchor-scope` | CSS Anchor Positioning |
+| `animation` | CSS Animations Level 1 |
+| `animation-composition` | CSS Animations Level 2 |
+| `animation-delay` | CSS Animations Level 1 |
+| `animation-direction` | CSS Animations Level 1 |
+| `animation-duration` | CSS Animations Level 1 |
+| `animation-fill-mode` | CSS Animations Level 1 |
+| `animation-iteration-count` | CSS Animations Level 1 |
+| `animation-name` | CSS Animations Level 1 |
+| `animation-play-state` | CSS Animations Level 1 |
+| `animation-range` | Scroll-driven Animations |
+| `animation-range-end` | Scroll-driven Animations |
+| `animation-range-start` | Scroll-driven Animations |
+| `animation-timeline` | CSS Animations Level 2 |
+| `animation-timing-function` | CSS Animations Level 1 |
+| `appearance` | CSS Basic User Interface Module Level 4 |
+| `aspect-ratio` | CSS Box Sizing Module Level 4 |
+| `azimuth` | CSS 2.1 |
+| `backface-visibility` | CSS Transforms Module Level 2 |
+| `background` | CSS 2.1 |
+| `background-attachment` | CSS 2.1 |
+| `background-blend-mode` | Compositing and Blending Level 1 |
+| `background-clip` | CSS Backgrounds and Borders Module Level 3 |
+| `background-color` | CSS 2.1 |
+| `background-image` | CSS 2.1 |
+| `background-origin` | CSS Backgrounds and Borders Module Level 3 |
+| `background-position` | CSS 2.1 |
+| `background-repeat` | CSS 2.1 |
+| `background-size` | CSS Backgrounds and Borders Module Level 3 |
+| `baseline-shift` | CSS Inline Layout Module Level 3 |
+| `baseline-source` | CSS Inline Layout Module Level 3 |
+| `block-ellipsis` | CSS Overflow Module Level 4 |
+| `block-size` | CSS Logical Properties and Values Level 1 |
+| `block-step` | CSS Rhythmic Sizing |
+| `block-step-align` | CSS Rhythmic Sizing |
+| `block-step-insert` | CSS Rhythmic Sizing |
+| `block-step-round` | CSS Rhythmic Sizing |
+| `block-step-size` | CSS Rhythmic Sizing |
+| `bookmark-label` | CSS Generated Content Module Level 3 |
+| `bookmark-level` | CSS Generated Content Module Level 3 |
+| `bookmark-state` | CSS Generated Content Module Level 3 |
+| `border` | CSS 2.1 |
+| `border-block` | CSS Logical Properties and Values Level 1 |
+| `border-block-color` | CSS Logical Properties and Values Level 1 |
+| `border-block-end` | CSS Logical Properties and Values Level 1 |
+| `border-block-end-color` | CSS Logical Properties and Values Level 1 |
+| `border-block-end-style` | CSS Logical Properties and Values Level 1 |
+| `border-block-end-width` | CSS Logical Properties and Values Level 1 |
+| `border-block-start` | CSS Logical Properties and Values Level 1 |
+| `border-block-start-color` | CSS Logical Properties and Values Level 1 |
+| `border-block-start-style` | CSS Logical Properties and Values Level 1 |
+| `border-block-start-width` | CSS Logical Properties and Values Level 1 |
+| `border-block-style` | CSS Logical Properties and Values Level 1 |
+| `border-block-width` | CSS Logical Properties and Values Level 1 |
+| `border-bottom` | CSS 2.1 |
+| `border-bottom-color` | CSS 2.1 |
+| `border-bottom-left-radius` | CSS Backgrounds and Borders Module Level 3 |
+| `border-bottom-right-radius` | CSS Backgrounds and Borders Module Level 3 |
+| `border-bottom-style` | CSS 2.1 |
+| `border-bottom-width` | CSS 2.1 |
+| `border-boundary` | CSS Round Display Level 1 |
+| `border-collapse` | CSS 2.1 |
+| `border-color` | CSS 2.1 |
+| `border-end-end-radius` | CSS Logical Properties and Values Level 1 |
+| `border-end-start-radius` | CSS Logical Properties and Values Level 1 |
+| `border-image` | CSS Backgrounds and Borders Module Level 3 |
+| `border-image-outset` | CSS Backgrounds and Borders Module Level 3 |
+| `border-image-repeat` | CSS Backgrounds and Borders Module Level 3 |
+| `border-image-slice` | CSS Backgrounds and Borders Module Level 3 |
+| `border-image-source` | CSS Backgrounds and Borders Module Level 3 |
+| `border-image-width` | CSS Backgrounds and Borders Module Level 3 |
+| `border-inline` | CSS Logical Properties and Values Level 1 |
+| `border-inline-color` | CSS Logical Properties and Values Level 1 |
+| `border-inline-end` | CSS Logical Properties and Values Level 1 |
+| `border-inline-end-color` | CSS Logical Properties and Values Level 1 |
+| `border-inline-end-style` | CSS Logical Properties and Values Level 1 |
+| `border-inline-end-width` | CSS Logical Properties and Values Level 1 |
+| `border-inline-start` | CSS Logical Properties and Values Level 1 |
+| `border-inline-start-color` | CSS Logical Properties and Values Level 1 |
+| `border-inline-start-style` | CSS Logical Properties and Values Level 1 |
+| `border-inline-start-width` | CSS Logical Properties and Values Level 1 |
+| `border-inline-style` | CSS Logical Properties and Values Level 1 |
+| `border-inline-width` | CSS Logical Properties and Values Level 1 |
+| `border-left` | CSS 2.1 |
+| `border-left-color` | CSS 2.1 |
+| `border-left-style` | CSS 2.1 |
+| `border-left-width` | CSS 2.1 |
+| `border-radius` | CSS Backgrounds and Borders Module Level 3 |
+| `border-right` | CSS 2.1 |
+| `border-right-color` | CSS 2.1 |
+| `border-right-style` | CSS 2.1 |
+| `border-right-width` | CSS 2.1 |
+| `border-spacing` | CSS 2.1 |
+| `border-start-end-radius` | CSS Logical Properties and Values Level 1 |
+| `border-start-start-radius` | CSS Logical Properties and Values Level 1 |
+| `border-style` | CSS 2.1 |
+| `border-top` | CSS 2.1 |
+| `border-top-color` | CSS 2.1 |
+| `border-top-left-radius` | CSS Backgrounds and Borders Module Level 3 |
+| `border-top-right-radius` | CSS Backgrounds and Borders Module Level 3 |
+| `border-top-style` | CSS 2.1 |
+| `border-top-width` | CSS 2.1 |
+| `border-width` | CSS 2.1 |
+| `bottom` | CSS 2.1 |
+| `box-decoration-break` | CSS Fragmentation Module Level 3 |
+| `box-shadow` | CSS Backgrounds and Borders Module Level 3 |
+| `box-sizing` | CSS Basic User Interface Module Level 3 (CSS3 UI) |
+| `box-snap` | CSS Line Grid Module Level 1 |
+| `break-after` | CSS Fragmentation Module Level 3 |
+| `break-before` | CSS Fragmentation Module Level 3 |
+| `break-inside` | CSS Fragmentation Module Level 3 |
+| `caption-side` | CSS 2.1 |
+| `caret` | CSS Basic User Interface Module Level 4 |
+| `caret-color` | CSS Basic User Interface Module Level 3 (CSS3 UI) |
+| `caret-shape` | CSS Basic User Interface Module Level 4 |
+| `clear` | CSS 2.1 |
+| `clip` | CSS 2.1 |
+| `clip-path` | CSS Masking Module Level 1 |
+| `clip-rule` | CSS Masking Module Level 1 |
+| `color` | CSS Color Module Level 3 |
+| `color-adjust` | CSS Color Adjustment Module Level 1 |
+| `color-interpolation-filters` | Filter Effects Module Level 1 |
+| `color-scheme` | CSS Color Adjustment Module Level 1 |
+| `column-count` | CSS Multi-column Layout Module Level 1 |
+| `column-fill` | CSS Multi-column Layout Module Level 1 |
+| `column-gap` | CSS Box Alignment Module Level 3 |
+| `column-rule` | CSS Multi-column Layout Module Level 1 |
+| `column-rule-color` | CSS Multi-column Layout Module Level 1 |
+| `column-rule-style` | CSS Multi-column Layout Module Level 1 |
+| `column-rule-width` | CSS Multi-column Layout Module Level 1 |
+| `column-span` | CSS Multi-column Layout Module Level 1 |
+| `column-width` | CSS Multi-column Layout Module Level 1 |
+| `columns` | CSS Multi-column Layout Module Level 1 |
+| `contain` | CSS Containment Module Level 1 |
+| `contain-intrinsic-block-size` | CSS Box Sizing Module Level 4 |
+| `contain-intrinsic-height` | CSS Box Sizing Module Level 4 |
+| `contain-intrinsic-inline-size` | CSS Box Sizing Module Level 4 |
+| `contain-intrinsic-size` | CSS Box Sizing Module Level 4 |
+| `contain-intrinsic-width` | CSS Box Sizing Module Level 4 |
+| `container` | CSS Containment Module Level 3 |
+| `container-name` | CSS Containment Module Level 3 |
+| `container-type` | CSS Containment Module Level 3 |
+| `content` | CSS 2.1 |
+| `content-visibility` | CSS Containment Module Level 2 |
+| `continue` | CSS Overflow Module Level 4 |
+| `counter-increment` | CSS 2.1 |
+| `counter-reset` | CSS 2.1 |
+| `counter-set` | CSS Lists and Counters Module Level 3 |
+| `cue` | CSS 2.1 |
+| `cue-after` | CSS 2.1 |
+| `cue-before` | CSS 2.1 |
+| `cursor` | CSS Basic User Interface Module Level 3 (CSS3 UI) |
+| `direction` | CSS Writing Modes Level 3 |
+| `display` | CSS 2.1 |
+| `dominant-baseline` | CSS Inline Layout Module Level 3 |
+| `elevation` | CSS 2.1 |
+| `empty-cells` | CSS 2.1 |
+| `fill` | CSS Fill and Stroke Module Level 3 |
+| `fill-break` | CSS Fill and Stroke Module Level 3 |
+| `fill-color` | CSS Fill and Stroke Module Level 3 |
+| `fill-image` | CSS Fill and Stroke Module Level 3 |
+| `fill-opacity` | CSS Fill and Stroke Module Level 3 |
+| `fill-origin` | CSS Fill and Stroke Module Level 3 |
+| `fill-position` | CSS Fill and Stroke Module Level 3 |
+| `fill-repeat` | CSS Fill and Stroke Module Level 3 |
+| `fill-rule` | CSS Fill and Stroke Module Level 3 |
+| `fill-size` | CSS Fill and Stroke Module Level 3 |
+| `filter` | Filter Effects Module Level 1 |
+| `flex` | CSS Flexible Box Layout Module Level 1 |
+| `flex-basis` | CSS Flexible Box Layout Module Level 1 |
+| `flex-direction` | CSS Flexible Box Layout Module Level 1 |
+| `flex-flow` | CSS Flexible Box Layout Module Level 1 |
+| `flex-grow` | CSS Flexible Box Layout Module Level 1 |
+| `flex-shrink` | CSS Flexible Box Layout Module Level 1 |
+| `flex-wrap` | CSS Flexible Box Layout Module Level 1 |
+| `float` | CSS 2.1 |
+| `float-defer` | CSS Page Floats |
+| `float-offset` | CSS Page Floats |
+| `float-reference` | CSS Page Floats |
+| `flood-color` | Filter Effects Module Level 1 |
+| `flood-opacity` | Filter Effects Module Level 1 |
+| `flow-from` | CSS Regions Module Level 1 |
+| `flow-into` | CSS Regions Module Level 1 |
+| `font` | CSS Fonts Module Level 3 |
+| `font-family` | CSS Fonts Module Level 3 |
+| `font-feature-settings` | CSS Fonts Module Level 3 |
+| `font-kerning` | CSS Fonts Module Level 3 |
+| `font-language-override` | CSS Fonts Module Level 4 |
+| `font-optical-sizing` | CSS Fonts Module Level 4 |
+| `font-palette` | CSS Fonts Module Level 4 |
+| `font-size` | CSS Fonts Module Level 3 |
+| `font-size-adjust` | CSS Fonts Module Level 3 |
+| `font-stretch` | CSS Fonts Module Level 3 |
+| `font-style` | CSS Fonts Module Level 3 |
+| `font-synthesis` | CSS Fonts Module Level 3 |
+| `font-synthesis-position` | CSS Fonts Module Level 4 |
+| `font-synthesis-small-caps` | CSS Fonts Module Level 4 |
+| `font-synthesis-style` | CSS Fonts Module Level 4 |
+| `font-synthesis-weight` | CSS Fonts Module Level 4 |
+| `font-variant` | CSS Fonts Module Level 3 |
+| `font-variant-alternates` | CSS Fonts Module Level 4 |
+| `font-variant-caps` | CSS Fonts Module Level 3 |
+| `font-variant-east-asian` | CSS Fonts Module Level 3 |
+| `font-variant-emoji` | CSS Fonts Module Level 4 |
+| `font-variant-ligatures` | CSS Fonts Module Level 3 |
+| `font-variant-numeric` | CSS Fonts Module Level 3 |
+| `font-variant-position` | CSS Fonts Module Level 3 |
+| `font-variation-settings` | CSS Fonts Module Level 4 |
+| `font-weight` | CSS Fonts Module Level 3 |
+| `font-width` | CSS Fonts Module Level 4 |
+| `footnote-display` | CSS Generated Content for Paged Media Module |
+| `footnote-policy` | CSS Generated Content for Paged Media Module |
+| `forced-color-adjust` | CSS Color Adjustment Module Level 1 |
+| `gap` | CSS Box Alignment Module Level 3 |
+| `glyph-orientation-vertical` | CSS Writing Modes Level 3 |
+| `grid` | CSS Grid Layout Module Level 2 |
+| `grid-area` | CSS Grid Layout Module Level 2 |
+| `grid-auto-columns` | CSS Grid Layout Module Level 2 |
+| `grid-auto-flow` | CSS Grid Layout Module Level 2 |
+| `grid-auto-rows` | CSS Grid Layout Module Level 2 |
+| `grid-column` | CSS Grid Layout Module Level 2 |
+| `grid-column-end` | CSS Grid Layout Module Level 2 |
+| `grid-column-start` | CSS Grid Layout Module Level 2 |
+| `grid-row` | CSS Grid Layout Module Level 2 |
+| `grid-row-end` | CSS Grid Layout Module Level 2 |
+| `grid-row-start` | CSS Grid Layout Module Level 2 |
+| `grid-template` | CSS Grid Layout Module Level 2 |
+| `grid-template-areas` | CSS Grid Layout Module Level 2 |
+| `grid-template-columns` | CSS Grid Layout Module Level 2 |
+| `grid-template-rows` | CSS Grid Layout Module Level 2 |
+| `hanging-punctuation` | CSS Text Module Level 3 |
+| `height` | CSS 2.1 |
+| `hyphenate-character` | CSS Text Module Level 4 |
+| `hyphenate-limit-chars` | CSS Text Module Level 4 |
+| `hyphenate-limit-last` | CSS Text Module Level 4 |
+| `hyphenate-limit-lines` | CSS Text Module Level 4 |
+| `hyphenate-limit-zone` | CSS Text Module Level 4 |
+| `hyphens` | CSS Text Module Level 3 |
+| `image-orientation` | CSS Images Module Level 3 |
+| `image-rendering` | CSS Images Module Level 3 |
+| `image-resolution` | CSS Images Module Level 4 |
+| `initial-letter` | CSS Inline Layout Module Level 3 |
+| `initial-letter-align` | CSS Inline Layout Module Level 3 |
+| `initial-letter-wrap` | CSS Inline Layout Module Level 3 |
+| `inline-size` | CSS Logical Properties and Values Level 1 |
+| `inline-sizing` | CSS Inline Layout Module Level 3 |
+| `inset` | CSS Logical Properties and Values Level 1 |
+| `inset-area` | CSS Anchor Positioning |
+| `inset-block` | CSS Logical Properties and Values Level 1 |
+| `inset-block-end` | CSS Logical Properties and Values Level 1 |
+| `inset-block-start` | CSS Logical Properties and Values Level 1 |
+| `inset-inline` | CSS Logical Properties and Values Level 1 |
+| `inset-inline-end` | CSS Logical Properties and Values Level 1 |
+| `inset-inline-start` | CSS Logical Properties and Values Level 1 |
+| `isolation` | Compositing and Blending Level 1 |
+| `justify-content` | CSS Flexible Box Layout Module Level 1 |
+| `justify-items` | CSS Box Alignment Module Level 3 |
+| `justify-self` | CSS Box Alignment Module Level 3 |
+| `left` | CSS 2.1 |
+| `letter-spacing` | CSS 2.1 |
+| `lighting-color` | Filter Effects Module Level 1 |
+| `line-break` | CSS Text Module Level 3 |
+| `line-clamp` | CSS Overflow Module Level 4 |
+| `line-grid` | CSS Line Grid Module Level 1 |
+| `line-height` | CSS 2.1 |
+| `line-height-step` | CSS Rhythmic Sizing |
+| `line-padding` | CSS Text Module Level 4 |
+| `line-snap` | CSS Line Grid Module Level 1 |
+| `list-style` | CSS 2.1 |
+| `list-style-image` | CSS 2.1 |
+| `list-style-position` | CSS 2.1 |
+| `list-style-type` | CSS 2.1 |
+| `margin` | CSS Box Model Module Level 3 |
+| `margin-block` | CSS Logical Properties and Values Level 1 |
+| `margin-block-end` | CSS Logical Properties and Values Level 1 |
+| `margin-block-start` | CSS Logical Properties and Values Level 1 |
+| `margin-bottom` | CSS Box Model Module Level 3 |
+| `margin-break` | CSS Fragmentation Module Level 4 |
+| `margin-inline` | CSS Logical Properties and Values Level 1 |
+| `margin-inline-end` | CSS Logical Properties and Values Level 1 |
+| `margin-inline-start` | CSS Logical Properties and Values Level 1 |
+| `margin-left` | CSS Box Model Module Level 3 |
+| `margin-right` | CSS Box Model Module Level 3 |
+| `margin-top` | CSS Box Model Module Level 3 |
+| `margin-trim` | CSS Box Model Module Level 4 |
+| `marker` | SVG Markers |
+| `marker-end` | SVG Markers |
+| `marker-knockout-left` | SVG Markers |
+| `marker-knockout-right` | SVG Markers |
+| `marker-mid` | SVG Markers |
+| `marker-pattern` | SVG Markers |
+| `marker-segment` | SVG Markers |
+| `marker-side` | CSS Lists and Counters Module Level 3 |
+| `marker-start` | SVG Markers |
+| `mask` | CSS Masking Module Level 1 |
+| `mask-border` | CSS Masking Module Level 1 |
+| `mask-border-mode` | CSS Masking Module Level 1 |
+| `mask-border-outset` | CSS Masking Module Level 1 |
+| `mask-border-repeat` | CSS Masking Module Level 1 |
+| `mask-border-slice` | CSS Masking Module Level 1 |
+| `mask-border-source` | CSS Masking Module Level 1 |
+| `mask-border-width` | CSS Masking Module Level 1 |
+| `mask-clip` | CSS Masking Module Level 1 |
+| `mask-composite` | CSS Masking Module Level 1 |
+| `mask-image` | CSS Masking Module Level 1 |
+| `mask-mode` | CSS Masking Module Level 1 |
+| `mask-origin` | CSS Masking Module Level 1 |
+| `mask-position` | CSS Masking Module Level 1 |
+| `mask-repeat` | CSS Masking Module Level 1 |
+| `mask-size` | CSS Masking Module Level 1 |
+| `mask-type` | CSS Masking Module Level 1 |
+| `max-block-size` | CSS Logical Properties and Values Level 1 |
+| `max-height` | CSS 2.1 |
+| `max-inline-size` | CSS Logical Properties and Values Level 1 |
+| `max-lines` | CSS Overflow Module Level 4 |
+| `max-width` | CSS 2.1 |
+| `min-block-size` | CSS Logical Properties and Values Level 1 |
+| `min-height` | CSS 2.1 |
+| `min-inline-size` | CSS Logical Properties and Values Level 1 |
+| `min-intrinsic-sizing` | CSS Box Sizing Module Level 4 |
+| `min-width` | CSS 2.1 |
+| `mix-blend-mode` | Compositing and Blending Level 1 |
+| `nav-down` | CSS Basic User Interface Module Level 4 |
+| `nav-left` | CSS Basic User Interface Module Level 4 |
+| `nav-right` | CSS Basic User Interface Module Level 4 |
+| `nav-up` | CSS Basic User Interface Module Level 4 |
+| `object-fit` | CSS Images Module Level 3 |
+| `object-position` | CSS Images Module Level 3 |
+| `offset` | Motion Path Module Level 1 |
+| `offset-anchor` | Motion Path Module Level 1 |
+| `offset-distance` | Motion Path Module Level 1 |
+| `offset-path` | Motion Path Module Level 1 |
+| `offset-position` | Motion Path Module Level 1 |
+| `offset-rotate` | Motion Path Module Level 1 |
+| `opacity` | CSS Color Module Level 3 |
+| `order` | CSS Flexible Box Layout Module Level 1 |
+| `orphans` | CSS 2.1 |
+| `outline` | CSS Basic User Interface Module Level 3 (CSS3 UI) |
+| `outline-color` | CSS Basic User Interface Module Level 3 (CSS3 UI) |
+| `outline-offset` | CSS Basic User Interface Module Level 3 (CSS3 UI) |
+| `outline-style` | CSS Basic User Interface Module Level 3 (CSS3 UI) |
+| `outline-width` | CSS Basic User Interface Module Level 3 (CSS3 UI) |
+| `overflow` | CSS 2.1 |
+| `overflow-anchor` | CSS Scroll Anchoring Module Level 1 |
+| `overflow-block` | CSS Overflow Module Level 3 |
+| `overflow-clip-margin` | CSS Overflow Module Level 4 |
+| `overflow-clip-margin-block` | CSS Overflow Module Level 4 |
+| `overflow-clip-margin-block-end` | CSS Overflow Module Level 4 |
+| `overflow-clip-margin-block-start` | CSS Overflow Module Level 4 |
+| `overflow-clip-margin-bottom` | CSS Overflow Module Level 4 |
+| `overflow-clip-margin-inline` | CSS Overflow Module Level 4 |
+| `overflow-clip-margin-inline-end` | CSS Overflow Module Level 4 |
+| `overflow-clip-margin-inline-start` | CSS Overflow Module Level 4 |
+| `overflow-clip-margin-left` | CSS Overflow Module Level 4 |
+| `overflow-clip-margin-right` | CSS Overflow Module Level 4 |
+| `overflow-clip-margin-top` | CSS Overflow Module Level 4 |
+| `overflow-inline` | CSS Overflow Module Level 3 |
+| `overflow-wrap` | CSS Text Module Level 3 |
+| `overflow-x` | CSS Overflow Module Level 3 |
+| `overflow-y` | CSS Overflow Module Level 3 |
+| `overscroll-behavior` | CSS Overscroll Behavior Module Level 1 |
+| `overscroll-behavior-block` | CSS Overscroll Behavior Module Level 1 |
+| `overscroll-behavior-inline` | CSS Overscroll Behavior Module Level 1 |
+| `overscroll-behavior-x` | CSS Overscroll Behavior Module Level 1 |
+| `overscroll-behavior-y` | CSS Overscroll Behavior Module Level 1 |
+| `padding` | CSS Box Model Module Level 3 |
+| `padding-block` | CSS Logical Properties and Values Level 1 |
+| `padding-block-end` | CSS Logical Properties and Values Level 1 |
+| `padding-block-start` | CSS Logical Properties and Values Level 1 |
+| `padding-bottom` | CSS Box Model Module Level 3 |
+| `padding-inline` | CSS Logical Properties and Values Level 1 |
+| `padding-inline-end` | CSS Logical Properties and Values Level 1 |
+| `padding-inline-start` | CSS Logical Properties and Values Level 1 |
+| `padding-left` | CSS Box Model Module Level 3 |
+| `padding-right` | CSS Box Model Module Level 3 |
+| `padding-top` | CSS Box Model Module Level 3 |
+| `page` | CSS Paged Media Module Level 3 |
+| `page-break-after` | CSS 2.1 |
+| `page-break-before` | CSS 2.1 |
+| `page-break-inside` | CSS 2.1 |
+| `pause` | CSS 2.1 |
+| `pause-after` | CSS 2.1 |
+| `pause-before` | CSS 2.1 |
+| `perspective` | CSS Transforms Module Level 2 |
+| `perspective-origin` | CSS Transforms Module Level 2 |
+| `pitch` | CSS 2.1 |
+| `pitch-range` | CSS 2.1 |
+| `place-content` | CSS Box Alignment Module Level 3 |
+| `place-items` | CSS Box Alignment Module Level 3 |
+| `place-self` | CSS Box Alignment Module Level 3 |
+| `play-during` | CSS 2.1 |
+| `position` | CSS 2.1 |
+| `position-anchor` | CSS Anchor Positioning |
+| `position-try` | CSS Anchor Positioning |
+| `position-try-options` | CSS Anchor Positioning |
+| `position-try-order` | CSS Anchor Positioning |
+| `print-color-adjust` | CSS Color Adjustment Module Level 1 |
+| `quotes` | CSS 2.1 |
+| `region-fragment` | CSS Regions Module Level 1 |
+| `resize` | CSS Basic User Interface Module Level 3 (CSS3 UI) |
+| `rest` | CSS Speech Module Level 1 |
+| `rest-after` | CSS Speech Module Level 1 |
+| `rest-before` | CSS Speech Module Level 1 |
+| `richness` | CSS 2.1 |
+| `right` | CSS 2.1 |
+| `rotate` | CSS Transforms Module Level 2 |
+| `row-gap` | CSS Box Alignment Module Level 3 |
+| `ruby-align` | CSS Ruby Annotation Layout Module Level 1 |
+| `ruby-merge` | CSS Ruby Annotation Layout Module Level 1 |
+| `ruby-overhang` | CSS Ruby Annotation Layout Module Level 1 |
+| `ruby-position` | CSS Ruby Annotation Layout Module Level 1 |
+| `running` | CSS Generated Content for Paged Media Module |
+| `scale` | CSS Transforms Module Level 2 |
+| `scroll-behavior` | CSS Overflow Module Level 3 |
+| `scroll-margin` | CSS Scroll Snap Module Level 1 |
+| `scroll-margin-block` | CSS Scroll Snap Module Level 1 |
+| `scroll-margin-block-end` | CSS Scroll Snap Module Level 1 |
+| `scroll-margin-block-start` | CSS Scroll Snap Module Level 1 |
+| `scroll-margin-bottom` | CSS Scroll Snap Module Level 1 |
+| `scroll-margin-inline` | CSS Scroll Snap Module Level 1 |
+| `scroll-margin-inline-end` | CSS Scroll Snap Module Level 1 |
+| `scroll-margin-inline-start` | CSS Scroll Snap Module Level 1 |
+| `scroll-margin-left` | CSS Scroll Snap Module Level 1 |
+| `scroll-margin-right` | CSS Scroll Snap Module Level 1 |
+| `scroll-margin-top` | CSS Scroll Snap Module Level 1 |
+| `scroll-padding` | CSS Scroll Snap Module Level 1 |
+| `scroll-padding-block` | CSS Scroll Snap Module Level 1 |
+| `scroll-padding-block-end` | CSS Scroll Snap Module Level 1 |
+| `scroll-padding-block-start` | CSS Scroll Snap Module Level 1 |
+| `scroll-padding-bottom` | CSS Scroll Snap Module Level 1 |
+| `scroll-padding-inline` | CSS Scroll Snap Module Level 1 |
+| `scroll-padding-inline-end` | CSS Scroll Snap Module Level 1 |
+| `scroll-padding-inline-start` | CSS Scroll Snap Module Level 1 |
+| `scroll-padding-left` | CSS Scroll Snap Module Level 1 |
+| `scroll-padding-right` | CSS Scroll Snap Module Level 1 |
+| `scroll-padding-top` | CSS Scroll Snap Module Level 1 |
+| `scroll-snap-align` | CSS Scroll Snap Module Level 1 |
+| `scroll-snap-stop` | CSS Scroll Snap Module Level 1 |
+| `scroll-snap-type` | CSS Scroll Snap Module Level 1 |
+| `scroll-timeline` | Scroll-driven Animations |
+| `scroll-timeline-axis` | Scroll-driven Animations |
+| `scroll-timeline-name` | Scroll-driven Animations |
+| `scrollbar-color` | CSS Scrollbars Styling Module Level 1 |
+| `scrollbar-gutter` | CSS Overflow Module Level 3 |
+| `scrollbar-width` | CSS Scrollbars Styling Module Level 1 |
+| `shape-image-threshold` | CSS Shapes Module Level 1 |
+| `shape-inside` | CSS Round Display Level 1 |
+| `shape-margin` | CSS Shapes Module Level 1 |
+| `shape-outside` | CSS Shapes Module Level 1 |
+| `spatial-navigation-action` | CSS Spatial Navigation Level 1 |
+| `spatial-navigation-contain` | CSS Spatial Navigation Level 1 |
+| `spatial-navigation-function` | CSS Spatial Navigation Level 1 |
+| `speak` | CSS 2.1 |
+| `speak-as` | CSS Speech Module Level 1 |
+| `speak-header` | CSS 2.1 |
+| `speak-numeral` | CSS 2.1 |
+| `speak-punctuation` | CSS 2.1 |
+| `speech-rate` | CSS 2.1 |
+| `stress` | CSS 2.1 |
+| `string-set` | CSS Generated Content for Paged Media Module |
+| `stroke` | CSS Fill and Stroke Module Level 3 |
+| `stroke-align` | CSS Fill and Stroke Module Level 3 |
+| `stroke-alignment` | SVG Strokes |
+| `stroke-break` | CSS Fill and Stroke Module Level 3 |
+| `stroke-color` | CSS Fill and Stroke Module Level 3 |
+| `stroke-dash-corner` | CSS Fill and Stroke Module Level 3 |
+| `stroke-dash-justify` | CSS Fill and Stroke Module Level 3 |
+| `stroke-dashadjust` | SVG Strokes |
+| `stroke-dasharray` | CSS Fill and Stroke Module Level 3 |
+| `stroke-dashcorner` | SVG Strokes |
+| `stroke-dashoffset` | CSS Fill and Stroke Module Level 3 |
+| `stroke-image` | CSS Fill and Stroke Module Level 3 |
+| `stroke-linecap` | CSS Fill and Stroke Module Level 3 |
+| `stroke-linejoin` | CSS Fill and Stroke Module Level 3 |
+| `stroke-miterlimit` | CSS Fill and Stroke Module Level 3 |
+| `stroke-opacity` | CSS Fill and Stroke Module Level 3 |
+| `stroke-origin` | CSS Fill and Stroke Module Level 3 |
+| `stroke-position` | CSS Fill and Stroke Module Level 3 |
+| `stroke-repeat` | CSS Fill and Stroke Module Level 3 |
+| `stroke-size` | CSS Fill and Stroke Module Level 3 |
+| `stroke-width` | CSS Fill and Stroke Module Level 3 |
+| `tab-size` | CSS Text Module Level 3 |
+| `table-layout` | CSS 2.1 |
+| `text-align` | CSS 2.1 |
+| `text-align-all` | CSS Text Module Level 3 |
+| `text-align-last` | CSS Text Module Level 3 |
+| `text-autospace` | CSS Text Module Level 4 |
+| `text-box-edge` | CSS Inline Layout Module Level 3 |
+| `text-box-trim` | CSS Inline Layout Module Level 3 |
+| `text-combine-upright` | CSS Writing Modes Level 3 |
+| `text-decoration` | CSS 2.1 |
+| `text-decoration-color` | CSS Text Decoration Module Level 3 |
+| `text-decoration-line` | CSS Text Decoration Module Level 3 |
+| `text-decoration-skip` | CSS Text Decoration Module Level 4 |
+| `text-decoration-skip-box` | CSS Text Decoration Module Level 4 |
+| `text-decoration-skip-ink` | CSS Text Decoration Module Level 4 |
+| `text-decoration-skip-inset` | CSS Text Decoration Module Level 4 |
+| `text-decoration-skip-self` | CSS Text Decoration Module Level 4 |
+| `text-decoration-skip-spaces` | CSS Text Decoration Module Level 4 |
+| `text-decoration-style` | CSS Text Decoration Module Level 3 |
+| `text-decoration-thickness` | CSS Text Decoration Module Level 4 |
+| `text-emphasis` | CSS Text Decoration Module Level 3 |
+| `text-emphasis-color` | CSS Text Decoration Module Level 3 |
+| `text-emphasis-position` | CSS Text Decoration Module Level 3 |
+| `text-emphasis-skip` | CSS Text Decoration Module Level 4 |
+| `text-emphasis-style` | CSS Text Decoration Module Level 3 |
+| `text-group-align` | CSS Text Module Level 4 |
+| `text-indent` | CSS 2.1 |
+| `text-justify` | CSS Text Module Level 3 |
+| `text-orientation` | CSS Writing Modes Level 3 |
+| `text-overflow` | CSS Basic User Interface Module Level 3 (CSS3 UI) |
+| `text-shadow` | CSS Text Decoration Module Level 3 |
+| `text-spacing` | CSS Text Module Level 4 |
+| `text-spacing-trim` | CSS Text Module Level 4 |
+| `text-transform` | CSS 2.1 |
+| `text-underline-offset` | CSS Text Decoration Module Level 4 |
+| `text-underline-position` | CSS Text Decoration Module Level 3 |
+| `text-wrap` | CSS Text Module Level 4 |
+| `text-wrap-mode` | CSS Text Module Level 4 |
+| `text-wrap-style` | CSS Text Module Level 4 |
+| `timeline-scope` | Scroll-driven Animations |
+| `top` | CSS 2.1 |
+| `transform` | CSS Transforms Module Level 1 |
+| `transform-box` | CSS Transforms Module Level 1 |
+| `transform-origin` | CSS Transforms Module Level 1 |
+| `transform-style` | CSS Transforms Module Level 2 |
+| `transition` | CSS Transitions |
+| `transition-behavior` | CSS Transitions Level 2 |
+| `transition-delay` | CSS Transitions |
+| `transition-duration` | CSS Transitions |
+| `transition-property` | CSS Transitions |
+| `transition-timing-function` | CSS Transitions |
+| `translate` | CSS Transforms Module Level 2 |
+| `unicode-bidi` | CSS Writing Modes Level 3 |
+| `user-select` | CSS Basic User Interface Module Level 4 |
+| `vertical-align` | CSS 2.1 |
+| `view-timeline` | Scroll-driven Animations |
+| `view-timeline-axis` | Scroll-driven Animations |
+| `view-timeline-inset` | Scroll-driven Animations |
+| `view-timeline-name` | Scroll-driven Animations |
+| `view-transition-class` | CSS View Transitions Module Level 2 |
+| `view-transition-name` | CSS View Transitions Module Level 1 |
+| `visibility` | CSS 2.1 |
+| `voice-balance` | CSS Speech Module Level 1 |
+| `voice-duration` | CSS Speech Module Level 1 |
+| `voice-family` | CSS 2.1 |
+| `voice-pitch` | CSS Speech Module Level 1 |
+| `voice-range` | CSS Speech Module Level 1 |
+| `voice-rate` | CSS Speech Module Level 1 |
+| `voice-stress` | CSS Speech Module Level 1 |
+| `voice-volume` | CSS Speech Module Level 1 |
+| `volume` | CSS 2.1 |
+| `white-space` | CSS 2.1 |
+| `white-space-collapse` | CSS Text Module Level 4 |
+| `white-space-trim` | CSS Text Module Level 4 |
+| `widows` | CSS 2.1 |
+| `width` | CSS 2.1 |
+| `will-change` | CSS Will Change Module Level 1 |
+| `word-break` | CSS Text Module Level 3 |
+| `word-space-transform` | CSS Text Module Level 4 |
+| `word-spacing` | CSS 2.1 |
+| `word-wrap` | CSS Text Module Level 3 |
+| `wrap-after` | CSS Text Module Level 4 |
+| `wrap-before` | CSS Text Module Level 4 |
+| `wrap-flow` | CSS Exclusions Module Level 1 |
+| `wrap-inside` | CSS Text Module Level 4 |
+| `wrap-through` | CSS Exclusions Module Level 1 |
+| `writing-mode` | CSS Writing Modes Level 3 |
+| `z-index` | CSS 2.1 |
+| `--*` | CSS Custom Properties for Cascading Variables Module Level 1 |
 
 ## at-Rules
 
