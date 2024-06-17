@@ -1,4 +1,4 @@
-# HTML
+# HTML {#toc-html}
 
 This section covers HTML as per [the living standard](https://html.spec.whatwg.org/multipage/) in <!-- @@ -->June and July 2024. Elements from earlier HTML specifications and proprietary elements are not included.
 
@@ -6,7 +6,7 @@ This section covers HTML as per [the living standard](https://html.spec.whatwg.o
 
 ### Element Meanings
 
-Memorize the elements and their meanings (semantics):
+Memorize the elements and their meanings (semantics), to know what elements there are, and what purposes they serve:
 
 * `a`: Anchor (hyperlink)
 * `abbr`: Abbreviation
@@ -147,7 +147,7 @@ In true HTML, you write these elements as `<elementname>`, e.g., `<area>`, `<img
 
 ### Elements With Optional Start or End Tags
 
-Memorize the elements that have optional start and/or end tags. Void elements don’t have an end tag and are therefore included (but also called out) as well.
+Memorize the elements that have optional start and/or end tags, to be able to omit them, should you choose to use this feature of HTML. Void elements don’t have an end tag and are therefore included (but also called out) as well.
 
 | Element | Void? | Optional Start Tag? | Optional End Tag? |
 | --- | --- | --- | --- |
@@ -187,7 +187,7 @@ Memorize the elements that have optional start and/or end tags. Void elements do
 
 ### Element Categories
 
-Understand the HTML content categories:
+Memorize the HTML content categories, to understand HTML’s way of categorizing elements:
 
 * Metadata content: sets up the presentation or behavior of the rest of a document’s content, sets up the relationship of a document with other documents, or conveys other information.
 * Flow content: makes for the `body` of a document.
@@ -599,7 +599,7 @@ Elements that can be palpable content under certain circumstances:
 
 ## Attributes
 
-Memorize all attributes. (Repeat attribute mentions indicate different meanings. “HTML elements” refers to any element in the “http://www.w3.org/1999/xhtml” namespace namespace—including, as per the specification, XML documents.) <!-- @@ Check on https://github.com/whatwg/html/issues/10414 and whether to include `onbeforeinput`! -->
+Memorize all attributes, to be aware of their existence and to develop a sense for what options HTML may provide out of the box. (Repeat attribute mentions indicate different meanings. “HTML elements” refers to any element in the “http://www.w3.org/1999/xhtml” namespace namespace—including, as per the specification, XML documents.) <!-- @@ Check on https://github.com/whatwg/html/issues/10414 and whether to include `onbeforeinput`! -->
 
 | Attributes | Elements |
 | --- | --- |
@@ -864,7 +864,7 @@ Memorize all attributes. (Repeat attribute mentions indicate different meanings.
 
 #### …Excluding Event Handler Attributes
 
-Memorize the attributes that can be used on all HTML elements, excluding event handler attributes.
+Memorize the attributes that can be used on all HTML elements (excluding event handler attributes), to know what attributes you can use anywhere.
 
 * `accesskey`
 * `autocapitalize`
@@ -999,7 +999,7 @@ Memorize the attributes that can be used on all HTML elements, including event h
 
 ## Elements With Their Attributes
 
-Go over all elements and their attributes. The global attributes are mentioned, but not listed.
+Go over all elements and their attributes, to add to your understanding of HTML semantics and features. Global attributes are mentioned, but not listed individually.
 
 | Attributes | Elements |
 | --- | --- |

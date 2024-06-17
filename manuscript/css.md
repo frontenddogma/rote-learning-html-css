@@ -1,10 +1,12 @@
-# CSS
+# CSS {#toc-css}
 
 This section covers CSS as per the [CSS Snapshot 2023](https://www.w3.org/TR/css-2023/). However, it also considers CSS working drafts, which are subject to change.
 
 I> Identifying and maintaining overviews of CSS selectors, at-rules, and especially properties, including their status and support, is a notoriously difficult task. For CSS properties, the best resource may be the [_List of CSS Properties, Both Proposed and Standard_](https://www.w3.org/Style/CSS/all-properties.en.html), maintained by Bert Bos (W3C). Usually, as in this case, collecting this information requires consulting various specifications, and still comes with a good probability of error.
 
 ## Selectors
+
+Memorize all selectors, to improve your ability to target elements for styling.
 
 | Selector | Form |
 | --- | --- |
@@ -97,7 +99,7 @@ I> Identifying and maintaining overviews of CSS selectors, at-rules, and especia
 
 ## Properties
 
-Memorize the CSS properties.
+Memorize the CSS properties, to add to your sense for what CSS may allow you to do.
 
 1. `--*` (custom properties)
 1. `accent-color`
@@ -681,7 +683,7 @@ Memorize the CSS properties.
 
 ## at-Rules
 
-Memorize the CSS at-rules.
+Memorize the CSS at-rules, to explore additional ways of styling documents and apps.
 
 * `@annotation`
 * `@character-variant`
