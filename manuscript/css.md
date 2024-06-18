@@ -16,7 +16,7 @@ Memorize all selectors, to improve your ability to target elements for styling.
 | child combinator (`>`) | `E > F` |
 | next-sibling combinator (`+`) | `E + F` |
 | subsequent-sibling combinator (`~`) | `E ~ F` |
-| column combinator (`||`) | `F || E` |
+| column combinator (`\|\|`) | `F || E` |
 | class selector | `E.warning` |
 | ID selector | `E#myid` |
 | attribute presence and value selector | `E[foo]` |
@@ -25,7 +25,7 @@ Memorize all selectors, to improve your ability to target elements for styling.
 | substring matching attribute selector | `E[foo^='bar']` |
 | substring matching attribute selector | `E[foo$='bar']` |
 | substring matching attribute selector | `E[foo*='bar']` |
-| attribute presence and value selector | `E[foo|='en']` |
+| attribute presence and value selector | `E[foo\|='en']` |
 | case-sensitivity | `E[foo='bar' i]` |
 | case-sensitivity | `E[foo='bar' s]` |
 | `:root` pseudo-class | `E:root` |
