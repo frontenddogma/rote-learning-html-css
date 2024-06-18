@@ -1,3 +1,3 @@
-To get the most out of this book, [go back to the beginning](#toc-html), and read it again.
-
-(This is a [reference to the HTML specification](https://html.spec.whatwg.org/multipage/introduction.html#how-to-read-this-specification), though you don’t need to read this book “backwards at least once.” Yet the idea is this: You won’t regret making an effort to internalize what HTML and CSS have to offer. Even if it couldn’t be more boring.)
+C> To get the most out of this book, [go back to the beginning](#toc-html), and read it again.
+C>
+C> (This is a [reference to the HTML specification](https://html.spec.whatwg.org/multipage/introduction.html#how-to-read-this-specification), though you don’t need to read this book “backwards at least once.” Yet the idea is this: You won’t regret making an effort to internalize what HTML and CSS have to offer. Even if it couldn’t be more boring.)

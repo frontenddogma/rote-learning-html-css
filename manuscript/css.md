@@ -16,7 +16,7 @@ Memorize all selectors, to improve your ability to target elements for styling.
 | child combinator (`>`) | `E > F` |
 | next-sibling combinator (`+`) | `E + F` |
 | subsequent-sibling combinator (`~`) | `E ~ F` |
-| column combinator (`\|\|`) | `F || E` |
+| column combinator (`\|\|`) | `F \|\| E` |
 | class selector | `E.warning` |
 | ID selector | `E#myid` |
 | attribute presence and value selector | `E[foo]` |
@@ -101,7 +101,7 @@ Memorize all selectors, to improve your ability to target elements for styling.
 
 Memorize the CSS properties and their specification context, to add to your sense for what CSS may allow you to do.
 
-| Property | Most Mature Specification |
+| Property | Specification (Most Mature, Most Recent) |
 | --- | --- |
 | `accent-color` | CSS Basic User Interface Module Level 4 |
 | `align-content` | CSS Flexible Box Layout Module Level 1 |
