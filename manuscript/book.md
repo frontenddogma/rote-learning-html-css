@@ -15,4 +15,4 @@ Contact +34-610859489 or info@frontenddogma.com for more information.
 
 Follow [Frontend Dogma on Mastodon](https://mas.to/@frontenddogma).
 
-[0.2.1]
+[0.2.2]

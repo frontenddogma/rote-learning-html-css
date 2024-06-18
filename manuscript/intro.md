@@ -23,8 +23,6 @@ Although an ebook, the book deliberately uses few links.
 
 Your mission, from here on, is to consult the actual, canonical HTML and CSS specifications, whenever you have have a question related to HTML or CSS. Learn the spec URLs by heart, or appreciate weeding out past spec versions and unauthoritative sources from locating the latest CSS modules and editor’s drafts. Make this a habit; study the specifications, always turn to them first. Doing so will provide you with the most accurate information—and likewise make you a better web developer.
 
-Thank you for reading _Rote Learning HTML & CSS_.
-
 I> ### Licenses
 I>
 I> Material from the [HTML Living Standard](https://html.spec.whatwg.org/) is licensed under a [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
