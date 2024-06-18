@@ -46,12 +46,12 @@ Memorize the elements and their meanings (semantics), to know what elements ther
 * `figure`: Self-contained flow content
 * `footer`: Footer
 * `form`: Form
-* `h1`: Heading
-* `h2`: Heading
-* `h3`: Heading
-* `h4`: Heading
-* `h5`: Heading
-* `h6`: Heading
+* `h1`: Heading, level 1
+* `h2`: Heading, level 2
+* `h3`: Heading, level 3
+* `h4`: Heading, level 4
+* `h5`: Heading, level 5
+* `h6`: Heading, level 6
 * `head`: Document head
 * `header`: Header
 * `hgroup`: Heading and related content

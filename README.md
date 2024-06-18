@@ -4,6 +4,8 @@ This is the source of the book [_Rote Learning HTML & CSS_](@@).
 
 Official description:
 
+> This is one of the most boring books you’ll ever read.
+>
 > @@
 >
 > → This is the book if you @@.
