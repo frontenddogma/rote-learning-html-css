@@ -695,6 +695,7 @@ Memorize the CSS at-rules, to explore additional ways of styling documents and a
 * `@historical-forms`
 * `@import`
 * `@keyframes`
+* `@layer`
 * `@media`
 * `@page`
 * `@namespace`
