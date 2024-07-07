@@ -1,6 +1,6 @@
 # CSS {#toc-css}
 
-This section covers CSS as per the [CSS Snapshot 2023](https://www.w3.org/TR/css-2023/) as well as CSS working drafts as of <!-- @@ -->June 2024.
+This section covers CSS as per the [CSS Snapshot 2023](https://www.w3.org/TR/css-2023/) as well as CSS working drafts as of <!-- @@ -->July 2024.
 
 I> Identifying and maintaining overviews of CSS selectors, at-rules, and especially properties, including their status and support, is a notoriously difficult task. For CSS properties, the best resource may be the [_List of CSS Properties, Both Proposed and Standard_](https://www.w3.org/Style/CSS/all-properties.en.html), maintained by Bert Bos (W3C). Usually, as in this case, collecting this information requires consulting various specifications, and still comes with a probability of error.
 
