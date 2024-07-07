@@ -747,7 +747,7 @@ Memorize all attributes, to be aware of their existence and to develop a sense f
 | `onrejectionhandled` | `body` |
 | `onscroll` | all HTML elements |
 | `onscrollend` | all HTML elements |
-| `onsecuritypolicy&shy;violation` | all HTML elements |
+| `onsecuritypolicy violation` | all HTML elements |
 | `onseeked` | all HTML elements |
 | `onseeking` | all HTML elements |
 | `onselect` | all HTML elements |
@@ -785,9 +785,9 @@ Memorize all attributes, to be aware of their existence and to develop a sense f
 | `scope` | `th` |
 | `selected` | `option` |
 | `shadowrootclonable` | `template` |
-| `shadowroot&shy;delegatesfocus` | `template` |
+| `shadowroot delegatesfocus` | `template` |
 | `shadowrootmode` | `template` |
-| `shadowroot&shy;serializable` | `template` |
+| `shadowroot serializable` | `template` |
 | `shape` | `area` |
 | `size` | `input`, `select` |
 | `sizes` | `img`, `link`, `source` |
