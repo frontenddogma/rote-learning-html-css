@@ -13,15 +13,15 @@ Its goal is to show you the rough and raw skeleton of HTML and CSS, so that you 
 
 The idea is that even when you only go over the book once, you will already have noticed some things about HTML and CSS that you weren’t aware and that you couldn’t have noticed otherwise.
 
-It’s that when you go over the book thoroughly, and indeed memorize the various lists and tables, you’re not an expert web developer (unless you already were one)—but have a solid foundation to build upon.
+It’s that when you go over the book thoroughly, and indeed memorize the various lists and tables, you’re not an expert web developer (unless you’ve already been one)—but have a strengthened foundation to build upon.
 
-That foundation—the elements and attributes, the selectors and properties—will then allow you to explore and practice more than you would have been able to, should you have not made the effort to go over this book.
+That foundation—the elements and attributes, the selectors and properties—then allows you to explore and practice more than you would have been able to, should you have not made the effort to go over this book.
 
-Apart from appreciating its boringness for purposes of becoming a better web developer, there’s one more thing:
+Apart from appreciating its boringness for purposes of becoming a better web developer, there’s one more thing to support that same purpose:
 
 Although an ebook, the book deliberately uses few links.
 
-Your mission, from here on, is to consult the actual, canonical HTML and CSS specifications, whenever you have have a question related to HTML or CSS. Learn the spec URLs by heart, or appreciate weeding out past spec versions and unauthoritative sources from locating the latest CSS modules and editor’s drafts. Make this a habit; study the specifications, always turn to them first. Doing so will provide you with the most accurate information—and likewise make you a better web developer.
+Your mission, from here on, is to consult the actual, canonical HTML and CSS specifications, whenever you have have a question related to HTML or CSS. Learn the spec URLs by heart, or embrace weeding out past spec versions and unauthoritative sources from locating the latest CSS modules and drafts. Make this a habit; study the specifications, always turn to them first. Doing so will provide you with the most accurate information—and again make you a better web developer.
 
 I> ### Licenses
 I>

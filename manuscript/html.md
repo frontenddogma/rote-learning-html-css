@@ -1,12 +1,12 @@
 # HTML {#toc-html}
 
-This section covers HTML as per [the living standard](https://html.spec.whatwg.org/multipage/) in <!-- @@ -->June 2024. Elements from earlier HTML specifications and proprietary elements are not included.
+This section covers HTML as per [the living standard](https://html.spec.whatwg.org/multipage/) in <!-- @@ -->July 2024. Elements from earlier HTML specifications as well as proprietary elements are not included.
 
 ## Elements
 
 ### Element Meanings
 
-Memorize the elements and their meanings (semantics), to know what elements there are, and what purposes they serve.
+Memorize the elements and their meanings (semantics), to know what elements there are and what purposes they serve.
 
 * `a`: Anchor (hyperlink)
 * `abbr`: Abbreviation
@@ -386,7 +386,7 @@ Elements that can be phrasing content under certain circumstances:
 
 #### Palpable Content
 
-Palpable content makes an element non-empty by providing either non-empty text, or something a user can view, hear, or interact with.
+Palpable content makes an element non-empty by providing either non-empty text, or something a user can perceive or interact with.
 
 * `a`
 * `abbr`
@@ -574,7 +574,7 @@ Autocapitalize-inheriting elements inherit the `autocapitalize` attribute from t
 * `input`
 * `output`
 * `select`
-* `textarea
+* `textarea`
 
 #### Script-Supporting Elements
 
@@ -747,7 +747,7 @@ Memorize all attributes, to be aware of their existence and to develop a sense f
 | `onrejectionhandled` | `body` |
 | `onscroll` | all HTML elements |
 | `onscrollend` | all HTML elements |
-| `onsecuritypolicyviolation` | all HTML elements |
+| `onsecuritypolicy&shy;violation` | all HTML elements |
 | `onseeked` | all HTML elements |
 | `onseeking` | all HTML elements |
 | `onselect` | all HTML elements |
@@ -785,9 +785,9 @@ Memorize all attributes, to be aware of their existence and to develop a sense f
 | `scope` | `th` |
 | `selected` | `option` |
 | `shadowrootclonable` | `template` |
-| `shadowrootdelegatesfocus` | `template` |
+| `shadowroot&shy;delegatesfocus` | `template` |
 | `shadowrootmode` | `template` |
-| `shadowrootserializable` | `template` |
+| `shadowroot&shy;serializable` | `template` |
 | `shape` | `area` |
 | `size` | `input`, `select` |
 | `sizes` | `img`, `link`, `source` |
@@ -816,7 +816,7 @@ Memorize all attributes, to be aware of their existence and to develop a sense f
 
 #### …Excluding Event Handler Attributes
 
-Memorize the attributes that can be used on all HTML elements (excluding event handler attributes), to know what attributes you can use anywhere.
+Memorize the attributes that can be used on all HTML elements (not including event handler attributes), to know what attributes you can use anywhere.
 
 * `accesskey`
 * `autocapitalize`
