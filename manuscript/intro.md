@@ -25,6 +25,6 @@ Your mission, from here on, is to consult the actual, canonical HTML and CSS spe
 
 I> ### Licenses
 I>
-I> Material from the [HTML Living Standard](https://html.spec.whatwg.org/) is licensed under a [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
+I> Material from the [HTML Living Standard](https://html.spec.whatwg.org/) is licensed under a [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
 I>
 I> Material from the W3C CSS specifications is licensed under the [W3C software and document license (2023 version)](https://www.w3.org/copyright/software-license-2023/).
