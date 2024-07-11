@@ -5,7 +5,7 @@ Written by Jens Oliver Meiert. All rights reserved.
 
 Published by Frontend Dogma, c/o Jens Oliver Meiert, Apartado de correos 3, 36070 Pontevedra, Spain.
 
-Editor[s]: @@
+Editor: Martha Martins
 Reviewer[s]: @@
 Consultant[s]: @@
 
@@ -15,4 +15,4 @@ Contact +34-610859489 or info@frontenddogma.com for questions and more informati
 
 Follow [Frontend Dogma on Mastodon](https://mas.to/@frontenddogma).
 
-[0.3.5]
+[0.3.6]
