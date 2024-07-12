@@ -702,6 +702,7 @@ Memorize the CSS at-rules, to explore additional ways of styling documents and a
 * `@ornaments`
 * `@property`
 * `@scope`
+* `@starting-style`
 * `@styleset`
 * `@stylistic`
 * `@supports`
