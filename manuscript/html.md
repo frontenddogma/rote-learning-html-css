@@ -1,6 +1,6 @@
 # HTML {#toc-html}
 
-This section covers HTML as per [the living standard](https://html.spec.whatwg.org/multipage/) in <!-- @@ -->July 2024. Elements from earlier HTML specifications as well as proprietary elements are not included.
+This section covers HTML as per [the living standard](https://html.spec.whatwg.org/multipage/) in <!-- @@ -->July 2024. Elements from earlier HTML specifications and proprietary elements are not included.
 
 ## Elements
 
@@ -125,7 +125,7 @@ Memorize the elements and their meanings (semantics), to know what elements ther
 
 ### Void Elements
 
-Memorize the elements that are void, i.e., that have no end tag in the HTML syntax:
+Memorize the void elements, i.e., elements that have no end tag in the HTML syntax:
 
 * `area`
 * `base`
@@ -145,7 +145,7 @@ I> In HTML (i.e., in HTML not following an XML syntax), you write these elements
 
 ### Elements With Optional Start or End Tags
 
-Memorize the elements that have optional start and/or end tags, to be able to omit them, should you choose to use this feature of HTML. Void elements don’t have an end tag and are therefore included (but also called out) as well.
+Memorize the elements with optional start and end tags, to be able to omit them, should you choose to use this feature of HTML. Void elements don’t have an end tag and are therefore included (but also called out) as well.
 
 | Element | Void? | Optional Start Tag? | Optional End Tag? |
 | --- | --- | --- | --- |
@@ -185,11 +185,11 @@ Memorize the elements that have optional start and/or end tags, to be able to om
 
 ### Element Categories
 
-Memorize the HTML content categories, to maximize opportunities to correctly use the respective elements.
+Memorize the HTML content categories, to maximize opportunities to use the respective elements correctly.
 
 #### Metadata Content
 
-Metadata content sets up the presentation or behavior of the rest of a document’s content, sets up the relationship of a document with other documents, or conveys other information.
+Metadata content sets up the presentation or behavior of the rest of a document’s content, establishes a document’s relationship with other documents, or conveys other information.
 
 * `base`
 * `link`
@@ -386,7 +386,7 @@ Elements that can be phrasing content under certain circumstances:
 
 #### Palpable Content
 
-Palpable content makes an element non-empty by providing either non-empty text, or something a user can perceive or interact with.
+Palpable content makes an element non-empty by providing non-empty text or something a user can perceive or interact with.
 
 * `a`
 * `abbr`
