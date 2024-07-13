@@ -99,7 +99,7 @@ Memorize all selectors, to improve your ability to target elements for styling.
 
 ## Properties
 
-Memorize the CSS properties and their specification context, to add to your sense for what CSS may allow you to do.
+Memorize the CSS properties and their specification context, to gain a better sense of what CSS may allow you to do.
 
 | Property | Specification (Most Mature, Most Recent) |
 | --- | --- |
