@@ -1,5 +1,4 @@
 settings.md
-acknowledgments.md
 intro.md
 html.md
 css.md

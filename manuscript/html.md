@@ -1,6 +1,6 @@
 # HTML {#toc-html}
 
-This section covers HTML as per [the living standard](https://html.spec.whatwg.org/multipage/) in <!-- @@ -->July 2024. Elements from earlier HTML specifications and proprietary elements are not included.
+This section covers HTML as per [the living standard](https://html.spec.whatwg.org/multipage/) in <!-- @@ -->June 2024. Elements from earlier HTML specifications and proprietary elements are not included.
 
 ## Elements
 
