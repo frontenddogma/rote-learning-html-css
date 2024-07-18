@@ -10,24 +10,24 @@ Memorize all selectors, to improve your ability to target elements for styling.
 
 | Selector | Form |
 | --- | --- |
-| universal selector | `*` |
-| type (element name) selector | `E` |
-| descendant combinator (` `) | `E F` |
-| child combinator (`>`) | `E > F` |
-| next-sibling combinator (`+`) | `E + F` |
-| subsequent-sibling combinator (`~`) | `E ~ F` |
-| column combinator (`\|\|`) | `F \|\| E` |
-| class selector | `E.warning` |
+| Universal selector | `*` |
+| Type (element name) selector | `E` |
+| Descendant combinator (` `) | `E F` |
+| Child combinator (`>`) | `E > F` |
+| Next-sibling combinator (`+`) | `E + F` |
+| Subsequent-sibling combinator (`~`) | `E ~ F` |
+| Column combinator (`\|\|`) | `F \|\| E` |
+| Class selector | `E.warning` |
 | ID selector | `E#myid` |
-| attribute presence and value selector | `E[foo]` |
-| attribute presence and value selector | `E[foo='bar']` |
-| attribute presence and value selector | `E[foo~='bar']` |
-| substring matching attribute selector | `E[foo^='bar']` |
-| substring matching attribute selector | `E[foo$='bar']` |
-| substring matching attribute selector | `E[foo*='bar']` |
-| attribute presence and value selector | `E[foo\|='en']` |
-| case-sensitivity | `E[foo='bar' i]` |
-| case-sensitivity | `E[foo='bar' s]` |
+| Attribute presence  and value selector | `E[foo]` |
+| Attribute presence  and value selector | `E[foo='bar']` |
+| Attribute presence  and value selector | `E[foo~='bar']` |
+| Substring matching attribute selector | `E[foo^='bar']` |
+| Substring matching attribute selector | `E[foo$='bar']` |
+| Substring matching attribute selector | `E[foo*='bar']` |
+| Attribute presence  and value selector | `E[foo\|='en']` |
+| Case-sensitivity | `E[foo='bar' i]` |
+| Case-sensitivity | `E[foo='bar' s]` |
 | `:root` pseudo-class | `E:root` |
 | `:empty` pseudo-class | `E:empty` |
 | `:nth-child()` pseudo-class | `E:nth-child(n [of S]?)` |
@@ -42,45 +42,45 @@ Memorize all selectors, to improve your ability to target elements for styling.
 | `:only-of-type` pseudo-class | `E:only-of-type` |
 | `:nth-col()` pseudo-class | `E:nth-col(n)` |
 | `:nth-last-col()` pseudo-class | `E:nth-last-col(n)` |
-| negation (matches-none) pseudo-class `:not()` | `E:not(s1, s2, …)` |
-| matches-any pseudo-class `:is()` | `E:is(s1, s2, …)` |
-| specificity-adjustment pseudo-class `:where()` | `E:where(s1, s2, …)` |
-| relational pseudo-class `:has()` | `E:has(rs1, rs2, …)` |
-| directionality pseudo-class `:dir()` | `E:dir(ltr)` |
-| language pseudo-class `:lang()` | `E:lang(zh, '*-hant')` |
-| hyperlink pseudo-class `:any-link` | `E:any-link` |
-| link history pseudo-class `:link` | `E:link` |
-| link history pseudo-class `:visited` | `E:visited` |
-| local link pseudo-class `:local-link` | `E:local-link` |
-| target pseudo-class `:target` | `E:target` |
-| target container pseudo-class `:target-within` | `E:target-within` |
-| reference element pseudo-class `:scope` | `E:scope` |
-| current-element pseudo-class `:current` | `E:current` |
-| current-element pseudo-class `:current` | `E:current(s)` |
-| past-element pseudo-class `:past` | `E:past` |
-| future-element pseudo-class `:future` | `E:future` |
-| activation pseudo-class `:active` | `E:active` |
-| pointer hover pseudo-class `:hover` | `E:hover` |
-| input focus pseudo-class `:focus` | `E:focus` |
-| focus container pseudo-class `:focus-within` | `E:focus-within` |
-| focus-indicated pseudo-class `:focus-visible` | `E:focus-visible` |
+| Negation (matches-none) pseudo-class `:not()` | `E:not(s1, s2, …)` |
+| Matches-any pseudo-class `:is()` | `E:is(s1, s2, …)` |
+| Specificity-adjustment pseudo-class `:where()` | `E:where(s1, s2, …)` |
+| Relational pseudo-class `:has()` | `E:has(rs1, rs2, …)` |
+| Directionality pseudo-class `:dir()` | `E:dir(ltr)` |
+| Language pseudo-class `:lang()` | `E:lang(zh, '*-hant')` |
+| Hyperlink pseudo-class `:any-link` | `E:any-link` |
+| Link history pseudo-class `:link` | `E:link` |
+| Link history pseudo-class `:visited` | `E:visited` |
+| Local link pseudo-class `:local-link` | `E:local-link` |
+| Target pseudo-class `:target` | `E:target` |
+| Target container pseudo-class `:target-within` | `E:target-within` |
+| Reference element pseudo-class `:scope` | `E:scope` |
+| Current-element pseudo-class `:current` | `E:current` |
+| Current-element pseudo-class `:current` | `E:current(s)` |
+| Past-element pseudo-class `:past` | `E:past` |
+| Future-element pseudo-class `:future` | `E:future` |
+| Activation pseudo-class `:active` | `E:active` |
+| Pointer hover pseudo-class `:hover` | `E:hover` |
+| Input focus pseudo-class `:focus` | `E:focus` |
+| Focus container pseudo-class `:focus-within` | `E:focus-within` |
+| Focus-indicated pseudo-class `:focus-visible` | `E:focus-visible` |
 | `:enabled` pseudo-class | `E:enabled` |
 | `:disabled` pseudo-class | `E:disabled` |
-| mutability pseudo-class `:read-write` | `E:read-write` |
-| mutability pseudo-class `:read-only` | `E:read-only` |
-| placeholder-shown pseudo-class `:placeholder-shown` | `E:placeholder-shown` |
-| default-option pseudo-class `:default` | `E:default` |
-| selected-option pseudo-class `:checked` | `E:checked` |
-| indeterminate-value pseudo-class `:indeterminate` | `E:indeterminate` |
-| validity pseudo-class `:valid` | `E:valid` |
-| validity pseudo-class `:invalid` | `E:invalid` |
-| range pseudo-class `:in-range` | `E:in-range` |
-| range pseudo-class `:out-of-range` | `E:out-of-range` |
-| optionality pseudo-classes `:required` | `E:required` |
-| optionality pseudo-classes `:optional` | `E:optional` |
-| empty-value pseudo-class `:blank` | `E:blank` |
-| user-interaction pseudo-class `:user-valid` | `E:user-valid` |
-| user-interaction pseudo-class `:user-invalid` | `E:user-invalid` |
+| Mutability pseudo-class `:read-write` | `E:read-write` |
+| Mutability pseudo-class `:read-only` | `E:read-only` |
+| Placeholder-shown pseudo-class `:placeholder-shown` | `E:placeholder-shown` |
+| Default-option pseudo-class `:default` | `E:default` |
+| Selected-option pseudo-class `:checked` | `E:checked` |
+| Indeterminate-value pseudo-class `:indeterminate` | `E:indeterminate` |
+| Validity pseudo-class `:valid` | `E:valid` |
+| Validity pseudo-class `:invalid` | `E:invalid` |
+| Range pseudo-class `:in-range` | `E:in-range` |
+| Range pseudo-class `:out-of-range` | `E:out-of-range` |
+| Optionality pseudo-classes `:required` | `E:required` |
+| Optionality pseudo-classes `:optional` | `E:optional` |
+| Empty-value pseudo-class `:blank` | `E:blank` |
+| User-interaction pseudo-class `:user-valid` | `E:user-valid` |
+| User-interaction pseudo-class `:user-invalid` | `E:user-invalid` |
 | `::before` pseudo-element | `E::before` |
 | `::after` pseudo-element | `E::after` |
 | `::first-letter` pseudo-element | `E::first-letter` |
@@ -683,7 +683,7 @@ Memorize the CSS properties and their specification context, to gain a better se
 
 ## at-Rules
 
-Memorize the CSS at-rules, to explore additional ways of styling documents and apps.
+Memorize the CSS at-rules, to explore additional ways of styling documents and web apps.
 
 * `@annotation`
 * `@character-variant`

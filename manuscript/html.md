@@ -17,8 +17,8 @@ Memorize the elements and their meanings (semantics), to know what elements ther
 * `audio`: Audio content
 * `b`: Attention
 * `base`: Base URL
-* `bdi`: Bidi isolation
-* `bdo`: Bidi override
+* `bdi`: Bidirectional isolation
+* `bdo`: Bidirectional override
 * `blockquote`: Long quotation
 * `body`: Document body
 * `br`: Line break
@@ -290,7 +290,7 @@ Flow content makes for the `body` of a document.
 * Autonomous custom elements
 * Text
 
-Elements that can be flow content under certain circumstances:
+Elements that can constitute flow content under certain circumstances:
 
 * `area`
 * `link`
@@ -378,7 +378,7 @@ Phrasing content represents the text of a document.
 * Autonomous custom elements
 * Text
 
-Elements that can be phrasing content under certain circumstances:
+Elements that can constitute phrasing content under certain circumstances:
 
 * `area`
 * `link`
@@ -459,7 +459,7 @@ Palpable content makes an element non-empty by providing non-empty text or somet
 * `video`
 * Autonomous custom elements
 
-Elements that can be palpable content under certain circumstances:
+Elements that can constitute palpable content under certain circumstances:
 
 * `audio`
 * `dl`
@@ -496,7 +496,7 @@ Interactive content serves user interaction.
 * `select`
 * `textarea`
 
-Elements that can be interactive content under certain circumstances:
+Elements that can constitute interactive content under certain circumstances:
 
 * `a`
 * `audio`
@@ -585,7 +585,7 @@ Script-supporting elements do not represent anything by themselves, but provide 
 
 ## Attributes
 
-Memorize all attributes, to be aware of their existence and to develop a sense for what options HTML provides out of the box. (“HTML elements” refers to any element in the “http://www.w3.org/1999/xhtml” namespace—including, as per the specification, XML documents.)
+Memorize all attributes, to be aware of their existence and to develop a sense for what options HTML provides out of the box. (“HTML elements” refers to any element in the `http://www.w3.org/1999/xhtml` namespace—including, as per the specification, XML documents.)
 
 | Attributes | Elements |
 | --- | --- |
@@ -744,7 +744,7 @@ Memorize all attributes, to be aware of their existence and to develop a sense f
 | `onratechange` | all HTML elements |
 | `onreset` | all HTML elements |
 | `onresize` | all HTML elements |
-| `onrejectionhandled` | `body` |
+| `onrejection handled` | `body` |
 | `onscroll` | all HTML elements |
 | `onscrollend` | all HTML elements |
 | `onsecuritypolicy violation` | all HTML elements |
@@ -758,7 +758,7 @@ Memorize all attributes, to be aware of their existence and to develop a sense f
 | `onsuspend` | all HTML elements |
 | `ontimeupdate` | all HTML elements |
 | `ontoggle` | all HTML elements |
-| `onunhandledrejection` | `body` |
+| `onunhandled rejection` | `body` |
 | `onunload` | `body` |
 | `onvolumechange` | all HTML elements |
 | `onwaiting` | all HTML elements |
@@ -771,7 +771,7 @@ Memorize all attributes, to be aware of their existence and to develop a sense f
 | `playsinline` | `video` |
 | `popover` | all HTML elements |
 | `popovertarget` | `button`, `input` |
-| `popovertargetaction` | `button`, `input` |
+| `popovertarget action` | `button`, `input` |
 | `poster` | `video` |
 | `preload` | `audio`, `video` |
 | `readonly` | `input`, `textarea`, form-associated custom elements |
@@ -810,7 +810,7 @@ Memorize all attributes, to be aware of their existence and to develop a sense f
 | `value` | `button`, `data`, `input`, `li`, `meter`, `option`, `progress` |
 | `width` | `canvas`, `embed`, `iframe`, `img`, `input`, `object`, `source` (`picture`), `video` |
 | `wrap` | `textarea` |
-| `writingsuggestions` | all HTML elements |
+| `writing suggestions` | all HTML elements |
 
 ### Global Attributes
 

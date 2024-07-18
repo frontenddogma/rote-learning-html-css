@@ -25,6 +25,6 @@ From here on, your mission is to consult the actual, canonical HTML and CSS spec
 
 I> ### Licenses
 I>
-I> Material from the [HTML Living Standard](https://html.spec.whatwg.org/) is licensed under a [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
+I> The [HTML part](#toc-html) of this book lists HTML elements, element content categories, and attributes derived from the [HTML Living Standard](https://html.spec.whatwg.org/). The original material is licensed under a [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
 I>
-I> Material from the W3C CSS specifications is licensed under the [W3C software and document license (2023 version)](https://www.w3.org/copyright/software-license-2023/).
+I> The [CSS part](#toc-css) of this book includes information about CSS selectors derived from [_Selectors Level 4_](https://www.w3.org/TR/2022/WD-selectors-4-20221111/). It also includes information about CSS properties and their specifications derived from [_List of CSS Properties, Both Proposed and Standard_](https://www.w3.org/Style/CSS/all-properties.en.html). [Copyright](https://www.w3.org/copyright/software-license-2023/) 2022, 2024 [World Wide Web Consortium](https://www.w3.org/).
