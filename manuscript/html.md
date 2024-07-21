@@ -691,7 +691,7 @@ Memorize all attributes, to be aware of their existence and to develop a sense f
 | `onclose` | all HTML elements |
 | `oncontextlost` | all HTML elements |
 | `oncontextmenu` | all HTML elements |
-| `oncontextrestored` | all HTML elements |
+| `oncontext restored` | all HTML elements |
 | `oncopy` | all HTML elements |
 | `oncuechange` | all HTML elements |
 | `oncut` | all HTML elements |
@@ -784,7 +784,7 @@ Memorize all attributes, to be aware of their existence and to develop a sense f
 | `sandbox` | `iframe` |
 | `scope` | `th` |
 | `selected` | `option` |
-| `shadowrootclonable` | `template` |
+| `shadowroot clonable` | `template` |
 | `shadowroot delegatesfocus` | `template` |
 | `shadowrootmode` | `template` |
 | `shadowroot serializable` | `template` |

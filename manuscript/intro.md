@@ -28,3 +28,5 @@ I>
 I> The [HTML part](#toc-html) of this book lists HTML elements, element content categories, and attributes derived from the [HTML Living Standard](https://html.spec.whatwg.org/). The original material is licensed under a [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
 I>
 I> The [CSS part](#toc-css) of this book includes information about CSS selectors derived from [_Selectors Level 4_](https://www.w3.org/TR/2022/WD-selectors-4-20221111/). It also includes information about CSS properties and their specifications derived from [_List of CSS Properties, Both Proposed and Standard_](https://www.w3.org/Style/CSS/all-properties.en.html). [Copyright](https://www.w3.org/copyright/software-license-2023/) 2022, 2024 [World Wide Web Consortium](https://www.w3.org/).
+I>
+I> Information derived from these documents has been reviewed, edited, reordered, and complemented to the best of the author’s knowledge.
