@@ -2,6 +2,12 @@
 
 This section covers HTML as per [the living standard](https://html.spec.whatwg.org/multipage/) in <!-- @@ -->June 2024. Elements from earlier HTML specifications and proprietary elements are not included.
 
+I> ### License Information
+I>
+I> This chapter lists HTML elements, element content categories, and attributes derived from the [HTML Living Standard](https://html.spec.whatwg.org/). The original material is licensed under a [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
+I>
+I> The derived information has been reviewed, edited, reordered, and complemented to the best of the author’s knowledge, and the entire chapter (i.e., this book’s section about HTML) is being released under the same license (CC BY 4.0).
+
 ## Elements
 
 ### Element Meanings

@@ -1,8 +1,16 @@
-# CSS {#toc-css}
+# CSS
 
 This section covers CSS as per the [CSS Snapshot 2023](https://www.w3.org/TR/css-2023/) as well as CSS working drafts as of <!-- @@ -->June 2024.
 
-I> Identifying and maintaining overviews of CSS selectors, at-rules, and especially properties, including their status and support, is a notoriously difficult task. For CSS properties, the best resource may be the [_List of CSS Properties, Both Proposed and Standard_](https://www.w3.org/Style/CSS/all-properties.en.html), maintained by Bert Bos (W3C). Usually, as in this case, collecting this information requires consulting various specifications, and still comes with a probability of error.
+A> Identifying and maintaining overviews of CSS selectors, at-rules, and especially properties, including their status and support, is a notoriously difficult task. For CSS properties, the best resource may be the [_List of CSS Properties, Both Proposed and Standard_](https://www.w3.org/Style/CSS/all-properties.en.html), maintained by Bert Bos (W3C). Usually, as in this case, collecting this information requires consulting various specifications, and still comes with a probability of error.
+
+I> ### License Information
+I>
+I> This chapter includes information about CSS selectors derived from [_Selectors Level 4_](https://www.w3.org/TR/2022/WD-selectors-4-20221111/), as well as information about CSS properties and their specifications derived from [_List of CSS Properties, Both Proposed and Standard_](https://www.w3.org/Style/CSS/all-properties.en.html).
+I>
+I> [Copyright](https://www.w3.org/policies/) 2022, 2024 [World Wide Web Consortium](https://www.w3.org/). This work is distributed under the [_W3C Software and Document License_](https://www.w3.org/copyright/software-license-2023/) in the hope that it will be useful, but _without any warranty_; without even the implied warranty of _merchantability_ or _fitness for a particular purpose_.
+I>
+I> The derived information has been reviewed, edited, reordered, and complemented to the best of the author’s knowledge.
 
 ## Selectors
 
