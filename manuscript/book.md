@@ -1,7 +1,7 @@
 {sample: true}
 # About _Rote Learning HTML & CSS_
 
-Written by [Jens Oliver Meiert](https://meiert.com/en/).
+Written and compiled by [Jens Oliver Meiert](https://meiert.com/en/).
 
 Published by [Frontend Dogma](https://frontenddogma.com/), c/o Jens Oliver Meiert, Apartado de correos 3, 36070 Pontevedra, Spain.
 
@@ -13,4 +13,4 @@ Contact +34-610859489 or info@frontenddogma.com for questions and more informati
 
 Follow [Frontend Dogma on Mastodon](https://mas.to/@frontenddogma).
 
-[0.7.0]
+[0.8.0]

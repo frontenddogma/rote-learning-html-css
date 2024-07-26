@@ -17,7 +17,7 @@ It’s that when you thoroughly review the book, and memorize the various lists 
 
 That foundation—the elements and attributes, the selectors and properties—allows you to explore and practice more than you would have been able to, should you have not made the effort to review this book.
 
-Apart from using boringness for the purpose of making you a better web developer, there’s one more nuisance to support that same purpose:
+Apart from using boringness for the purpose of making you a better web developer, there’s one more challenge to support that same purpose:
 
 Although an ebook, the book deliberately uses few links.
 

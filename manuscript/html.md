@@ -1,6 +1,6 @@
 # HTML {#toc-html}
 
-This section covers HTML as per [the living standard](https://html.spec.whatwg.org/multipage/) in <!-- @@ -->June 2024. Elements from earlier HTML specifications and proprietary elements are not included.
+This section covers HTML as per [the living standard](https://html.spec.whatwg.org/multipage/) in June 2024. Elements from earlier HTML specifications and proprietary elements are not included.
 
 I> ### License Information
 I>
@@ -540,7 +540,7 @@ Labelable elements are elements that can be associated with a `label` element.
 
 #### Listed Elements
 
-Listed elements are listed in the `form.elements` and `fieldset.elements` APIs.
+Listed elements are elements included in the `form.elements` and `fieldset.elements` APIs.
 
 * `button`
 * `fieldset`

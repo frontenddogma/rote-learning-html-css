@@ -1,8 +1,8 @@
 # CSS
 
-This section covers CSS as per the [CSS Snapshot 2023](https://www.w3.org/TR/css-2023/) as well as CSS working drafts as of <!-- @@ -->June 2024.
+This section covers CSS as per the [CSS Snapshot 2023](https://www.w3.org/TR/css-2023/) as well as CSS working drafts as of June 2024.
 
-A> Identifying and maintaining overviews of CSS selectors, at-rules, and especially properties, including their status and support, is a notoriously difficult task. For CSS properties, the best resource may be the [_List of CSS Properties, Both Proposed and Standard_](https://www.w3.org/Style/CSS/all-properties.en.html), maintained by Bert Bos (W3C). Usually, as in this case, collecting this information requires consulting various specifications, and still comes with a probability of error.
+I> Identifying and maintaining overviews of CSS selectors, at-rules, and especially properties, including their status and support, is a notoriously difficult task. For CSS properties, the best resource may be the [_List of CSS Properties, Both Proposed and Standard_](https://www.w3.org/Style/CSS/all-properties.en.html), maintained by Bert Bos (W3C). Usually, as in this case, collecting this information requires consulting various specifications, and still comes with a chance of error.
 
 I> ### License Information
 I>
@@ -689,6 +689,8 @@ Memorize the CSS properties and their specification context, to gain a better se
 | `z-index` | CSS 2.1 |
 | `--*` | CSS Custom Properties for Cascading Variables Module Level 1 |
 
+D> Should a future edition of this book contain more details about CSS properties? For a free book like this, this would work best with support. [Share ideas and signal if you like to get involved!](https://github.com/frontenddogma/rote-learning-html-css/issues)
+
 ## at-Rules
 
 Memorize the CSS at-rules, to explore additional ways of styling documents and web apps.
@@ -717,5 +719,3 @@ Memorize the CSS at-rules, to explore additional ways of styling documents and w
 * `@swash`
 
 I> Whenever you have a question related to CSS, remember to always consult [the CSS specifications](https://www.w3.org/Style/CSS/Overview.en.html) first.
-
-{pagebreak}
