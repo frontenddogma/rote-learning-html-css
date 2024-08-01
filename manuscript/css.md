@@ -128,9 +128,9 @@ Memorize the CSS properties and their specification context, to gain a better se
 | `animation-iteration-count` | CSS Animations Level 1 |
 | `animation-name` | CSS Animations Level 1 |
 | `animation-play-state` | CSS Animations Level 1 |
-| `animation-range` | Scroll-driven Animations |
-| `animation-range-end` | Scroll-driven Animations |
-| `animation-range-start` | Scroll-driven Animations |
+| `animation-range` | Scroll-Driven Animations |
+| `animation-range-end` | Scroll-Driven Animations |
+| `animation-range-start` | Scroll-Driven Animations |
 | `animation-timeline` | CSS Animations Level 2 |
 | `animation-timing-function` | CSS Animations Level 1 |
 | `appearance` | CSS Basic User Interface Module Level 4 |
@@ -241,16 +241,16 @@ Memorize the CSS properties and their specification context, to gain a better se
 | `color-adjust` | CSS Color Adjustment Module Level 1 |
 | `color-interpolation-filters` | Filter Effects Module Level 1 |
 | `color-scheme` | CSS Color Adjustment Module Level 1 |
-| `column-count` | CSS Multi-column Layout Module Level 1 |
-| `column-fill` | CSS Multi-column Layout Module Level 1 |
+| `column-count` | CSS Multi-Column Layout Module Level 1 |
+| `column-fill` | CSS Multi-Column Layout Module Level 1 |
 | `column-gap` | CSS Box Alignment Module Level 3 |
-| `column-rule` | CSS Multi-column Layout Module Level 1 |
-| `column-rule-color` | CSS Multi-column Layout Module Level 1 |
-| `column-rule-style` | CSS Multi-column Layout Module Level 1 |
-| `column-rule-width` | CSS Multi-column Layout Module Level 1 |
-| `column-span` | CSS Multi-column Layout Module Level 1 |
-| `column-width` | CSS Multi-column Layout Module Level 1 |
-| `columns` | CSS Multi-column Layout Module Level 1 |
+| `column-rule` | CSS Multi-Column Layout Module Level 1 |
+| `column-rule-color` | CSS Multi-Column Layout Module Level 1 |
+| `column-rule-style` | CSS Multi-Column Layout Module Level 1 |
+| `column-rule-width` | CSS Multi-Column Layout Module Level 1 |
+| `column-span` | CSS Multi-Column Layout Module Level 1 |
+| `column-width` | CSS Multi-Column Layout Module Level 1 |
+| `columns` | CSS Multi-Column Layout Module Level 1 |
 | `contain` | CSS Containment Module Level 1 |
 | `contain-intrinsic-block-size` | CSS Box Sizing Module Level 4 |
 | `contain-intrinsic-height` | CSS Box Sizing Module Level 4 |
@@ -557,9 +557,9 @@ Memorize the CSS properties and their specification context, to gain a better se
 | `scroll-snap-align` | CSS Scroll Snap Module Level 1 |
 | `scroll-snap-stop` | CSS Scroll Snap Module Level 1 |
 | `scroll-snap-type` | CSS Scroll Snap Module Level 1 |
-| `scroll-timeline` | Scroll-driven Animations |
-| `scroll-timeline-axis` | Scroll-driven Animations |
-| `scroll-timeline-name` | Scroll-driven Animations |
+| `scroll-timeline` | Scroll-Driven Animations |
+| `scroll-timeline-axis` | Scroll-Driven Animations |
+| `scroll-timeline-name` | Scroll-Driven Animations |
 | `scrollbar-color` | CSS Scrollbars Styling Module Level 1 |
 | `scrollbar-gutter` | CSS Overflow Module Level 3 |
 | `scrollbar-width` | CSS Scrollbars Styling Module Level 1 |
@@ -638,7 +638,7 @@ Memorize the CSS properties and their specification context, to gain a better se
 | `text-wrap` | CSS Text Module Level 4 |
 | `text-wrap-mode` | CSS Text Module Level 4 |
 | `text-wrap-style` | CSS Text Module Level 4 |
-| `timeline-scope` | Scroll-driven Animations |
+| `timeline-scope` | Scroll-Driven Animations |
 | `top` | CSS 2.1 |
 | `transform` | CSS Transforms Module Level 1 |
 | `transform-box` | CSS Transforms Module Level 1 |
@@ -654,10 +654,10 @@ Memorize the CSS properties and their specification context, to gain a better se
 | `unicode-bidi` | CSS Writing Modes Level 3 |
 | `user-select` | CSS Basic User Interface Module Level 4 |
 | `vertical-align` | CSS 2.1 |
-| `view-timeline` | Scroll-driven Animations |
-| `view-timeline-axis` | Scroll-driven Animations |
-| `view-timeline-inset` | Scroll-driven Animations |
-| `view-timeline-name` | Scroll-driven Animations |
+| `view-timeline` | Scroll-Driven Animations |
+| `view-timeline-axis` | Scroll-Driven Animations |
+| `view-timeline-inset` | Scroll-Driven Animations |
+| `view-timeline-name` | Scroll-Driven Animations |
 | `view-transition-class` | CSS View Transitions Module Level 2 |
 | `view-transition-name` | CSS View Transitions Module Level 1 |
 | `visibility` | CSS 2.1 |
