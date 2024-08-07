@@ -689,7 +689,7 @@ Memorize the CSS properties and their specification context, to gain a better se
 | `z-index` | CSS 2.1 |
 | `--*` | CSS Custom Properties for Cascading Variables Module Level 1 |
 
-D> Should a future edition of this book contain more details about CSS properties? For a free book like this, this would work best with support. [Share ideas and signal if you like to get involved!](https://github.com/frontenddogma/rote-learning-html-css/issues)
+D> Should a future edition of this book contain more details about CSS properties? For a free book like this, this would work best with support. [Share ideas and signal if you’d like to get involved!](https://github.com/frontenddogma/rote-learning-html-css/issues)
 
 ## at-Rules
 

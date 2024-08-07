@@ -14,6 +14,6 @@ Official description:
 >
 > Its goal is to show you the rough and raw skeleton of HTML and CSS, so that you can focus on that. Elements, attributes, selectors, properties. No explanations, no examples, no context. The raw material.
 >
-> The idea is that even when you only review the book once, you will already notice things about HTML and CSS that you weren’t aware of and couldn’t have noticed otherwise.
+> The idea is that even when you only review this book once, you will already notice things about HTML and CSS that you weren’t aware of and couldn’t have noticed otherwise.
 >
 > And still, this is one of the most boring books you’ll ever read. Enjoy.
