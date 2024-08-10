@@ -707,9 +707,9 @@ Memorize the CSS at-rules, to explore additional ways of styling documents and w
 * `@keyframes`
 * `@layer`
 * `@media`
-* `@page`
 * `@namespace`
 * `@ornaments`
+* `@page`
 * `@property`
 * `@scope`
 * `@starting-style`
