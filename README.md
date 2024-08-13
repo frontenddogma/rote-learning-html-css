@@ -1,6 +1,6 @@
 # Rote Learning HTML & CSS
 
-This is the source of the book [_Rote Learning HTML & CSS_](@@).
+This is the source of the book [_Rote Learning HTML & CSS_](https://meiert.com/en/blog/rote-learning-html-and-css/).
 
 Official description:
 
