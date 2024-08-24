@@ -4,7 +4,7 @@ This is the source of the book [_Rote Learning HTML & CSS_](https://meiert.com/e
 
 Official description:
 
-> This is one of the most boring books you’ll ever read.
+> This is a supplementary—and not beginner-friendly—book about HTML and CSS, and one of the most boring books you’ll ever read.
 >
 > It contains long lists of HTML elements and attributes and CSS selectors and properties.
 >
