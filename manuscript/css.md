@@ -34,6 +34,7 @@ Memorize all selectors, to improve your ability to target elements for styling.
 | Substring matching attribute selector | `E[foo$='bar']` |
 | Substring matching attribute selector | `E[foo*='bar']` |
 | Attribute presence  and value selector | `E[foo\|='en']` |
+| Nesting selector (`&`) | `E { & F {} }` |
 | Case-sensitivity | `E[foo='bar' i]` |
 | Case-sensitivity | `E[foo='bar' s]` |
 | `:root` pseudo-class | `E:root` |
