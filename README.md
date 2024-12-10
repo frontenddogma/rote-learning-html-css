@@ -17,3 +17,13 @@ Official description:
 > The idea is that even when you only review this book once, you will already notice things about HTML and CSS that you weren’t aware of and couldn’t have noticed otherwise.
 >
 > And still, this is one of the most boring books you’ll ever read. Enjoy.
+
+## Table of Contents
+
+* [Introduction](manuscript/intro.md)
+* [HTML](manuscript/html.md)
+* [CSS](manuscript/css.md)
+* [Conclusion](manuscript/outro.md)
+* [Feedback](manuscript/feedback.md)
+* [About the Author](manuscript/author.md)
+* [About _Rote Learning HTML & CSS_](manuscript/book.md)
