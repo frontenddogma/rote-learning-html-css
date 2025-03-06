@@ -21,4 +21,4 @@ Apart from using boringness for the purpose of making you a better web developer
 
 Although an ebook, the book deliberately uses few links.
 
-From here on, your mission is to consult the actual, canonical HTML and CSS specifications, whenever you have have a question related to HTML or CSS. Learn the spec URLs by heart, and embrace weeding out previous spec versions and unauthoritative sources by locating the latest drafts. Make this a habit; study the specifications, always turn to them first. Doing so will provide you with the most accurate information—and, again, make you a better web developer.
+From here on, your mission is to consult the actual, canonical HTML and CSS specifications, whenever you have a question related to HTML or CSS. Learn the spec URLs by heart, and embrace weeding out previous spec versions and unauthoritative sources by locating the latest drafts. Make this a habit; study the specifications, always turn to them first. Doing so will provide you with the most accurate information—and, again, make you a better web developer.
