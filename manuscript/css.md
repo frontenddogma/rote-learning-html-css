@@ -694,7 +694,7 @@ D> Should a future edition of this book contain more details about CSS propertie
 
 ## at-Rules
 
-Memorize the CSS at-rules, to explore additional ways of styling documents and web apps.
+Memorize the CSS at-rules, to explore additional ways of styling documents and apps.
 
 * `@annotation`
 * `@character-variant`

@@ -94,7 +94,7 @@ Memorize the elements and their meanings (semantics), to know what elements ther
 * `q`: Short quotation
 * `rp`: Ruby parentheses
 * `rt`: Ruby text
-* `ruby`: Ruby annotation(s)
+* `ruby`: Ruby annotation
 * `s`: Irrelevance
 * `samp`: Sample output
 * `script`: Script
