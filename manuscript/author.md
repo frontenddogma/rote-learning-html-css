@@ -5,6 +5,12 @@ Jens Oliver Meiert is a frontend engineering leader (e.g., Google, Miro) and tec
 
 Other titles by Jens Oliver Meiert:
 
+## [_The Web Development Glossary 4K_](https://meiert.com/blog/the-web-development-glossary-4k/) (2026)
+
+> What is 3P? Afferent coupling? Strict evaluation? What are CPH, cHTML, and CMF? How about Vanadium, OPcache, or Auto Forms Mode? Covering more than 4,000 terms and concepts, and including explanations from Wikipedia and MDN Web Docs, _The Web Development Glossary 4K_ provides an overview of web development unlike any other book or site.
+
+Available at [Apple Books](https://books.apple.com/us/book/the-web-development-glossary-4k/id6760966634), [Google Play Books](https://play.google.com/store/books/details?id=WuDKEQAAQBAJ), and [Leanpub](https://leanpub.com/web-development-glossary-4k). (Try the glossary online at [WebGlossary.info](https://webglossary.info/)!)
+
 ## [_On Web Development II_](https://meiert.com/blog/on-web-development-2/) (2025)
 
 > A comprehensive ebook marking another 10 years of meiert.com, featuring 180 curated articles on web development from 2015 to 2025.
@@ -16,12 +22,6 @@ Available at [Amazon](https://www.amazon.com/dp/B0G15TM2XL/?tag=meiert-20), [App
 > The _Upgrade Your HTML_ series is about one thing: Picking examples of HTML in the wild, and explaining how to make that code better. Kindly. Constructively. Thoroughly, as finding a balance between detail and brevity permits.
 
 Available at [Amazon](https://www.amazon.com/dp/B0B4SD84B2/?tag=meiert-20), [Apple Books](https://books.apple.com/us/book-series/upgrade-your-html/id1569607037), [Kobo](https://www.kobo.com/us/en/series/upgrade-your-html), [Google Play Books](https://play.google.com/store/books/series?id=5AksGwAAABDJEM), and [Leanpub](https://leanpub.com/b/upgrade-your-html-1-5).
-
-## [_The Web Development Glossary 3K_](https://meiert.com/blog/the-web-development-glossary-3k/) (2023)
-
-> What is a BHO? CQRS? An EMD? What is Goanna? Hooking? Sharding? How about dynamic color, the phoenix server pattern, or the rules of ARIA? Covering more than 3,000 terms and concepts, and including explanations from Wikipedia and MDN Web Docs, _The Web Development Glossary 3K_ provides an overview of web development unlike any other book or site.
-
-Available at [Apple Books](https://books.apple.com/us/book/the-web-development-glossary-3k/id6453522940), [Kobo](https://www.kobo.com/us/en/ebook/the-web-development-glossary-3k), [Google Play Books](https://play.google.com/store/books/details?id=eFHNEAAAQBAJ), and [Leanpub](https://leanpub.com/web-development-glossary-3k). (Try the glossary online at [WebGlossary.info](https://webglossary.info/).)
 
 ## [_The Little Book of Little Books_](https://meiert.com/blog/the-little-book-of-little-books/) (2021)
 
