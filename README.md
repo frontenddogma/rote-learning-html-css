@@ -2,7 +2,7 @@
 
 This is the source of the book [_Rote Learning HTML & CSS_](https://meiert.com/blog/rote-learning-html-and-css/).
 
-<!-- Seriously, GitHub? -->
+<!-- Really, GitHub? -->
 <div align="center">
 	<a href="https://meiert.com/blog/rote-learning-html-and-css/"><img src="https://meiert.com/de/publications/books/rote-learning-html-and-css/cover-s.png" alt="The cover of “Rote Learning HTML & CSS.”"></a>
 </div>
