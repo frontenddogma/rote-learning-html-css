@@ -165,7 +165,6 @@ Memorize the elements with optional start and end tags, to be able to omit them,
 | `dd` | no | no | yes |
 | `dt` | no | no | yes |
 | `embed` | yes | no | yes (void) |
-| `figcaption` | no | no | yes |
 | `head` | no | yes | yes |
 | `hr` | yes | no | yes (void) |
 | `html` | no | yes | yes |
